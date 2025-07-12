@@ -44,23 +44,21 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-subtle">
-        {/* Blue accent overlay */}
-        <div className="absolute inset-0 bg-gradient-blue-accent" />
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-8"
+          className="absolute inset-0 bg-cover bg-center opacity-5"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-8 animate-fade-in">
             Precision in
             <br />
-            <span className="font-medium text-primary">Digital Assets</span>
+            <span className="font-medium">Digital Assets</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in">
             Institutional-grade cryptocurrency investment management for the modern era.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
-            <Button variant="hero" size="lg" className="shadow-blue">
+            <Button variant="hero" size="lg">
               Start Investing
               <ArrowRight className="w-4 h-4" />
             </Button>
@@ -73,9 +71,9 @@ const Index = () => {
         {/* Scroll indicator */}
         <button 
           onClick={() => scrollToSection('about')}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-primary-light"
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
         >
-          <ChevronDown className="w-6 h-6" />
+          <ChevronDown className="w-6 h-6 text-muted-foreground" />
         </button>
       </section>
 
@@ -108,9 +106,8 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-blue-accent rounded-lg shadow-blue" />
-              <div className="absolute inset-4 bg-primary/10 rounded-lg border border-primary/20" />
-              <div className="absolute inset-8 bg-gradient-primary opacity-20 rounded-lg" />
+              <div className="aspect-square bg-gradient-subtle rounded-lg shadow-elegant" />
+              <div className="absolute inset-0 bg-primary/5 rounded-lg" />
             </div>
           </div>
         </div>
