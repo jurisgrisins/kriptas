@@ -12,7 +12,10 @@ const Index = () => {
       <nav className="bg-background border-b border-border">
         <div className="max-w-4xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-foreground">AXIOM</div>
+            <div className="flex items-center space-x-3">
+              <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-8 h-8" />
+              <div className="text-2xl font-bold text-foreground">Kriptia</div>
+            </div>
             <div className="hidden md:flex items-center space-x-12">
               <button 
                 onClick={() => scrollToSection('about')}
@@ -188,9 +191,12 @@ const Index = () => {
       <footer className="border-t border-border py-12 bg-background">
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-xl font-bold text-foreground mb-4 md:mb-0">AXIOM</div>
+            <div className="flex items-center space-x-3">
+              <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-6 h-6" />
+              <div className="text-xl font-bold text-foreground">Kriptia</div>
+            </div>
             <div className="text-sm text-muted-foreground">
-              © 2024 Axiom Investment Management. All rights reserved.
+              © 2024 Kriptia Investment Management. All rights reserved.
             </div>
           </div>
         </div>
