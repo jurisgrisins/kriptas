@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       {/* Navigation */}
       <nav className="bg-background border-b border-border">
-        <div className="max-w-4xl mx-auto px-6 py-6">
+        <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-8 h-8" />
@@ -42,7 +42,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="py-24 md:py-32 bg-background">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">
               Precision in Digital Assets
@@ -64,7 +64,7 @@ const Index = () => {
 
       {/* About Section */}
       <section id="about" className="py-24 bg-background border-t border-border">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
               Built for the Future
@@ -86,7 +86,7 @@ const Index = () => {
 
       {/* Services Section */}
       <section id="services" className="py-24 bg-background border-t border-border">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
               Our Approach
@@ -147,7 +147,7 @@ const Index = () => {
 
       {/* Contact Section */}
       <section id="contact" className="py-24 bg-background border-t border-border">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
               Ready to Begin?
@@ -189,7 +189,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border py-12 bg-background">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3">
               <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-6 h-6" />
