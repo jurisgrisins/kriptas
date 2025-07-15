@@ -10,16 +10,16 @@ const Kursi = () => {
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-8" />
+              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-16" />
             </Link>
             <div className="hidden md:flex items-center space-x-12">
-              <Link to="/kursi" className="text-primary font-medium">
+              <Link to="/kursi" className="text-primary font-medium text-xl">
                 Kursi
               </Link>
-              <Link to="/uznemumiem" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link to="/uznemumiem" className="text-foreground hover:text-primary transition-colors font-medium text-xl">
                 Uzņēmumiem
               </Link>
-              <Link to="/par-mums" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link to="/par-mums" className="text-foreground hover:text-primary transition-colors font-medium text-xl">
                 Par mums
               </Link>
             </div>
