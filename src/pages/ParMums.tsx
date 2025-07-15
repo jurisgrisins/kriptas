@@ -1,9 +1,8 @@
+import { Award, Shield, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Shield, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Index = () => {
-
+const ParMums = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Navigation */}
@@ -21,7 +20,7 @@ const Index = () => {
               <Link to="/uznemumiem" className="text-foreground hover:text-primary transition-colors font-medium">
                 Uzņēmumiem
               </Link>
-              <Link to="/par-mums" className="text-foreground hover:text-primary transition-colors font-medium">
+              <Link to="/par-mums" className="text-primary font-medium">
                 Par mums
               </Link>
             </div>
@@ -34,17 +33,17 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">
-              Precizitāte Digitālajos Aktīvos
+              Par Kriptia
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-              Institucionāla līmeņa kriptovalūtu investīciju pārvaldība mūsdienu vajadzībām.
+              Mēs esam vadošie kriptovalūtu investīciju pārvaldības eksperti Baltijas reģionā.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button variant="default" size="lg">
                 Sazināties
               </Button>
               <Button variant="outline" size="lg">
-                Par Mums
+                Mūsu Komanda
               </Button>
             </div>
           </div>
@@ -52,15 +51,15 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 bg-background border-t border-border">
+      <section className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
-              Veidots Nākotnei
+              Mūsu Misija
             </h2>
             <div className="space-y-8">
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Mēs apvienojam tradicionālās investīciju principus ar progresīvāko blokķēdes tehnoloģiju, 
+                Mēs apvienojam tradicionālās investīciju principus ar modernāko blokķēdes tehnoloģiju, 
                 lai nodrošinātu konsekventus, riska koriģētus ieguvumus digitālo aktīvu jomā.
               </p>
               <div className="space-y-4">
@@ -73,16 +72,13 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-24 bg-background border-t border-border">
+      {/* Values Section */}
+      <section className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
-              Mūsu Pieeja
+              Mūsu Vērtības
             </h2>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Trīs izcilības pīlāri digitālo aktīvu pārvaldībā
-            </p>
             
             <div className="space-y-16">
               <div className="space-y-4">
@@ -91,10 +87,10 @@ const Index = () => {
                     <Shield className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Drošība Pirmajā Vietā</h3>
+                    <h3 className="text-2xl font-medium text-foreground mb-3">Drošība un Uzticamība</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Daudzpakāpju parakstīšanas maki, aukstā glabāšana un institucionāla līmeņa drošības protokoli 
-                      aizsargā jūsu digitālos aktīvus.
+                      Mūsu prioritāte ir klientu līdzekļu drošība un uzticamība, izmantojot 
+                      jaunākās drošības tehnoloģijas un institucionālus risinājumus.
                     </p>
                   </div>
                 </div>
@@ -103,13 +99,13 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <TrendingUp className="w-4 h-4 text-white" />
+                    <Award className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Aktīvā Pārvaldība</h3>
+                    <h3 className="text-2xl font-medium text-foreground mb-3">Izcilība un Profesionalitāte</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Kvantitatīvie modeļi un tirgus analīze virza mūsu investīciju lēmumus 
-                      dažādās kriptovalūtu stratēģijās.
+                      Nepārtraukti pilnveidojam savās zināšanās un prasmes, lai nodrošinātu 
+                      augstākā līmeņa pakalpojumus un rezultātus.
                     </p>
                   </div>
                 </div>
@@ -121,10 +117,10 @@ const Index = () => {
                     <Users className="w-4 h-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Klientu Fokuss</h3>
+                    <h3 className="text-2xl font-medium text-foreground mb-3">Klientu Orientācija</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Personalizēts serviss un pārredzama komunikācija nodrošina atbilstību 
-                      jūsu investīciju mērķiem.
+                      Personalizēts serviss un pārredzama komunikācija nodrošina pilnīgu 
+                      atbilstību jūsu investīciju mērķiem un vēlmēm.
                     </p>
                   </div>
                 </div>
@@ -135,26 +131,13 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 bg-background border-t border-border">
+      <section className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
-              Gatavi Sākt?
+              Sazināties ar Mums
             </h2>
-            <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-              Pievienojieties institucionālajiem investoriem un augstu ienākumu indivīdiem, kas uzticas mums 
-              savu digitālo aktīvu portfeļu pārvaldībā.
-            </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button variant="default" size="lg">
-                Pieteikt Konsultāciju
-              </Button>
-              <Button variant="outline" size="lg">
-                Lejupielādēt Prospektu
-              </Button>
-            </div>
-
             <div className="grid md:grid-cols-3 gap-8 pt-8 text-muted-foreground">
               <div>
                 <h4 className="font-medium text-foreground mb-2">Rīga</h4>
@@ -194,4 +177,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default ParMums;
