@@ -9,9 +9,8 @@ const Kursi = () => {
       <nav className="bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center space-x-3">
-              <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-8 h-8" />
-              <div className="text-2xl font-bold text-foreground">Kriptia</div>
+            <Link to="/" className="flex items-center">
+              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-8" />
             </Link>
             <div className="hidden md:flex items-center space-x-12">
               <Link to="/kursi" className="text-primary font-medium">
@@ -109,9 +108,8 @@ const Kursi = () => {
       <footer className="border-t border-border py-12 bg-background">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <Link to="/" className="flex items-center space-x-3">
-              <img src="/lovable-uploads/28e8744b-0d21-4285-b276-6ccbab820726.png" alt="Kriptia" className="w-6 h-6" />
-              <div className="text-xl font-bold text-foreground">Kriptia</div>
+            <Link to="/" className="flex items-center">
+              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-6" />
             </Link>
             <div className="text-sm text-muted-foreground">
               © 2024 Kriptia Investīciju Pārvaldība. Visas tiesības aizsargātas.
