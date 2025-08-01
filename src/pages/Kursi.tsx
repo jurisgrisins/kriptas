@@ -1,10 +1,17 @@
 import { Shield, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { SidebarNav } from "@/components/ui/sidebar-nav";
 
 const Kursi = () => {
+  const sidebarItems = [
+    { title: "Pārskats", section: "hero" },
+    { title: "Kursi", section: "courses" }
+  ];
+
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SidebarNav items={sidebarItems} />
       {/* Navigation */}
       <nav className="bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-6">
@@ -28,7 +35,7 @@ const Kursi = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-24 md:py-32 bg-background">
+      <section id="hero" className="py-24 md:py-32 bg-background">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">
@@ -50,7 +57,7 @@ const Kursi = () => {
       </section>
 
       {/* Courses Section */}
-      <section className="py-24 bg-background border-t border-border">
+      <section id="courses" className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">

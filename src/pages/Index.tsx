@@ -1,11 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Shield, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import { SidebarNav } from "@/components/ui/sidebar-nav";
 
 const Index = () => {
+  const sidebarItems = [
+    { title: "Sākums", section: "hero" },
+    { title: "Par Mums", section: "about" },
+    { title: "Pakalpojumi", section: "services" },
+    { title: "Kontakti", section: "contact" }
+  ];
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SidebarNav items={sidebarItems} />
       {/* Navigation */}
       <nav className="bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-6">
@@ -29,7 +37,7 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-24 md:py-32 bg-background">
+      <section id="hero" className="py-24 md:py-32 bg-background">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">

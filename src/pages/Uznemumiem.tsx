@@ -1,10 +1,18 @@
 import { Building, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { SidebarNav } from "@/components/ui/sidebar-nav";
 
 const Uznemumiem = () => {
+  const sidebarItems = [
+    { title: "Pārskats", section: "hero" },
+    { title: "Pakalpojumi", section: "services" },
+    { title: "Kontakti", section: "contact" }
+  ];
+
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SidebarNav items={sidebarItems} />
       {/* Navigation */}
       <nav className="bg-background border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-6">
@@ -28,7 +36,7 @@ const Uznemumiem = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-24 md:py-32 bg-background">
+      <section id="hero" className="py-24 md:py-32 bg-background">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-8">
             <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">
@@ -50,7 +58,7 @@ const Uznemumiem = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 bg-background border-t border-border">
+      <section id="services" className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
@@ -105,7 +113,7 @@ const Uznemumiem = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 bg-background border-t border-border">
+      <section id="contact" className="py-24 bg-background border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
           <div className="space-y-12">
             <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
