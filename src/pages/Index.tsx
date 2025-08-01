@@ -16,7 +16,7 @@ const Index = () => {
       <SidebarNav items={sidebarItems} />
       {/* Navigation */}
       <nav className="bg-background border-b border-border">
-        <div className="max-w-6xl mx-auto px-6 py-6">
+        <div className="max-w-6xl mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
               <img src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" alt="Kriptas" className="h-16" />
