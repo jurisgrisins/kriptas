@@ -1,130 +1,166 @@
-import { Shield, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-import { SidebarNav } from "@/components/ui/sidebar-nav";
+import { BjorkLayout } from "@/components/BjorkLayout";
 
 const Kursi = () => {
-  const sidebarItems = [
-    { title: "Pārskats", section: "hero" },
-    { title: "Kursi", section: "courses" }
-  ];
-
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <SidebarNav items={sidebarItems} />
-      {/* Navigation */}
-      <nav className="bg-background border-b border-border">
-        <div className="max-w-6xl mx-auto px-6 py-3">
-          <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" alt="Kriptas" className="h-16" />
-            </Link>
-            <div className="hidden md:flex items-center space-x-12">
-              <Link to="/kursi" className="text-primary font-medium text-xl">
-                Kursi
-              </Link>
-              <Link to="/uznemumiem" className="text-foreground hover:text-primary transition-colors font-medium text-xl">
-                Uzņēmumiem
-              </Link>
-              <Link to="/par-mums" className="text-foreground hover:text-primary transition-colors font-medium text-xl">
-                Par mums
-              </Link>
-            </div>
+    <BjorkLayout>
+      <div className="max-w-3xl mx-auto px-8 py-16">
+        {/* Hero Section */}
+        <section className="mb-24">
+          <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
+            Kriptovalūtu Izglītības Kursi
+          </h1>
+          <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+            Apgūstiet kriptovalūtu un blokķēdes tehnoloģiju pamatus ar mūsu ekspertu vadītajiem kursiem.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <Button variant="default" size="lg">
+              Pieteikties Kursam
+            </Button>
+            <Button variant="outline" size="lg">
+              Lejupielādēt Programmu
+            </Button>
           </div>
-        </div>
-      </nav>
+        </section>
 
-      {/* Hero Section */}
-      <section id="hero" className="py-24 md:py-32 bg-background">
-        <div className="max-w-6xl mx-auto px-6">
+        {/* Courses */}
+        <section className="mb-24">
+          <h2 className="text-2xl font-medium text-foreground mb-8">
+            Pieejamie Kursi
+          </h2>
+          
           <div className="space-y-8">
-            <h1 className="text-6xl md:text-8xl font-light tracking-tight text-foreground leading-none">
-              Investīciju Kursi
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-              Apgūsti kriptovalūtu investīciju mākslu ar mūsu profesionālajiem kursiem.
+            <article className="border border-border rounded-lg p-8">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-2">
+                    Kriptovalūtu Pamati
+                  </h3>
+                  <p className="text-sm text-primary font-medium">
+                    Iesācēju līmenis • 4 nedēļas
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-medium text-foreground">€299</p>
+                  <p className="text-sm text-muted-foreground">par personu</p>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Iegūstiet pamatzināšanas par kriptovalūtām, blokķēdes tehnoloģiju un 
+                digitālo aktīvu tirgu. Ideāls sākums jūsu ceļojumam digitālo aktīvu pasaulē.
+              </p>
+              
+              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
+                <li>• Bitcoin un Ethereum pamati</li>
+                <li>• Blockchain tehnoloģijas principi</li>
+                <li>• Drošība un glabāšana</li>
+                <li>• Tirgus analīzes pamati</li>
+              </ul>
+              
+              <Button variant="outline" size="sm">
+                Uzzināt Vairāk
+              </Button>
+            </article>
+
+            <article className="border border-border rounded-lg p-8">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-2">
+                    Investīciju Stratēģijas
+                  </h3>
+                  <p className="text-sm text-primary font-medium">
+                    Vidējs līmenis • 6 nedēļas
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-medium text-foreground">€599</p>
+                  <p className="text-sm text-muted-foreground">par personu</p>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Dziļāka iegremdēšanās kriptovalūtu investēšanā ar fokumu uz 
+                risku pārvaldību un portfeļa optimizāciju.
+              </p>
+              
+              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
+                <li>• Portfeļa diversifikācija</li>
+                <li>• Risku pārvaldības metodes</li>
+                <li>• DeFi protokolu analīze</li>
+                <li>• Tirdzniecības stratēģijas</li>
+              </ul>
+              
+              <Button variant="outline" size="sm">
+                Uzzināt Vairāk
+              </Button>
+            </article>
+
+            <article className="border border-border rounded-lg p-8">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-2">
+                    Institucionālā Pārvaldība
+                  </h3>
+                  <p className="text-sm text-primary font-medium">
+                    Augstākais līmenis • 8 nedēļas
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-medium text-foreground">€1,299</p>
+                  <p className="text-sm text-muted-foreground">par personu</p>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Profesionāla apmācība institucionāliem investoriem un 
+                fondu pārvaldniekiem, kas vēlas iekļaut digitālos aktīvus savos portfeļos.
+              </p>
+              
+              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
+                <li>• Regulējumu prasības</li>
+                <li>• Institucionālie rīki</li>
+                <li>• ESG kritēriji</li>
+                <li>• Atskaišu sniegšana</li>
+              </ul>
+              
+              <Button variant="outline" size="sm">
+                Uzzināt Vairāk
+              </Button>
+            </article>
+          </div>
+        </section>
+
+        {/* Call to Action */}
+        <section className="mb-24">
+          <div className="border border-border rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-medium text-foreground mb-4">
+              Gatavi Uzsākt?
+            </h2>
+            <p className="text-muted-foreground mb-6">
+              Pievienojieties vairāk nekā 1000 studentiem, kas jau ir apguvuši 
+              kriptovalūtu investēšanas prasmes.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Sākt Mācīties
+                Pieteikties Tagad
               </Button>
               <Button variant="outline" size="lg">
-                Apskatīt Programmu
+                Konsultācija
               </Button>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Courses Section */}
-      <section id="courses" className="py-24 bg-background border-t border-border">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="space-y-12">
-            <h2 className="text-5xl md:text-6xl font-light text-foreground leading-tight">
-              Mūsu Kursi
-            </h2>
-            
-            <div className="space-y-16">
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Shield className="w-4 h-4 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Iesācēju Kurss</h3>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
-                      Pamati kriptovalūtu izpratnē, drošības principi un pirmie investīciju soļi digitālo aktīvu pasaulē.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <TrendingUp className="w-4 h-4 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Vidējais Kurss</h3>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
-                      Tirgus analīze, tehniskā analīze un portfeļa diversifikācijas stratēģijas pieredzējušiem investoriem.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <Users className="w-4 h-4 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-medium text-foreground mb-3">Profesionāļu Kurss</h3>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
-                      Institucionālo investīciju pārvaldība, kvantitatīvie modeļi un riska vadības metodikas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Footer */}
+        <footer className="border-t border-border pt-8">
+          <div className="text-sm text-muted-foreground">
+            © 2024 Kriptas Investīciju Pārvaldība. Visas tiesības aizsargātas.
           </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="border-t border-border py-12 bg-background">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" alt="Kriptas" className="h-6" />
-            </Link>
-            <div className="text-sm text-muted-foreground">
-              © 2024 Kriptia Investīciju Pārvaldība. Visas tiesības aizsargātas.
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
+    </BjorkLayout>
   );
 };
 

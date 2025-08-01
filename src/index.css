@@ -2,104 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
+    /* Bjork-inspired minimal color scheme */
     --background: 0 0% 100%;
     --foreground: 0 0% 9%;
-
     --card: 0 0% 100%;
     --card-foreground: 0 0% 9%;
-
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
-
-    --primary: 245 80% 60%;
+    --primary: 220 90% 56%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 245 70% 70%;
-
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 9%;
-
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
-
     --accent: 0 0% 96%;
     --accent-foreground: 0 0% 9%;
-
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 245 80% 60%;
-    
-    /* Gradients - minimal approach */
-    --gradient-primary: hsl(var(--primary));
-    --gradient-subtle: hsl(var(--background));
-    
-    /* Shadows - very subtle */
-    --shadow-elegant: 0 1px 3px 0 hsl(0 0% 0% / 0.1);
-    --shadow-glow: 0 0 0 1px hsl(var(--border));
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --ring: 220 90% 56%;
+    --radius: 6px;
   }
 
   .dark {
-    --background: 0 0% 9%;
+    --background: 220 9% 9%;
     --foreground: 0 0% 95%;
-
-    --card: 0 0% 9%;
+    --card: 220 9% 9%;
     --card-foreground: 0 0% 95%;
-
-    --popover: 0 0% 9%;
+    --popover: 220 9% 9%;
     --popover-foreground: 0 0% 95%;
-
-    --primary: 245 80% 60%;
+    --primary: 220 90% 56%;
     --primary-foreground: 0 0% 100%;
-
-    --secondary: 0 0% 15%;
+    --secondary: 220 9% 15%;
     --secondary-foreground: 0 0% 95%;
-
-    --muted: 0 0% 15%;
+    --muted: 220 9% 15%;
     --muted-foreground: 0 0% 65%;
-
-    --accent: 0 0% 15%;
+    --accent: 220 9% 15%;
     --accent-foreground: 0 0% 95%;
-
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 95%;
-
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 245 80% 60%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 220 9% 20%;
+    --input: 220 9% 20%;
+    --ring: 220 90% 56%;
   }
 }
 
@@ -107,8 +54,9 @@ All colors MUST be HSL.
   * {
     @apply border-border;
   }
-
+  
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
