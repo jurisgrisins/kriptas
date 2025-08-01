@@ -19,7 +19,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-16" />
+              <img src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" alt="Kriptas" className="h-16" />
             </Link>
             <div className="hidden md:flex items-center space-x-12">
               <Link to="/kursi" className="text-foreground hover:text-primary transition-colors font-medium text-xl">
@@ -188,7 +188,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/666b6c8f-8eb5-45e5-ba50-b0195a238dcf.png" alt="Kriptia" className="h-6" />
+              <img src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" alt="Kriptas" className="h-6" />
             </Link>
             <div className="text-sm text-muted-foreground">
               © 2024 Kriptia Investīciju Pārvaldība. Visas tiesības aizsargātas.
