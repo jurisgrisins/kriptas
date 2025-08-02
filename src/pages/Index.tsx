@@ -101,6 +101,9 @@ const Index = () => {
           <h2 className="text-2xl font-medium text-foreground mb-6">
             Ko saka mūsu klienti
           </h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Lai gan mūsu kurss vēl nav publiski pieejams, esam piedāvājuši mūsu materiālus jau pirmajiem testa lietotājiem. Lūk ko viņi par to saka: 
+            </p>
           <div className="grid gap-6">
             <Card>
               <CardContent className="p-6">
@@ -204,6 +207,10 @@ const Index = () => {
                 Lietošanas noteikumi
               </Link>
             </div>
+
+             <div className="text-sm text-muted-foreground">
+            © Kopš 2025. Visas tiesības aizsargātas.
+          </div>
             
             <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
               <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
@@ -215,9 +222,7 @@ const Index = () => {
             </div>
           </div>
           
-          <div className="text-sm text-muted-foreground">
-            © Kopš 2025. Visas tiesības aizsargātas.
-          </div>
+         
         </footer>
       </div>
     </BjorkLayout>
