@@ -18,7 +18,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
           {/* Logo */}
           <Link to="/" className="block mb-12">
             <img 
-              src="/lovable-uploads/1c2fe3e0-5052-4a05-a92b-9dffe9ddb8ce.png" 
+              src="/lovable-uploads/471898ba-f7bb-40f1-a502-2c4d22b311c6.png" 
               alt="Kriptas" 
               className="h-8"
             />
