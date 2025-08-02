@@ -120,7 +120,7 @@ const Index = () => {
   <img
     src="/src/assets/anna-kalnina.png"
     alt="Anna Kalniņa"
-    className="h-12 w-12 rounded-full object-cover"
+    className="h-22 w-22 rounded-full object-cover"
   />
   <AvatarFallback className="bg-primary/10 text-primary font-medium">
     AK
