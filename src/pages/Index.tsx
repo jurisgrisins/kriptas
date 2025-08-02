@@ -9,16 +9,16 @@ const Index = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <div className="mb-8">
-            <p className="text-primary text-sm font-medium mb-4">Sveiki tur!</p>
+            <p className="text-primary text-sm font-medium mb-4">Sveiks!</p>
             <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-              Mēs esam Kriptas, un mēs specializējamies 
-              institucionālajā kriptovalūtu investīciju pārvaldībā.
+              Mēs esam Kriptas un mēs piedāvājam informāciju un 
+              apmācības par to, kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
             </h1>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="default" size="lg">
-              Uzzināt Vairāk
+              Apskatīt kursu
             </Button>
             <Button variant="outline" size="lg">
               Par Mums
@@ -41,16 +41,13 @@ const Index = () => {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Mēs apvienojam tradicionālās investīciju principus ar modernāko blokķēdes tehnoloģiju, 
-              lai nodrošinātu konsekventus, riska koriģētus ieguvumus digitālo aktīvu jomā.
+              Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma Capitalia, kas ir finanšu un investīciju nozares celmlauzis un Baltijas valstīs. 
+              Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora. 
+              Tadad Capitalia pārvalda pirmo licensēto uzņēmumu kopfinansēšanas platformu Latvijā, apkalpojot vairāk kā 5,000 kompānijas un investorus visā Eiropā.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Mūsu komanda ir izveidojusi institucionāla līmeņa risinājumus, kas atbilst 
-              augstākajiem drošības un regulējumu standartiem.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Pievienojieties vairāk nekā 200 institucionālajiem klientiem, kas uzticas 
-              mums savu digitālo aktīvu portfeļu pārvaldībā.
+              Sagatavotie materiāli ir balstīti uz mūsu investīciju speciālistu pašu pieredzi un mācībām, apgūstot kriptvalūtu investīciju pasaules nianses. 
+              Kopš 2025. gada Capitalia ir viena no pirmajām kompānijām Latvijā, kas veido un uztur savas kriptovalūtu rezerves.
             </p>
           </div>
         </section>
@@ -58,31 +55,23 @@ const Index = () => {
         {/* Services Preview */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-6">
-            Mūsu Pakalpojumi
+            Ko mēs piedāvājam
           </h2>
           <div className="grid gap-6">
             <div className="border border-border rounded-lg p-6">
               <h3 className="text-lg font-medium text-foreground mb-2">
-                Portfeļu Pārvaldība
+                Kurss kā ieguldīt kriptovalūtās
               </h3>
               <p className="text-muted-foreground">
-                Profesionāla kriptovalūtu portfeļu pārvaldība ar individuālu risku profilu.
+               Vienkāršs, praktisks un Latvijas apstākļiem pielāgots kurss par ieguldījumiem kriptovalītās
               </p>
             </div>
             <div className="border border-border rounded-lg p-6">
               <h3 className="text-lg font-medium text-foreground mb-2">
-                Investīciju Konsultācijas
+                Konsultācijas uzņēmumiem
               </h3>
               <p className="text-muted-foreground">
-                Ekspertu konsultācijas digitālo aktīvu jomā un stratēģisko lēmumu atbalsts.
-              </p>
-            </div>
-            <div className="border border-border rounded-lg p-6">
-              <h3 className="text-lg font-medium text-foreground mb-2">
-                Izglītība un Apmācības
-              </h3>
-              <p className="text-muted-foreground">
-                Korporatīvās apmācības programmas darbinieku izglītošanai kriptovalūtu jomā.
+                Apmācības uzņēmumiem par to, kā sākt izmantot kriptovalūtas norēķiniem vai uzkrājumiem
               </p>
             </div>
           </div>
@@ -91,7 +80,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="border-t border-border pt-8">
           <div className="text-sm text-muted-foreground">
-            © 2024 Kriptas Investīciju Pārvaldība. Visas tiesības aizsargātas.
+            © Kopš 2025. Visas tiesības aizsargātas.
           </div>
         </footer>
       </div>
