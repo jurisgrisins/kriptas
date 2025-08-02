@@ -117,13 +117,18 @@ const Index = () => {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <Avatar className="h-12 w-12">
-                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
-                      AK
-                    </AvatarFallback>
-                  </Avatar>
+  <img
+    src="/assets/anna-kalnina.png"
+    alt="Anna Kalniņa"
+    className="h-12 w-12 rounded-full object-cover"
+  />
+  <AvatarFallback className="bg-primary/10 text-primary font-medium">
+    AK
+  </AvatarFallback>
+</Avatar>
                   <div className="flex-1">
                     <p className="text-foreground mb-4">
-                      "Kurss bija ļoti saprotams un praktisks. Tagad es droši ieguldīju kriptovalūtās un jau redzu pirmos pozitīvos rezultātus."
+                      "Ļoti profesionāla pieeja – sapratu gan riskus, gan iespējas. Beidzot jūtos droši par saviem pirmajiem kripto ieguldījumiem."
                     </p>
                     <div>
                       <p className="font-medium text-foreground">Anna Kalniņa</p>
@@ -165,7 +170,7 @@ const Index = () => {
                   </Avatar>
                   <div className="flex-1">
                     <p className="text-foreground mb-4">
-                      "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku visiem!"
+                      "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku!"
                     </p>
                     <div>
                       <p className="font-medium text-foreground">Laura Bērziņa</p>
