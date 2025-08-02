@@ -116,11 +116,11 @@ const Index = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <Avatar className="h-22 w-22">
+                  <Avatar className="h-18 w-18">
   <img
     src="/src/assets/anna-kalnina.png"
     alt="Anna Kalniņa"
-    className="h-22 w-22 rounded-full object-cover"
+    className="h-18 w-18 rounded-full object-cover"
   />
   <AvatarFallback className="bg-primary/10 text-primary font-medium">
     AK
