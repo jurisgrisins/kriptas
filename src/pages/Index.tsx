@@ -42,7 +42,7 @@ const Index = () => {
             Par Kriptas
           </h2>
           <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-foreground leading-relaxed mb-4">
               Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma <a
   href="http://www.capitalia.com"
   target="_blank"
@@ -79,7 +79,7 @@ const Index = () => {
                 <h3 className="text-xl font-medium text-foreground mb-4">
                   Kurss kā ieguldīt kriptovalūtās
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-foreground leading-relaxed">
                   Vienkāršs, praktisks un Latvijas apstākļiem pielāgots kurss par ieguldījumiem kriptovalītās
                 </p>
               </div>
@@ -96,7 +96,7 @@ const Index = () => {
                 <h3 className="text-xl font-medium text-foreground mb-4">
                   Konsultācijas uzņēmumiem
                 </h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-foreground leading-relaxed">
                   Apmācības uzņēmumiem par to, kā sākt izmantot kriptovalūtas norēķiniem vai uzkrājumiem
                 </p>
               </div>
@@ -109,7 +109,7 @@ const Index = () => {
           <h2 className="text-2xl font-medium text-foreground mb-6">
             Ko saka mūsu klienti
           </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-foreground leading-relaxed mb-4">
               Lai gan mūsu kurss vēl nav publiski pieejams, esam piedāvājuši mūsu materiālus jau pirmajiem testa lietotājiem. Lūk ko viņi par to saka: 
             </p>
           <div className="grid gap-6">
@@ -122,7 +122,7 @@ const Index = () => {
                     </AvatarFallback>
                   </Avatar>
                   <div className="flex-1">
-                    <p className="text-muted-foreground mb-4">
+                    <p className="text-foreground mb-4">
                       "Kurss bija ļoti saprotams un praktisks. Tagad es droši ieguldīju kriptovalūtās un jau redzu pirmos pozitīvos rezultātus."
                     </p>
                     <div>
@@ -143,7 +143,7 @@ const Index = () => {
                     </AvatarFallback>
                   </Avatar>
                   <div className="flex-1">
-                    <p className="text-muted-foreground mb-4">
+                    <p className="text-foreground mb-4">
                       "Capitalia pieredze finanšu jomā ir ļoti jūtama. Kurss ir profesionāls un sniedz praktiskas zināšanas par investīcijām."
                     </p>
                     <div>
@@ -164,7 +164,7 @@ const Index = () => {
                     </AvatarFallback>
                   </Avatar>
                   <div className="flex-1">
-                    <p className="text-muted-foreground mb-4">
+                    <p className="text-foreground mb-4">
                       "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku visiem!"
                     </p>
                     <div>
