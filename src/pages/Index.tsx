@@ -169,7 +169,7 @@ const Index = () => {
 
         {/* Call to Action */}
         <section className="mb-24">
-          <div className="border rounded-lg p-8 text-center">
+          <div className="border border-white rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Rīkojies jau tagad!
             </h2>
