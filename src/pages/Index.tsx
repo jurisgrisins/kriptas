@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { BjorkLayout } from "@/components/BjorkLayout";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-crypto.jpg";
 
 const Index = () => {
@@ -168,6 +169,32 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="border-t border-border pt-8">
+          <div className="mb-6">
+            <div className="flex flex-wrap gap-4 mb-4">
+              <Link 
+                to="/privatumas-politika" 
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Privātuma politika
+              </Link>
+              <Link 
+                to="/lietosanas-noteikumi" 
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Lietošanas noteikumi
+              </Link>
+            </div>
+            
+            <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
+              <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
+              Kriptas nodrošina ieguldīšanas apmācības tikai informatīviem nolūkiem un nepiedāvā ieguldījumu konsultācijas vai ieguldījumu pakalpojumus. 
+              Vienmēr ieguldiet, izmantojot tikai licencētu finanšu iestāžu vai uzticamu platformu pakalpojumus. 
+              Pat sekojot labākajai ieguldīšanas praksei, ieguldīšana kriptovalūtās un citos finanšu tirgos saistās ar zaudējumu risku. 
+              Pirms investēšanas rūpīgi izvērtējiet savus personīgos apstākļus un riska toleranci. 
+              Visi lēmumi par ieguldījumiem vienmēr paliek jūsu personīgajā atbildībā.
+            </div>
+          </div>
+          
           <div className="text-sm text-muted-foreground">
             © Kopš 2025. Visas tiesības aizsargātas.
           </div>
