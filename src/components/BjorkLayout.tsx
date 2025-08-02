@@ -36,13 +36,13 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                       : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  Intro
+                  Ievads
                 </Link>
               </li>
               <li>
                 <Link 
                   to="/kursi" 
-                  className={`block py-2 text-sm font-medium transition-colors ${
+                  className={`block py-2 text-medium font-medium transition-colors ${
                     isActive('/kursi') 
                       ? 'text-foreground' 
                       : 'text-muted-foreground hover:text-foreground'
