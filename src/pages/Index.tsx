@@ -118,7 +118,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                   <Avatar className="h-12 w-12">
   <img
-    src="/assets/anna-kalnina.png"
+    src="/src/assets/anna-kalnina.png"
     alt="Anna Kalniņa"
     className="h-12 w-12 rounded-full object-cover"
   />
