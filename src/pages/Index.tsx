@@ -12,7 +12,7 @@ const Index = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <div className="mb-8">
-            <p className="text-primary text-medium font-medium mb-4">Sveiks!</p>
+            <p className="text-primary text-lg font-medium mb-4">Sveiks!</p>
             <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-loose mb-8">
               Mēs piedāvājam apmācības par to, kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
             </h1>
