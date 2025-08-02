@@ -133,7 +133,7 @@ const Index = () => {
                     </p>
                     <div>
                       <p className="font-medium text-foreground">Anna Kalniņa</p>
-                      <p className="text-sm text-muted-foreground">IT speciāliste</p>
+                      <p className="text-sm text-muted-foreground">IT konsultante</p>
                     </div>
                   </div>
                 </div>
@@ -143,11 +143,16 @@ const Index = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <Avatar className="h-12 w-12">
-                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
-                      MZ
-                    </AvatarFallback>
-                  </Avatar>
+                     <Avatar className="h-[72px] w-[72px]">
+  <img
+    src="/src/assets/maris-zarins.png"
+    alt="Māris Zariņš"
+    className="h-[72px] w-[72px] rounded-full object-cover"
+  />
+  <AvatarFallback className="bg-primary/10 text-primary font-medium">
+    AK
+  </AvatarFallback>
+</Avatar>
                   <div className="flex-1">
                     <p className="text-foreground mb-4">
                       "Capitalia pieredze finanšu jomā ir ļoti jūtama. Kurss ir profesionāls un sniedz praktiskas zināšanas par investīcijām."
@@ -164,11 +169,16 @@ const Index = () => {
             <Card>
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
-                  <Avatar className="h-12 w-12">
-                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
-                      LB
-                    </AvatarFallback>
-                  </Avatar>
+                    <Avatar className="h-[72px] w-[72px]">
+  <img
+    src="/src/assets/laura-berzina.png"
+    alt="Laura Bērziņa"
+    className="h-[72px] w-[72px] rounded-full object-cover"
+  />
+  <AvatarFallback className="bg-primary/10 text-primary font-medium">
+    AK
+  </AvatarFallback>
+</Avatar>
                   <div className="flex-1">
                     <p className="text-foreground mb-4">
                       "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku!"
