@@ -30,7 +30,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
               <li>
                 <Link 
                   to="/" 
-                  className={`block py-2 text-sm font-medium transition-colors ${
+                  className={`block py-2 text-lg font-medium transition-colors ${
                     isActive('/') 
                       ? 'text-foreground' 
                       : 'text-muted-foreground hover:text-foreground'
@@ -54,7 +54,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
               <li>
                 <Link 
                   to="/uznemumiem" 
-                  className={`block py-2 text-sm font-medium transition-colors ${
+                  className={`block py-2 text-lg font-medium transition-colors ${
                     isActive('/uznemumiem') 
                       ? 'text-foreground' 
                       : 'text-muted-foreground hover:text-foreground'
@@ -66,7 +66,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
               <li>
                 <Link 
                   to="/par-mums" 
-                  className={`block py-2 text-sm font-medium transition-colors ${
+                  className={`block py-2 text-lg font-medium transition-colors ${
                     isActive('/par-mums') 
                       ? 'text-foreground' 
                       : 'text-muted-foreground hover:text-foreground'
