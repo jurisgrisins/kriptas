@@ -169,19 +169,19 @@ const Index = () => {
 
         {/* Call to Action */}
         <section className="mb-24">
-          <div className="border border-border rounded-lg p-8 text-center">
+          <div className="border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Gatavi Uzsākt?
+              Rīkojies jau tagad!
             </h2>
             <p className="text-muted-foreground mb-6">
-              Piedāvājam iepazīties jau tagad ar bezmaksas ievadlekcijas materiālu un pieteikties paziņojuma saņemšanai, tiklīdz kurss kļūs publiski pieejams
+              Iepazīsties ar bezmaksas ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kurss kļūs publiski pieejams
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Pieteikties Tagad
+                Apskatīt kursu
               </Button>
               <Button variant="outline" size="lg">
-                Konsultācija
+                Pieteikties konsultācijai
               </Button>
             </div>
           </div>
