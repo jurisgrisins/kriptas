@@ -11,7 +11,7 @@ const Index = () => {
           <div className="mb-8">
             <p className="text-primary text-sm font-medium mb-4">Sveiks!</p>
             <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-              Mēs esam Kriptas un mēs piedāvājam informāciju un 
+              Mēs piedāvājam informāciju un 
               apmācības par to, kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
             </h1>
           </div>
