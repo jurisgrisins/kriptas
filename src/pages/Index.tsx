@@ -167,6 +167,26 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Call to Action */}
+        <section className="mb-24">
+          <div className="border border-border rounded-lg p-8 text-center">
+            <h2 className="text-2xl font-medium text-foreground mb-4">
+              Gatavi Uzsākt?
+            </h2>
+            <p className="text-muted-foreground mb-6">
+              Piedāvājam iepazīties jau tagad ar bezmaksas ievadlekcijas materiālu un pieteikties paziņojuma saņemšanai, tiklīdz kurss kļūs publiski pieejams
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button variant="default" size="lg">
+                Pieteikties Tagad
+              </Button>
+              <Button variant="outline" size="lg">
+                Konsultācija
+              </Button>
+            </div>
+          </div>
+        </section>
+        
         {/* Footer */}
         <footer className="border-t border-border pt-8">
           <div className="mb-6">
