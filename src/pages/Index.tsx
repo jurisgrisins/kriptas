@@ -8,7 +8,7 @@ import heroImage from "@/assets/hero-crypto.jpg";
 const Index = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-3xl mx-auto px-8 py-16">
+      <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <div className="mb-8">
