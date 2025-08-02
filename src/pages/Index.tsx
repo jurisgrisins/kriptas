@@ -5,12 +5,12 @@ import heroImage from "@/assets/hero-crypto.jpg";
 const Index = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-3xl mx-auto px-10 py-20">
+      <div className="max-w-3xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <div className="mb-8">
             <p className="text-primary text-sm font-medium mb-4">Sveiks!</p>
-            <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-8">
               Mēs piedāvājam apmācības par to, kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
             </h1>
           </div>
