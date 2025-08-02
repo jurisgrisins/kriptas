@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import heroImage from "@/assets/hero-crypto.jpg";
 
@@ -73,6 +75,77 @@ const Index = () => {
                 Apmācības uzņēmumiem par to, kā sākt izmantot kriptovalūtas norēķiniem vai uzkrājumiem
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Client Testimonials */}
+        <section className="mb-24">
+          <h2 className="text-2xl font-medium text-foreground mb-6">
+            Ko saka mūsu klienti
+          </h2>
+          <div className="grid gap-6">
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Avatar className="h-12 w-12">
+                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
+                      AK
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="flex-1">
+                    <p className="text-muted-foreground mb-4">
+                      "Kurss bija ļoti saprotams un praktisks. Tagad es droši ieguldīju kriptovalūtās un jau redzu pirmos pozitīvos rezultātus."
+                    </p>
+                    <div>
+                      <p className="font-medium text-foreground">Anna Kalniņa</p>
+                      <p className="text-sm text-muted-foreground">IT speciāliste</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Avatar className="h-12 w-12">
+                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
+                      MZ
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="flex-1">
+                    <p className="text-muted-foreground mb-4">
+                      "Capitalia pieredze finanšu jomā ir ļoti jūtama. Kurss ir profesionāls un sniedz praktiskas zināšanas par investīcijām."
+                    </p>
+                    <div>
+                      <p className="font-medium text-foreground">Māris Zariņš</p>
+                      <p className="text-sm text-muted-foreground">Uzņēmējs</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <Avatar className="h-12 w-12">
+                    <AvatarFallback className="bg-primary/10 text-primary font-medium">
+                      LB
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="flex-1">
+                    <p className="text-muted-foreground mb-4">
+                      "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku visiem!"
+                    </p>
+                    <div>
+                      <p className="font-medium text-foreground">Laura Bērziņa</p>
+                      <p className="text-sm text-muted-foreground">Grāmatvede</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
