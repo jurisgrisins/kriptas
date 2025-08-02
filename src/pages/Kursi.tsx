@@ -4,7 +4,7 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 const Kursi = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-3xl mx-auto px-8 py-16">
+      <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
