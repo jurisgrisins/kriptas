@@ -31,7 +31,7 @@ const Index = () => {
             <img 
   src={heroImage} 
   alt="Kriptovalūtu investīcijas"
-  className="w-full h-64 object-cover object-top"
+  className="w-full h-64 object-cover object-bottom"
 />
 
           </div>
