@@ -43,7 +43,15 @@ const Index = () => {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma Capitalia, kas ir finanšu un investīciju nozares celmlauzis un Baltijas valstīs. 
+              Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma <a
+  href="http://www.capitalia.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-600 underline hover:text-blue-800"
+>
+  Capitalia
+</a>
+, kas ir finanšu un investīciju nozares celmlauzis un Baltijas valstīs. 
               Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora. 
               Tadad Capitalia pārvalda pirmo licensēto uzņēmumu kopfinansēšanas platformu Latvijā, apkalpojot vairāk kā 5,000 kompānijas un investorus visā Eiropā.
             </p>
