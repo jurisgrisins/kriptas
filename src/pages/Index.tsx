@@ -220,7 +220,7 @@ const Index = () => {
     © Kopš 2025. Visas tiesības aizsargātas.
   </div>
 </div>
-
+<p></p>
             
             <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
               <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
