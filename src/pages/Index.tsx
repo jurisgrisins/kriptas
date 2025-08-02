@@ -55,7 +55,7 @@ const Index = () => {
               Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora. 
               Tadad Capitalia pārvalda pirmo licensēto uzņēmumu kopfinansēšanas platformu Latvijā, apkalpojot vairāk kā 5,000 kompānijas un investorus visā Eiropā.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-foreground leading-relaxed mb-4">
               Sagatavotie materiāli ir balstīti uz mūsu investīciju speciālistu pašu pieredzi un mācībām, apgūstot kriptvalūtu investīciju pasaules nianses. 
               Kopš 2025. gada Capitalia ir viena no pirmajām kompānijām Latvijā, kas veido un uztur savas kriptovalūtu rezerves.
             </p>
@@ -184,7 +184,7 @@ const Index = () => {
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Rīkojies jau tagad!
             </h2>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-foreground mb-6">
               Iepazīsties ar bezmaksas ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kurss kļūs publiski pieejams
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
