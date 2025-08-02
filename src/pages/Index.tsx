@@ -47,7 +47,7 @@ const Index = () => {
   href="http://www.capitalia.com"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-blue-600 underline hover:text-blue-800"
+  className="text-blue-600 hover:text-blue-800"
 >
   Capitalia
 </a>
@@ -201,24 +201,26 @@ const Index = () => {
         {/* Footer */}
         <footer className="border-t border-border pt-8">
           <div className="mb-6">
-            <div className="flex flex-wrap gap-4 mb-4">
-              <Link 
-                to="/privatumas-politika" 
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Privātuma politika
-              </Link>
-              <Link 
-                to="/lietosanas-noteikumi" 
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Lietošanas noteikumi
-              </Link>
-            </div>
+         <div className="flex items-center w-full">
+  <div className="flex gap-4">
+    <Link
+      to="/privatumas-politika"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      Privātuma politika
+    </Link>
+    <Link
+      to="/lietosanas-noteikumi"
+      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+    >
+      Lietošanas noteikumi
+    </Link>
+  </div>
+  <div className="text-sm text-muted-foreground ml-auto">
+    © Kopš 2025. Visas tiesības aizsargātas.
+  </div>
+</div>
 
-             <div className="text-sm text-muted-foreground">
-            © Kopš 2025. Visas tiesības aizsargātas.
-          </div>
             
             <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
               <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
