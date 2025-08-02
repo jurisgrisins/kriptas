@@ -79,15 +79,17 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
           </nav>
           
           {/* Contact Button */}
-          <div className="mt-auto">
-            <Button 
-              variant="default" 
-              size="sm" 
-              className="w-full"
-            >
-              Sazināties
-            </Button>
-          </div>
+       <div className="mt-auto">
+  <Button
+    asChild
+    variant="default"
+    size="sm"
+    className="w-full"
+  >
+    <a href="mailto:investicijas@kriptas.com">Sazināties</a>
+  </Button>
+</div>
+
         </div>
       </aside>
       
