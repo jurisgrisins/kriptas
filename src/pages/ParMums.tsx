@@ -130,10 +130,13 @@ const ParMums = () => {
           
           </div>
           
-          <div>
-            <Button variant="default" size="lg">
-              Sarunāt tikšanos
-            </Button>
+         
+              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+          <Button variant="default" size="lg" asChild>
+  <a href="mailto:investicijas@kriptas.com" className="inline-block">
+    Sazināties
+  </a>
+</Button>
           </div>
         </section>
 
