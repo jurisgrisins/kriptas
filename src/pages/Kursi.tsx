@@ -23,7 +23,7 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="mb-8 mt-12">
+         <div className="mb-8 mt-24">
     <SidebarNav items={navItems} />
   </div>
 
@@ -262,9 +262,17 @@ const Kursi = () => {
               <p className="text-foreground leading-relaxed mb-4">
                 Tālākajā kursa saturā tu uzzināsi:
               </p>
+
+  <div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <span className="text-foreground">Kā vienkārši uzsākt ieguldīt kriptovalūtās</span>
+            </div>
+<div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <span className="text-foreground">Kā izvēlēties, kurās kriptovalūtās ieguldīt</span>
+            </div>
+              
                <ul className="list-disc pl-6">
-    <li>Kā vienkārši uzsākt ieguldīt kriptovalūtās</li>
-    <li>Kā izvēlēties, kurās kriptovalūtās ieguldīt</li>
     <li>Kā glabāt kriptovalūtas</li>
     <li>Kā un kur izveidot nepieciešamos kontus</li>
     <li>Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</li>
