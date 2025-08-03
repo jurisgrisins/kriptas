@@ -282,6 +282,13 @@ const Kursi = () => {
                 Lai gan pēdējā gada atdeves ir bijušas iespaidīgas, jāņem vērā, ka vēsturiskie rezultāti negarantē līdzīgus panākumus nākotnē. Īpaši augstās ienesīguma likmes, kas novērotas pēdējā desmitgadē, ir tapušas laikā, kad gan globālā ekonomika, gan 
   finanšu tirgi kopumā piedzīvojuši izteiktu izaugsmi un investīcijām labvēlīgus apstākļus. Šādi rezultāti būtiski pārsniedz ilgtermiņa vidējos rādītājus un, mainoties ekonomiskajam ciklam, var nepiepildīties arī turpmāk.
        </p>  
+
+              <img
+  src="/src/assets/bitcoin-chart.png"
+  alt="Bitcoin price volatility chart"
+  className="my-8 mx-auto max-w-full h-auto rounded-lg shadow"
+/>
+
                
 <p className="text-foreground leading-relaxed mb-4">
                Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl trūkst pierādījumu. Investoriem ir jābūt 
@@ -308,8 +315,8 @@ const Kursi = () => {
   <thead>
     <tr>
       <th className="px-4 py-2 border-b bg-gray-100 font-medium">Aktīvs</th>
-      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Vidējā cenas svārstīguma (%) robeža 2015–2021</th>
-      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Pēdējo gadu (2023–2024) svārstīgums (%)</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Cenas % svārstīgums 2015–2021</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Cenas % svārstīgums 2023–2024</th>
     </tr>
   </thead>
   <tbody>
