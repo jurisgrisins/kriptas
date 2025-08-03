@@ -47,7 +47,7 @@ const Kursi = () => {
 </a>
            <a href="/src/assets/kursa-programma.pdf" download>
   <Button variant="outline" size="lg">
-    Lejupielādēt Programmu
+    Lejupielādēt kursa saturu
   </Button>
 </a>
 
