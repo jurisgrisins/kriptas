@@ -93,7 +93,8 @@ const Index = () => {
             </div>
            </Link>
 
-            <div className="relative group">
+              <Link to="/uznemumiem" className="block group">
+  <div className="relative group cursor-pointer hover:shadow-lg transition">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative bg-background border border-border rounded-lg p-8 h-full">
                 <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
@@ -109,6 +110,7 @@ const Index = () => {
                 </p>
               </div>
             </div>
+                </Link>
           </div>
         </section>
 
