@@ -6,23 +6,21 @@ import { Link } from "react-router-dom";
 const ParMums = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-3xl mx-auto px-8 py-16">
+      <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
             Par Kriptas
           </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            Mēs esam vadošie kriptovalūtu investīciju pārvaldības eksperti Baltijas reģionā.
+          <p className="text-xl text-foreground leading-relaxed mb-8">
+            Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma Capitalia, kas ir finanšu un investīciju nozares celmlauzis un Baltijas valstīs. Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="default" size="lg">
               Sazināties
             </Button>
-            <Button variant="outline" size="lg">
-              Mūsu Komanda
-            </Button>
+          
           </div>
         </section>
 
