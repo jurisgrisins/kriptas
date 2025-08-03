@@ -23,7 +23,7 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="mb-8 mt-16">
+         <div className="mb-8">
     <SidebarNav items={navItems} />
   </div>
 
