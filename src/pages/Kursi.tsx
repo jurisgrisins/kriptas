@@ -68,7 +68,7 @@ const Kursi = () => {
               </p>
               <p className="text-foreground leading-relaxed mb-4">
            Savukārt 2024. gadā ASV atļāva veidot Bitcoin indeksu fondus, padarot šo aktīvu vēl vieglāk pieejamu gan privātiem, gan institucionālajiem investoriem. Arī Eiropā arvien vairāk finanšu pakalpojumu sniedzēju, ievieš un paplašina digitālo aktīvu investīciju produktus, atbildot uz pieaugošo investoru interesi. 
-                Šie notikumi skaidri demonstrē, ka kriptovalūtas vairs netiek uzskatītas tikai par spekulatīvu instrumentu, bet kļūst par pilntiesīgu aktīvu klasi institucionālo un privāto investoru vi
+                Šie notikumi skaidri demonstrē, ka kriptovalūtas vairs netiek uzskatītas tikai par spekulatīvu instrumentu, bet kļūst par pilntiesīgu aktīvu klasi institucionālo un privāto investoru vidē              
               </p>
       
             </div>
@@ -163,15 +163,17 @@ const Kursi = () => {
                 Ja investors 2015. gada sākumā katrā no šiem aktīviem būtu ieguldījis EUR 1,000, tad līdz 2024. gada beigām ieguldījuma rezultāts būtu ļoti atšķirīgs. Investīcija Bitcoin desmit gadu laikā būtu pārvērtusies apmēram par EUR 426,000. 
   Tajā pašā laikā EUR 1,000 S&P 500 indeksā būtu izauguši līdz aptuveni EUR 2,945 (+194.5%), Nasdaq 100 indeksā – līdz aptuveni EUR 6,410 (+541%), bet ieguldījums zeltā pieaugtu vērtībā līdz apmēram EUR 3,060 (+206%).
        </p>      
-              </p>
+        
 <p className="text-foreground leading-relaxed mb-4">
                 Lai gan pēdējā gada atdeves ir bijušas iespaidīgas, jāņem vērā, ka vēsturiskie rezultāti negarantē līdzīgus panākumus nākotnē. Īpaši augstās ienesīguma likmes, kas novērotas pēdējā desmitgadē, ir tapušas laikā, kad gan globālā ekonomika, gan 
   finanšu tirgi kopumā piedzīvojuši izteiktu izaugsmi un investīcijām labvēlīgus apstākļus. Šādi rezultāti būtiski pārsniedz ilgtermiņa vidējos rādītājus un, mainoties ekonomiskajam ciklam, var nepiepildīties arī turpmāk.
        </p>  
-               </p>
+               
 <p className="text-foreground leading-relaxed mb-4">
                Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl trūkst pierādījumu. Investoriem ir jābūt 
   piesardzīgiem: Bitcoin nākotnes atdeves un riska profili var būtiski atšķirties no līdz šim novērotajiem. Portfeļa diversifikācija un pārdomāta riska vadība ir būtiska, ieguldot jebkurā jaununā vai strauji augošā aktīvu klasē.
+  </p>
+  
 </div>
           </div>
         </section>
