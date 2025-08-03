@@ -8,59 +8,48 @@ const LietosanasNoteikumi = () => {
         <h1 className="text-4xl font-medium text-foreground mb-8">
           Lietošanas noteikumi
         </h1>
-        
         <div className="prose prose-lg max-w-none">
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Vispārīgie noteikumi
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Izmantojot Kriptas pakalpojumus, jūs piekrītat šiem lietošanas noteikumiem. 
-              Lūdzu, rūpīgi izlasiet šos noteikumus pirms pakalpojumu izmantošanas.
+              Izmantojot Kriptas mājaslapu un pakalpojumus, Jūs piekrītat šiem lietošanas noteikumiem. Lūdzu, iepazīstieties ar tiem pirms pakalpojumu izmantošanas. Ja nepiekrītat noteikumiem, mājaslapas pakalpojumus izmantot nav atļauts.
             </p>
           </section>
-
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Pakalpojumu izmantošana
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Mūsu kursi un materiāli ir paredzēti tikai izglītības nolūkiem. Tie nav uzskatāmi 
-              par finansiāliem padomiem vai ieguldījumu rekomendācijām.
+              Mūsu sniegtā informācija, tostarp kursi un materiāli, ir paredzēta tikai izglītības nolūkiem un nav uzskatāma par juridisku, finanšu vai investīciju konsultāciju. Katrs lietotājs ir atbildīgs par savu lēmumu pieņemšanu un rezultātiem. Kriptas neuzņemas atbildību par lietotāja darbībām vai izvēlēm, kas balstītas uz mūsu materiāliem vai saturu.
             </p>
           </section>
-
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Atbildības ierobežojums
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Kriptas neuzņemas atbildību par jūsu ieguldījumu lēmumiem vai to sekām. 
-              Visi ieguldījumi tiek veikti uz jūsu pašu atbildību.
+              Visi ieguldījumi un finanšu lēmumi tiek veikti uz Jūsu pašu atbildību. Kriptas negarantē materiālu vai kursu rezultātu precizitāti, aktualitāti vai atbilstību Jūsu mērķiem. Mēs neuzņemamies atbildību par jebkādiem zaudējumiem vai sekām, kas radušās, izmantojot mūsu pakalpojumus.
             </p>
           </section>
-
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Intelektuālais īpašums
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Viss kursu saturs, materiāli un informācija ir Kriptas intelektuālais īpašums 
-              un ir aizsargāts ar autortiesībām.
+              Visa mājaslapas, kursu un ar pakalpojumiem saistītā satura intelektuālā īpašuma tiesības pieder Kriptas, izņemot gadījumus, kad īpašnieks ir norādīts atsevišķi. Aizliegta jebkāda materiālu kopēšana, izplatīšana vai izmantošana bez rakstiskas atļaujas.
             </p>
           </section>
-
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Noteikumu izmaiņas
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Mēs paturam tiesības jebkurā laikā mainīt šos lietošanas noteikumus. 
-              Izmaiņas stājas spēkā to publicēšanas brīdī.
+              Mēs paturam tiesības jebkurā brīdī mainīt vai papildināt šos lietošanas noteikumus pēc saviem ieskatiem. Aktuālā noteikumu versija vienmēr ir publicēta šajā lapā, un izmaiņas ir spēkā no publicēšanas brīža.
             </p>
           </section>
         </div>
-        
         {/* Footer */}
         <footer className="border-t border-border pt-8 mt-16">
           <div className="mb-6">
@@ -84,13 +73,12 @@ const LietosanasNoteikumi = () => {
               </div>
             </div>
             <div className="my-4"></div>
-            
             <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
-              <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
-              Kriptas nodrošina ieguldīšanas apmācības tikai informatīviem nolūkiem un nepiedāvā ieguldījumu konsultācijas vai ieguldījumu pakalpojumus. 
-              Vienmēr ieguldiet, izmantojot tikai licencētu finanšu iestāžu vai uzticamu platformu pakalpojumus. 
-              Pat sekojot labākajai ieguldīšanas praksei, ieguldīšana kriptovalūtās un citos finanšu tirgos saistās ar zaudējumu risku. 
-              Pirms investēšanas rūpīgi izvērtējiet savus personīgos apstākļus un riska toleranci. 
+              <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. <br />
+              Kriptas nodrošina ieguldīšanas apmācības tikai informatīviem nolūkiem un nepiedāvā ieguldījumu konsultācijas vai ieguldījumu pakalpojumus. <br />
+              Vienmēr ieguldiet, izmantojot tikai licencētu finanšu iestāžu vai uzticamu platformu pakalpojumus. <br />
+              Pat sekojot labākajai ieguldīšanas praksei, ieguldīšana kriptovalūtās un citos finanšu tirgos saistās ar zaudējumu risku. <br />
+              Pirms investēšanas rūpīgi izvērtējiet savus personīgos apstākļus un riska toleranci. <br />
               Visi lēmumi par ieguldījumiem vienmēr paliek jūsu personīgajā atbildībā.
             </div>
           </div>
