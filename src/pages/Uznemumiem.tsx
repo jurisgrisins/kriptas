@@ -23,7 +23,7 @@ const Uznemumiem = () => {
           
           </div>
           <img
-  src="/src/assets/kursi-background.jpg"
+  src="/src/assets/uznemumiem-background.jpg"
   alt="Kursu ilustrācija"
   className="w-full max-h-64 object-cover rounded-lg mb-8"
 />
