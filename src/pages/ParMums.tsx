@@ -15,7 +15,7 @@ const ParMums = () => {
           <p className="text-xl text-foreground leading-relaxed mb-8">
             Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma Capitalia, kas ir finanšu un investīciju nozares celmlauzis un Baltijas valstīs. Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora. Kopš 2025. gada Capitalia ir viena no pirmajām kompānijām Latvijā, kas veido un uztur savas kriptovalūtu rezerves.
           </p>
-          </div>
+          
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
           <Button variant="default" size="lg" asChild>
   <a href="mailto:investicijas@kriptas.com" className="inline-block">
