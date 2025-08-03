@@ -94,7 +94,7 @@ const ParMums = () => {
 
         {/* Team */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Mūsu Komanda
           </h2>
           
@@ -117,7 +117,7 @@ const ParMums = () => {
 
         {/* Contact */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Sazināties
           </h2>
           

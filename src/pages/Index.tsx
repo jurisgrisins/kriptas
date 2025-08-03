@@ -48,7 +48,7 @@ const Index = () => {
 
         {/* About Section */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-6">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
             Par Kriptas
           </h2>
           <div className="prose prose-lg max-w-none">
@@ -74,7 +74,7 @@ const Index = () => {
 
         {/* Services Preview */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Ko mēs piedāvājam
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -120,7 +120,7 @@ const Index = () => {
 
         {/* Client Testimonials */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-6">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
             Ko saka mūsu klienti
           </h2>
             <p className="text-foreground leading-relaxed mb-4">
@@ -211,7 +211,7 @@ const Index = () => {
         {/* Call to Action */}
         <section className="mb-24">
           <div className="border border-white rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-medium text-foreground mb-4">
+            <h2 className="text-3xl font-medium text-foreground mb-4">
               Rīkojies jau tagad!
             </h2>
             <p className="text-foreground mb-6">
