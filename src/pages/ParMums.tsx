@@ -17,49 +17,23 @@ const ParMums = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="default" size="lg">
-              Sazināties
-            </Button>
-          
-          </div>
-        </section>
+            <a
+  href="mailto:investicijas@kriptas.com"
+  className="inline-block"
+>
+  <Button variant="default" size="lg" asChild>
+    Sazināties
+  </Button>
+</a>
 
-        {/* About */}
-        <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-6">
-            Mūsu Misija
-          </h2>
-          <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>
-              Mēs apvienojam tradicionālās investīciju principus ar modernāko blokķēdes tehnoloģiju, 
-              lai nodrošinātu konsekventus, riska koriģētus ieguvumus digitālo aktīvu jomā.
-            </p>
-            <p>
-              Mūsu mērķis ir padarīt kriptovalūtu investēšanu pieejamu un drošu ikvienam investoram, 
-              neatkarīgi no viņa pieredzes līmeņa digitālo aktīvu jomā.
-            </p>
-          </div>
           
-          <div className="mt-8 grid gap-4 text-sm">
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Regulējumu atbilstoša darbība</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Institucionālā aizgādība</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Pārredzama atskaišu sniegšana</span>
-            </div>
           </div>
         </section>
 
         {/* Values */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
-            Mūsu Vērtības
+            Mūsu mērķis ar šo projektu
           </h2>
           
           <div className="space-y-8">
@@ -70,11 +44,10 @@ const ParMums = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium text-foreground mb-3">
-                    Drošība un Uzticamība
+                    Ievads kriptovalūtās jebkuram
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Mūsu prioritāte ir klientu līdzekļu drošība un uzticamība, izmantojot 
-                    jaunākās drošības tehnoloģijas un institucionālus risinājumus.
+                 Iedot rīkus, lai padarītu kriptovalūtu investēšanu pieejamu un drošu ikvienam investoram, neatkarīgi no viņa pieredzes līmeņa digitālo aktīvu jomā.
                   </p>
                 </div>
               </div>
@@ -87,11 +60,10 @@ const ParMums = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium text-foreground mb-3">
-                    Izcilība un Profesionalitāte
+                    Turības veicināšana
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Nepārtraukti pilnveidojam savās zināšanās un prasmes, lai nodrošinātu 
-                    augstākā līmeņa pakalpojumus un rezultātus.
+                    Palīdzēt Latvijas investoriem un uzņēmumiem veicināt savu turību, izmantojot kriptovalūtas kā ienesīgu ieguldījumu diversifikācijas avotu.
                   </p>
                 </div>
               </div>
@@ -104,11 +76,10 @@ const ParMums = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium text-foreground mb-3">
-                    Klientu Orientācija
+                    Nozares veicināšanas
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Personalizēts serviss un pārredzama komunikācija nodrošina pilnīgu 
-                    atbilstību jūsu investīciju mērķiem un vēlmēm.
+                    Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem vēlamies
                   </p>
                 </div>
               </div>
