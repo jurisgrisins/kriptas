@@ -115,7 +115,7 @@ const Uznemumiem = () => {
   <img src="/src/assets/capitalia-logo.png" alt="Capitalia" className="h-12 max-w-[200px] object-contain" />
   <img src="/src/assets/kraken-logo.png" alt="Kraken" className="h-12 max-w-[160px] object-contain" />
   <img src="/src/assets/bitgo-logo.png" alt="Bitgo" className="h-12 max-w-[160px] object-contain" />
-  <img src="/src/assets/safe-logo.png" alt="Safe.global" className="h-12 max-w-[120px] object-contain" />
+  <img src="/src/assets/safe-logo.png" alt="Safe.global" className="h-12 max-w-[140px] object-contain" />
 </div>
    </div>
 
