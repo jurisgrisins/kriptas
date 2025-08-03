@@ -296,7 +296,7 @@ const Kursi = () => {
         <section className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Uzzini primais
+              Uzzini pirmais!
             </h2>
             <p className="text-muted-foreground mb-6">
               Atstāj savu e-pastu, lai saņemtu paziņojumu, kad kursa materiāli būs pieejami
