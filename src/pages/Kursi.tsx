@@ -40,12 +40,16 @@ const Kursi = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="default" size="lg">
-              Pieteikties Kursam
-            </Button>
-            <Button variant="outline" size="lg">
-              Lejupielādēt Programmu
-            </Button>
+            <a href="#email-subscription">
+  <Button variant="default" size="lg">
+    Pieteikties kursam
+  </Button>
+</a>
+           <a href="/src/assets/kursa-programma.pdf" download>
+  <Button variant="outline" size="lg">
+    Lejupielādēt Programmu
+  </Button>
+</a>
 
             
             </div>
@@ -451,7 +455,7 @@ const Kursi = () => {
         </section>
           
         {/* Email Subscription */}
-        <section className="mb-24">
+        <section id="email-subscription" className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Uzzini pirmais!
