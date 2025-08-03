@@ -302,7 +302,7 @@ const Kursi = () => {
   Protams, šādas tendences nav garantētas arī nākotnē, taču līdz šim liela svārstība Bitcoin gadījumā ir nozīmējusi arī augstāku potenciālo atdevi – ja investors ir pacietīgs un gatavs izturēt "amerikāņu kalniņus".
               </p>
 
-              <table className="min-w-full border mt-8 mb-8 text-left">
+ <table className="min-w-full border mt-8 mb-8 text-left">
   <thead>
     <tr>
       <th className="px-4 py-2 border-b bg-gray-100 font-medium">Aktīvs</th>
@@ -324,7 +324,16 @@ const Kursi = () => {
     <tr>
       <td className="px-4 py-2 border-b">Nasdaq 100</td>
       <td className="px-4 py-2 border-b">18–23</td>
-      <td className="px-4 py
+      <td className="px-4 py-2 border-b">17–21</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Zelts</td>
+      <td className="px-4 py-2 border-b">12–16</td>
+      <td className="px-4 py-2 border-b">14–16</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <p className="text-foreground leading-relaxed mb-4">
                 Bitcoin svārstīgums (volatilitāte) vēsturiski ir bijis 3,6 līdz 5,1 reizes augstāks nekā zeltam vai globālajiem akciju tirgiem (piem., S&P 500). 2015.–2021. gadā Bitcoin svārstīgums bieži pārsniedza 70–90%, kamēr zelta vai akciju indeksu tipiskā gada svārstība bija 10–20%. Pēdējos gados, īpaši kopš 2023. gada, Bitcoin volatilitāte ir būtiski samazinājusies. Šī tendence liecina, ka ar aktīva “briedumu” cena 
