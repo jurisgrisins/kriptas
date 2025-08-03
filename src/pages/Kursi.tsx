@@ -43,11 +43,11 @@ const Kursi = () => {
         </section>
 
         {/* Main Content Sections */}
-        <section id="ievads" className="mb-16">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
+        <section id="ievads" className="mb-24">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Ievads: Kapēc ieguldīt kriptovalūtās
           </h2>
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none mb-12">
             <p className="text-muted-foreground leading-relaxed mb-4">
               Kriptovalūtas pēdējos gados ir kļuvušas par vienu no nozīmīgākajiem finanšu instrumentiem, 
               piedāvājot investoriem unikālas iespējas diversificēt portfeli un aizsargāties pret tradicionālo 
@@ -58,86 +58,86 @@ const Kursi = () => {
               papildinājums jūsu investīciju portfelim, sākot no diversifikācijas līdz inflācijas aizsardzībai.
             </p>
           </div>
-        </section>
 
-        <section id="diversifikacija" className="mb-16">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
-            Bitcoin lieliskai diversifikācijai
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Bitcoin kā digitālais zelts piedāvā unikālu iespēju diversificēt investīciju portfeli 
-              ar aktīvu, kas darbojas neatkarīgi no tradicionālajiem finanšu tirgiem.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Pētījumi rāda, ka Bitcoin korelācija ar akciju tirgiem ir relatīvi zema, 
-              kas to padara par efektīvu diversifikācijas rīku, īpaši ekonomiskās nenoteiktības periodos.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Iekļaujot nelielu Bitcoin daļu (5-10%) portfelī, investori var potenciāli 
-              uzlabot kopējo risku-ienesīguma attiecību.
-            </p>
+          <div id="diversifikacija" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Bitcoin lieliskai diversifikācijai
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Bitcoin kā digitālais zelts piedāvā unikālu iespēju diversificēt investīciju portfeli 
+                ar aktīvu, kas darbojas neatkarīgi no tradicionālajiem finanšu tirgiem.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Pētījumi rāda, ka Bitcoin korelācija ar akciju tirgiem ir relatīvi zema, 
+                kas to padara par efektīvu diversifikācijas rīku, īpaši ekonomiskās nenoteiktības periodos.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Iekļaujot nelielu Bitcoin daļu (5-10%) portfelī, investori var potenciāli 
+                uzlabot kopējo risku-ienesīguma attiecību.
+              </p>
+            </div>
           </div>
-        </section>
 
-        <section id="inflacija" className="mb-16">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
-            Inflācijas aizsardzības aspekts
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Viens no Bitcoin pievilcīgākajiem aspektiem ir tā ierobežotā piedāvājuma apjoms - 
-              maksimāli 21 miljons monētu, kas to padara par deflacionāru aktīvu.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Kamēr centrālās bankas turpina drukāt naudu un palielināt inflāciju, 
-              Bitcoin algoritms nodrošina, ka jaunu monētu emisija pakāpeniski samazinās 
-              līdz nullei līdz 2140. gadam.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Šī īpašība padara Bitcoin par potenciālu aizsardzību pret fiat valūtu 
-              pirkspējas samazināšanos ilgtermiņā.
-            </p>
+          <div id="inflacija" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Inflācijas aizsardzības aspekts
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Viens no Bitcoin pievilcīgākajiem aspektiem ir tā ierobežotā piedāvājuma apjoms - 
+                maksimāli 21 miljons monētu, kas to padara par deflacionāru aktīvu.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Kamēr centrālās bankas turpina drukāt naudu un palielināt inflāciju, 
+                Bitcoin algoritms nodrošina, ka jaunu monētu emisija pakāpeniski samazinās 
+                līdz nullei līdz 2140. gadam.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Šī īpašība padara Bitcoin par potenciālu aizsardzību pret fiat valūtu 
+                pirkspējas samazināšanos ilgtermiņā.
+              </p>
+            </div>
           </div>
-        </section>
 
-        <section id="likviditate" className="mb-16">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
-            Likviditāte 24/7
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Atšķirībā no tradicionālajiem finanšu tirgiem, kriptovalūtu tirgi darbojas 24 stundas 
-              dienā, 7 dienas nedēļā, 365 dienas gadā.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Šī nepārtrauktā likviditāte nozīmē, ka investori var reaģēt uz tirgus izmaiņām 
-              reāllaikā, neatkarīgi no tā, vai ir darba diena vai brīvdienas.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Turklāt moderno kriptovalūtu biržu attīstība ir nodrošinājusi augstu likviditāti 
-              galvenajām kriptovalūtām, ļaujot veikt lielus darījumus ar minimālu ietekmi uz cenu.
-            </p>
+          <div id="likviditate" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Likviditāte 24/7
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Atšķirībā no tradicionālajiem finanšu tirgiem, kriptovalūtu tirgi darbojas 24 stundas 
+                dienā, 7 dienas nedēļā, 365 dienas gadā.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Šī nepārtrauktā likviditāte nozīmē, ka investori var reaģēt uz tirgus izmaiņām 
+                reāllaikā, neatkarīgi no tā, vai ir darba diena vai brīvdienas.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Turklāt moderno kriptovalūtu biržu attīstība ir nodrošinājusi augstu likviditāti 
+                galvenajām kriptovalūtām, ļaujot veikt lielus darījumus ar minimālu ietekmi uz cenu.
+              </p>
+            </div>
           </div>
-        </section>
 
-        <section id="kontrole" className="mb-16">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
-            Pilna kontrole pār ieguldījumu
-          </h2>
-          <div className="prose prose-lg max-w-none">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Kriptovalūtas piedāvā investoriem precedenta nezināmu kontroles līmeni pār saviem aktīviem. 
-              Izmantojot privātās atslēgas, jūs esat pilnīgs savu līdzekļu īpašnieks.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Nav nepieciešams paļauties uz bankām, brokeriem vai citām finanšu iestādēm - 
-              jūs varat pārvaldīt savus ieguldījumus tieši, bez starpniekiem.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Šī pašnoteikšanās nozīmē gan lielāku atbildību par drošību, 
-              gan brīvību no tradicionālo finanšu sistēmu ierobežojumiem un komisijām.
-            </p>
+          <div id="kontrole" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Pilna kontrole pār ieguldījumu
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Kriptovalūtas piedāvā investoriem precedenta nezināmu kontroles līmeni pār saviem aktīviem. 
+                Izmantojot privātās atslēgas, jūs esat pilnīgs savu līdzekļu īpašnieks.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Nav nepieciešams paļauties uz bankām, brokeriem vai citām finanšu iestādēm - 
+                jūs varat pārvaldīt savus ieguldījumus tieši, bez starpniekiem.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Šī pašnoteikšanās nozīmē gan lielāku atbildību par drošību, 
+                gan brīvību no tradicionālo finanšu sistēmu ierobežojumiem un komisijām.
+              </p>
+            </div>
           </div>
         </section>
 
