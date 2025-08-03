@@ -23,7 +23,7 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="mb-8">
+         <div className="mb-8 ml-6">
     <SidebarNav items={navItems} />
   </div>
 
@@ -263,26 +263,26 @@ const Kursi = () => {
                 Tālākajā kursa saturā tu uzzināsi:
               </p>
 
-  <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā vienkārši uzsākt ieguldīt kriptovalūtās</span>
-            </div>
-<div className="flex items-center space-x-2">
+              </div>
+              <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā izvēlēties, kurās kriptovalūtās ieguldīt</span>
-            </div>
-              <div className="flex items-center space-x-2">
+              </div>
+              <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā glabāt kriptovalūta</span>
-            </div>
-              <div className="flex items-center space-x-2">
+              </div>
+              <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā un kur izveidot nepieciešamos kontus</span>
-            </div>
-                   <div className="flex items-center space-x-2">
+              </div>
+              <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</span>
-            </div>
+              </div>
 
 <p className="text-foreground leading-relaxed mb-4">
                 Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
