@@ -92,7 +92,7 @@ const Uznemumiem = () => {
                 risku pārvaldību un regulējumu atbilstību."
               </p>
             </div>
-            
+             </div>
       
         </section>
 
