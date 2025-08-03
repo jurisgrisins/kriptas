@@ -98,10 +98,10 @@ const Uznemumiem = () => {
           </h2>
           
           <div className="flex flex-row items-center justify-between gap-8 my-8">
-  <img src="/path/to/logo1.png" alt="Logo 1" className="h-12 object-contain" />
-  <img src="/path/to/logo2.png" alt="Logo 2" className="h-12 object-contain" />
-  <img src="/path/to/logo3.png" alt="Logo 3" className="h-12 object-contain" />
-  <img src="/path/to/logo4.png" alt="Logo 4" className="h-12 object-contain" />
+  <img src="/src/assets/capitalia-logo.png" alt="Capitalia" className="h-12 object-contain" />
+  <img src="/src/assets/kraken-logo.png" alt="Kraken" className="h-12 object-contain" />
+  <img src="/src/assets/bitgo-logo.png" alt="Safe.global" className="h-12 object-contain" />
+  <img src="/src/assets/safe-logo.png" alt="Bitgo" className="h-12 object-contain" />
 </div>
 
       
