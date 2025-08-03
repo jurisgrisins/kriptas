@@ -28,6 +28,12 @@ const ParMums = () => {
 
           
           </div>
+
+            <img
+  src="/src/assets/mes-background.jpg"
+  alt="Kursu ilustrācija"
+  className="w-full max-h-64 object-cover rounded-lg mb-8"
+/>
         </section>
 
         {/* Values */}
