@@ -36,7 +36,7 @@ const Uznemumiem = () => {
 
  {/* Main Content Sections */}
         <section id="rezerves" className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Kāpēc uzņēmumiem veidot Bitcoin rezerves
           </h2>
           <div className="prose prose-lg max-w-none mb-12">
@@ -50,7 +50,7 @@ const Uznemumiem = () => {
 
          {/* Main Content Sections */}
         <section id="maksajumi" className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
            Kā kriptovalūtas var vienkāršot starpvalstu maksājumus
           </h2>
           <div className="prose prose-lg max-w-none mb-12">
@@ -63,7 +63,7 @@ const Uznemumiem = () => {
         
  {/* Services Preview */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Pielāgotas apmācības uzņēmumiem
           </h2>
     <p className="text-foreground leading-relaxed mb-4">
@@ -111,7 +111,7 @@ const Uznemumiem = () => {
 
         {/* Case Studies */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Sadarbībā ar
           </h2>
           
@@ -130,7 +130,7 @@ const Uznemumiem = () => {
         {/* Contact */}
         <section className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-medium text-foreground mb-4">
+            <h2 className="text-3xl font-medium text-foreground mb-4">
               Gatavi sarunai?
             </h2>
             <p className="text-muted-foreground mb-6">
