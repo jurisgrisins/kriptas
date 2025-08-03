@@ -87,7 +87,7 @@ const Index = () => {
                   Kurss kā ieguldīt kriptovalūtās
                 </h3>
                 <p className="text-foreground leading-relaxed">
-                  Vienkāršs, praktisks un Latvijas apstākļiem īpaši pielāgots kurss par ieguldījumiem kriptovalūtās
+                  Vienkāršs, praktisks un Latvijas apstākļiem īpaši pielāgots apmācību kurss par ieguldījumiem kriptovalūtās
                 </p>
               </div>
             </div>
