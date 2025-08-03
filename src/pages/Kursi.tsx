@@ -15,9 +15,9 @@ const navItems = [
 const Kursi = () => {
   return (
     <BjorkLayout>
- <div className="flex gap-8">
+<div className="flex gap-8">
   {/* Sidebar Navigation */}
-  <div className="hidden lg:block w-64 flex-shrink-0">
+  <div className="w-64 flex-shrink-0">
     <div className="sticky top-8">
       <SidebarNav items={navItems} className="mb-8" />
     </div>
@@ -27,6 +27,7 @@ const Kursi = () => {
     {/* ... */}
   </div>
 </div>
+
 
 
 
