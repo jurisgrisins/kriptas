@@ -10,7 +10,7 @@ const Uznemumiem = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-            Korporatīvās apmācības
+           Meistarklases uzņēmumiem
           </h1>
           <p className="text-xl text-foreground leading-relaxed mb-8">
             Atklājiet, kā mūsu apmācību programmas palīdz izveidot efektīvu kriptovalūtu portfeli un izmantot kriptovalūtas kā norēķinu līdzekli ikdienas maksājumos. Apmācību ietvaros mēs gan nodrošināsim materiālus, gan paraugus, kā arī sniegsim praktiskas konsultācijas par kriptovalūtu pielietojumu jūsu biznesā.
@@ -79,20 +79,13 @@ const Uznemumiem = () => {
             Sadarbībā ar
           </h2>
           
-          <div className="grid gap-6">
-            <div className="border border-border rounded-lg p-6">
-              <div className="mb-4">
-                <h3 className="text-lg font-medium text-foreground mb-1">
-                  Baltijas Banka
-                </h3>
-                <p className="text-sm text-primary">Finanšu sektors</p>
-              </div>
-              <p className="text-muted-foreground text-sm">
-                "Kriptas palīdzēja mums droši ienākt kriptovalūtu tirgū ar profesionālu 
-                risku pārvaldību un regulējumu atbilstību."
-              </p>
-            </div>
-             </div>
+          <div className="flex flex-row items-center justify-between gap-8 my-8">
+  <img src="/path/to/logo1.png" alt="Logo 1" className="h-12 object-contain" />
+  <img src="/path/to/logo2.png" alt="Logo 2" className="h-12 object-contain" />
+  <img src="/path/to/logo3.png" alt="Logo 3" className="h-12 object-contain" />
+  <img src="/path/to/logo4.png" alt="Logo 4" className="h-12 object-contain" />
+</div>
+
       
         </section>
 
