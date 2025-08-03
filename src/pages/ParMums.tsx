@@ -143,7 +143,7 @@ const ParMums = () => {
           </div>
           
          
-             <div className="flex flex-col sm:flex-row gap-4 mb-12">
+             <div className="flex justify-center>
           <Button variant="default" size="lg" asChild>
   <a href="mailto:investicijas@kriptas.com" className="inline-block">
     Sazināties
