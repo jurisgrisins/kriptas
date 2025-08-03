@@ -116,7 +116,7 @@ const Uznemumiem = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
                 Pieteikties konsultācijai
-             
+                 </Button>
             </div>
           </div>
         </section>
