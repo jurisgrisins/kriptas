@@ -97,7 +97,7 @@ const Kursi = () => {
                 Ja korelācija ir nulle vai tuvu nullei, šo aktīvu cenas savstarpēji praktiski nav saistītas. Negatīva korelācija nozīmē, ka viena aktīva cena bieži aug tad, kad otra krīt, un otrādi.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-           Piemēram, Bitcoin ilgtermiņā salīdzinot  ar tradicionāliem aktīviem, piemēram, akcijām vai obligācijām, ir bijusi zema korelācija. Tas nozīmē, ka, pievienojot Bitcoin portfelim, ir iespējams labāk izkliedēt riskus — kad vienas aktīvu klases cena krīt, citas to var kompensēt. Tieši tāpēc daudzi investori izvēlas ieguldīt vairākās atšķirīgās aktīvu klasēs — akcijās, 
+           Piemēram, Bitcoin ilgtermiņā salīdzinot  ar tradicionāliem aktīviem, piemēram, akcijām vai obligācijām, ir bijusi <span className="font-bold text-primary">zema korelācija</span>. Tas nozīmē, ka, pievienojot Bitcoin portfelim, ir iespējams labāk izkliedēt riskus — kad vienas aktīvu klases cena krīt, citas to var kompensēt. Tieši tāpēc daudzi investori izvēlas ieguldīt vairākās atšķirīgās aktīvu klasēs — akcijās, 
                 obligācijās, nekustamajā īpašumā, zeltā, kriptovalūtās, u.c. — lai ieguldījumu portfelis būtu drošāks un stabilāks ilgtermiņā.
               </p>
               <p className="text-foreground leading-relaxed">
