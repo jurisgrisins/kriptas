@@ -37,7 +37,7 @@ const ParMums = () => {
 
         {/* Values */}
         <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
             Mūsu mērķis ar šo projektu
           </h2>
           
