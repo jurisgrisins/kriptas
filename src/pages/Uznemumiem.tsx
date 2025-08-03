@@ -133,7 +133,7 @@ const Uznemumiem = () => {
             <h2 className="text-3xl font-medium text-foreground mb-4">
               Gatavi sarunai?
             </h2>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-foreground mb-6">
               Pievienojieties citiem progresīviem uzņēmumiem, kas jau izmanto kriptovalūtas gan norēķinos, gan investīcijās
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
