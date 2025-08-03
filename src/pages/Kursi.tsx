@@ -46,6 +46,14 @@ const Kursi = () => {
             <Button variant="outline" size="lg">
               Lejupielādēt Programmu
             </Button>
+
+ <div className="rounded-lg overflow-hidden">
+            <img 
+  src={heroImage} 
+  alt="Kriptovalūtu investīcijas"
+  className="w-full h-64 object-cover object-bottom"
+/>
+            
           </div>
         </section>
 
