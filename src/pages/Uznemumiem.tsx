@@ -10,19 +10,17 @@ const Uznemumiem = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-            Korporatīvie Risinājumi
+            Korporatīvās apmācības
           </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            Institucionālie kriptovalūtu investīciju pārvaldības pakalpojumi uzņēmumiem un organizācijām.
+          <p className="text-xl text-foreground leading-relaxed mb-8">
+            Atklājiet, kā mūsu apmācību programmas palīdz izveidot efektīvu kriptovūtu portfeli un izmantot kriptovalūtas kā norēķinu līdzekli ikdienas maksājumos.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="default" size="lg">
-              Sazināties
+              Pieteikties konsultācijai
             </Button>
-            <Button variant="outline" size="lg">
-              Lejupielādēt Prospektu
-            </Button>
+          
           </div>
         </section>
 
@@ -148,11 +146,8 @@ const Uznemumiem = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Pieteikt Konsultāciju
-              </Button>
-              <Button variant="outline" size="lg">
-                Uzzināt Vairāk
-              </Button>
+                Pieteikties konsultācijai
+             
             </div>
           </div>
         </section>
