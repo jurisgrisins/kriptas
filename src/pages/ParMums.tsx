@@ -50,7 +50,7 @@ const ParMums = () => {
                   <h3 className="text-xl font-medium text-foreground mb-3">
                     Piejams jebkuram
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-foreground leading-relaxed">
                  Iedot rīkus, lai padarītu kriptovalūtu investēšanu pieejamu un drošu ikvienam investoram, neatkarīgi no viņa pieredzes līmeņa digitālo aktīvu jomā.
                   </p>
                 </div>
@@ -66,7 +66,7 @@ const ParMums = () => {
                   <h3 className="text-xl font-medium text-foreground mb-3">
                     Turības veicināšana
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-foreground leading-relaxed">
                     Palīdzēt Latvijas investoriem un uzņēmumiem veicināt savu turību, izmantojot kriptovalūtas kā ienesīgu ieguldījumu diversifikācijas avotu.
                   </p>
                 </div>
@@ -82,7 +82,7 @@ const ParMums = () => {
                   <h3 className="text-xl font-medium text-foreground mb-3">
                     Nozares atbalsts
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-foreground leading-relaxed">
                     Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem vēlamies
                   </p>
                 </div>
