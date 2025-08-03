@@ -17,14 +17,12 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="hidden lg:block w-64 flex-shrink-0">
-          <div className="sticky top-8">
-            <SidebarNav items={navItems} className="mb-8" />
-          </div>
-        </div>
+         <div className="mb-8">
+    <SidebarNav items={navItems} />
+  </div>
 
         {/* Main Content */}
-        <div className="mx-auto px-8 py-16">
+        <div className="mx-auto max-w-3xl px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
