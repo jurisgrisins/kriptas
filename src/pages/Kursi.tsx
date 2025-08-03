@@ -1,10 +1,28 @@
 import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
+import { SidebarNav } from "@/components/ui/sidebar-nav";
+
+const navItems = [
+  { title: "Ievads: Kapēc ieguldīt kriptovalūtās", section: "ievads" },
+  { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija" },
+  { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
+  { title: "Likviditāte 24/7", section: "likviditate" },
+  { title: "Pilna kontrole pār ieguldījumu", section: "kontrole" },
+];
 
 const Kursi = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-4xl mx-auto px-8 py-16">
+      <div className="flex gap-8">
+        {/* Sidebar Navigation */}
+        <div className="w-64 flex-shrink-0">
+          <div className="sticky top-8">
+            <SidebarNav items={navItems} className="mb-8" />
+          </div>
+        </div>
+
+        {/* Main Content */}
+        <div className="flex-1 max-w-4xl px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
@@ -24,111 +42,102 @@ const Kursi = () => {
           </div>
         </section>
 
-        {/* Courses */}
-        <section className="mb-24">
-          <h2 className="text-2xl font-medium text-foreground mb-8">
-            Pieejamie Kursi
+        {/* Main Content Sections */}
+        <section id="ievads" className="mb-16">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
+            Ievads: Kapēc ieguldīt kriptovalūtās
           </h2>
-          
-          <div className="space-y-8">
-            <article className="border border-border rounded-lg p-8">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Kriptovalūtu Pamati
-                  </h3>
-                  <p className="text-sm text-primary font-medium">
-                    Iesācēju līmenis • 4 nedēļas
-                  </p>
-                </div>
-                <div className="text-right">
-                  <p className="text-2xl font-medium text-foreground">€299</p>
-                  <p className="text-sm text-muted-foreground">par personu</p>
-                </div>
-              </div>
-              
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Iegūstiet pamatzināšanas par kriptovalūtām, blokķēdes tehnoloģiju un 
-                digitālo aktīvu tirgu. Ideāls sākums jūsu ceļojumam digitālo aktīvu pasaulē.
-              </p>
-              
-              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
-                <li>• Bitcoin un Ethereum pamati</li>
-                <li>• Blockchain tehnoloģijas principi</li>
-                <li>• Drošība un glabāšana</li>
-                <li>• Tirgus analīzes pamati</li>
-              </ul>
-              
-              <Button variant="outline" size="sm">
-                Uzzināt Vairāk
-              </Button>
-            </article>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Kriptovalūtas pēdējos gados ir kļuvušas par vienu no nozīmīgākajiem finanšu instrumentiem, 
+              piedāvājot investoriem unikālas iespējas diversificēt portfeli un aizsargāties pret tradicionālo 
+              finanšu sistēmu riskiem.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Šajā kursā mēs aplūkosim galvenos iemeslus, kāpēc kriptovalūtas var būt vērtīga 
+              papildinājums jūsu investīciju portfelim, sākot no diversifikācijas līdz inflācijas aizsardzībai.
+            </p>
+          </div>
+        </section>
 
-            <article className="border border-border rounded-lg p-8">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Investīciju Stratēģijas
-                  </h3>
-                  <p className="text-sm text-primary font-medium">
-                    Vidējs līmenis • 6 nedēļas
-                  </p>
-                </div>
-                <div className="text-right">
-                  <p className="text-2xl font-medium text-foreground">€599</p>
-                  <p className="text-sm text-muted-foreground">par personu</p>
-                </div>
-              </div>
-              
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Dziļāka iegremdēšanās kriptovalūtu investēšanā ar fokumu uz 
-                risku pārvaldību un portfeļa optimizāciju.
-              </p>
-              
-              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
-                <li>• Portfeļa diversifikācija</li>
-                <li>• Risku pārvaldības metodes</li>
-                <li>• DeFi protokolu analīze</li>
-                <li>• Tirdzniecības stratēģijas</li>
-              </ul>
-              
-              <Button variant="outline" size="sm">
-                Uzzināt Vairāk
-              </Button>
-            </article>
+        <section id="diversifikacija" className="mb-16">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
+            Bitcoin lieliskai diversifikācijai
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Bitcoin kā digitālais zelts piedāvā unikālu iespēju diversificēt investīciju portfeli 
+              ar aktīvu, kas darbojas neatkarīgi no tradicionālajiem finanšu tirgiem.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Pētījumi rāda, ka Bitcoin korelācija ar akciju tirgiem ir relatīvi zema, 
+              kas to padara par efektīvu diversifikācijas rīku, īpaši ekonomiskās nenoteiktības periodos.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Iekļaujot nelielu Bitcoin daļu (5-10%) portfelī, investori var potenciāli 
+              uzlabot kopējo risku-ienesīguma attiecību.
+            </p>
+          </div>
+        </section>
 
-            <article className="border border-border rounded-lg p-8">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Institucionālā Pārvaldība
-                  </h3>
-                  <p className="text-sm text-primary font-medium">
-                    Augstākais līmenis • 8 nedēļas
-                  </p>
-                </div>
-                <div className="text-right">
-                  <p className="text-2xl font-medium text-foreground">€1,299</p>
-                  <p className="text-sm text-muted-foreground">par personu</p>
-                </div>
-              </div>
-              
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                Profesionāla apmācība institucionāliem investoriem un 
-                fondu pārvaldniekiem, kas vēlas iekļaut digitālos aktīvus savos portfeļos.
-              </p>
-              
-              <ul className="space-y-2 mb-6 text-sm text-muted-foreground">
-                <li>• Regulējumu prasības</li>
-                <li>• Institucionālie rīki</li>
-                <li>• ESG kritēriji</li>
-                <li>• Atskaišu sniegšana</li>
-              </ul>
-              
-              <Button variant="outline" size="sm">
-                Uzzināt Vairāk
-              </Button>
-            </article>
+        <section id="inflacija" className="mb-16">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
+            Inflācijas aizsardzības aspekts
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Viens no Bitcoin pievilcīgākajiem aspektiem ir tā ierobežotā piedāvājuma apjoms - 
+              maksimāli 21 miljons monētu, kas to padara par deflacionāru aktīvu.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Kamēr centrālās bankas turpina drukāt naudu un palielināt inflāciju, 
+              Bitcoin algoritms nodrošina, ka jaunu monētu emisija pakāpeniski samazinās 
+              līdz nullei līdz 2140. gadam.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Šī īpašība padara Bitcoin par potenciālu aizsardzību pret fiat valūtu 
+              pirkspējas samazināšanos ilgtermiņā.
+            </p>
+          </div>
+        </section>
+
+        <section id="likviditate" className="mb-16">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
+            Likviditāte 24/7
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Atšķirībā no tradicionālajiem finanšu tirgiem, kriptovalūtu tirgi darbojas 24 stundas 
+              dienā, 7 dienas nedēļā, 365 dienas gadā.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Šī nepārtrauktā likviditāte nozīmē, ka investori var reaģēt uz tirgus izmaiņām 
+              reāllaikā, neatkarīgi no tā, vai ir darba diena vai brīvdienas.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Turklāt moderno kriptovalūtu biržu attīstība ir nodrošinājusi augstu likviditāti 
+              galvenajām kriptovalūtām, ļaujot veikt lielus darījumus ar minimālu ietekmi uz cenu.
+            </p>
+          </div>
+        </section>
+
+        <section id="kontrole" className="mb-16">
+          <h2 className="text-3xl font-medium text-foreground mb-6">
+            Pilna kontrole pār ieguldījumu
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Kriptovalūtas piedāvā investoriem precedenta nezināmu kontroles līmeni pār saviem aktīviem. 
+              Izmantojot privātās atslēgas, jūs esat pilnīgs savu līdzekļu īpašnieks.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Nav nepieciešams paļauties uz bankām, brokeriem vai citām finanšu iestādēm - 
+              jūs varat pārvaldīt savus ieguldījumus tieši, bez starpniekiem.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Šī pašnoteikšanās nozīmē gan lielāku atbildību par drošību, 
+              gan brīvību no tradicionālo finanšu sistēmu ierobežojumiem un komisijām.
+            </p>
           </div>
         </section>
 
@@ -136,15 +145,14 @@ const Kursi = () => {
         <section className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Gatavi Uzsākt?
+              Gatavi Uzsākt Kriptovalūtu Investēšanu?
             </h2>
             <p className="text-muted-foreground mb-6">
-              Pievienojieties vairāk nekā 1000 studentiem, kas jau ir apguvuši 
-              kriptovalūtu investēšanas prasmes.
+              Apgūstiet kriptovalūtu investēšanas pamatus un sāciet veidot savu digitālo aktīvu portfeli.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Pieteikties Tagad
+                Pieteikties Kursam
               </Button>
               <Button variant="outline" size="lg">
                 Konsultācija
@@ -159,6 +167,7 @@ const Kursi = () => {
             © 2024 Kriptas Investīciju Pārvaldība. Visas tiesības aizsargātas.
           </div>
         </footer>
+        </div>
       </div>
     </BjorkLayout>
   );
