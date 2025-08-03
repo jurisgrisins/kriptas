@@ -94,6 +94,48 @@ const Kursi = () => {
               <p className="text-foreground leading-relaxed">
              Finanšu investīciju kompānija Blackrock ir veikusi pētījumu, kura rezultātā ir identificējusi, ka pēdējo 10 gadu griezumā Bitcoin cenai ir bijusi ļoti zema korelācija ar tradicionāliem ieguldījumu aktīviem, tajā skaitā akcijām: 
               </p>
+
+              <table className="min-w-full border mt-8 mb-8 text-left">
+  <thead>
+    <tr>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Aktīvu klase</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Korelācija ar Bitcoin</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Paskaidrojums</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="px-4 py-2 border-b">ASV akcijas</td>
+      <td className="px-4 py-2 border-b">0.15 (zema)</td>
+      <td className="px-4 py-2 border-b">
+        Cenas būtībā nav saistītas, kas dod labu diversifikācijas potenciālu.<br />
+        Dažos periodos pat negatīva. Nav cenu kustības saistības.
+      </td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Zelts</td>
+      <td className="px-4 py-2 border-b">Praktiski 0</td>
+      <td className="px-4 py-2 border-b">
+        Dažos periodos pat negatīva. Nav cenu kustības saistības ar Bitcoin.
+      </td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Obligācijas</td>
+      <td className="px-4 py-2 border-b">Bieži negatīva</td>
+      <td className="px-4 py-2 border-b">
+        Īpaši ar ASV 10 gadu obligācijām – kustas pretēji Bitcoin, īpaši tirgus krīzēs.
+      </td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Nekustamais īpašums</td>
+      <td className="px-4 py-2 border-b">Praktiski 0</td>
+      <td className="px-4 py-2 border-b">
+        Praktiski nav saistības ar kriptovalūtu cenu izmaiņām.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
                   <p className="text-foreground leading-relaxed">
              Savukārt 2025. gadā Bitcoin cenas korelācija ar S&P 500 ir sasniegusi nulli, t.i., Bitcoin ir bijis pilnīgi neatkarīgs no akciju tirgus kustībām. Tas vēl vairāk pastiprina digitālo aktīvu lomu kā efektīvu diversifikācijas instrumentu, jo palīdz samazināt kopējo portfeļa risku arī strauju tirgus svārstību laikā.
               </p>
@@ -186,6 +228,49 @@ const Kursi = () => {
                 Kriptovalūtu ieguldījumu galvenais pievilcības faktors ir ļoti augstā vēsturiskā atdeve, kas pārspēj visus citus aktīvu veidus. 
                 Bitcoin ir bijis labākais ieguldījumu aktīvs pēdējā dekādē, sniedzot 10 reizes lielāku atdevi nekā ieguldījums ASV tehnoloģiju uzņēmumu indeksā Nasdaq 100. Piemēram, pēdējos 10 gados vidēji Bitcoin vērtība ir pieaugusi par 83% gadā. 
               </p>
+<table className="min-w-full border mt-8 mb-8 text-left">
+  <thead>
+    <tr>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Aktīvs</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">10 gadu atdeve</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Gadā (10 gadi)</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Gadā (5 gadi)</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Gadā (1 gads)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="px-4 py-2 border-b">Bitcoin</td>
+      <td className="px-4 py-2 border-b">42,597%</td>
+      <td className="px-4 py-2 border-b">83.0%</td>
+      <td className="px-4 py-2 border-b">62.4%</td>
+      <td className="px-4 py-2 border-b">121.0%</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">S&amp;P 500</td>
+      <td className="px-4 py-2 border-b">194.5%</td>
+      <td className="px-4 py-2 border-b">12.0%</td>
+      <td className="px-4 py-2 border-b">13.7%</td>
+      <td className="px-4 py-2 border-b">23.9%</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Nasdaq 100</td>
+      <td className="px-4 py-2 border-b">541.0%</td>
+      <td className="px-4 py-2 border-b">20.0%</td>
+      <td className="px-4 py-2 border-b">21.7%</td>
+      <td className="px-4 py-2 border-b">14.4%</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Zelts</td>
+      <td className="px-4 py-2 border-b">206.0%</td>
+      <td className="px-4 py-2 border-b">12.0%</td>
+      <td className="px-4 py-2 border-b">9.9%</td>
+      <td className="px-4 py-2 border-b">28.7%</td>
+    </tr>
+  </tbody>
+</table>
+
+              
 <p className="text-foreground leading-relaxed mb-4">
                 Ja investors 2015. gada sākumā katrā no šiem aktīviem būtu ieguldījis EUR 1,000, tad līdz 2024. gada beigām ieguldījuma rezultāts būtu ļoti atšķirīgs. Investīcija Bitcoin desmit gadu laikā būtu pārvērtusies apmēram par EUR 426,000. 
   Tajā pašā laikā EUR 1,000 S&P 500 indeksā būtu izauguši līdz aptuveni EUR 2,945 (+194.5%), Nasdaq 100 indeksā – līdz aptuveni EUR 6,410 (+541%), bet ieguldījums zeltā pieaugtu vērtībā līdz apmēram EUR 3,060 (+206%).
@@ -216,6 +301,31 @@ const Kursi = () => {
                 Tomēr par šo risku ir saņemta arī atlīdzība: investori, kuri spējuši saglabāt mieru un neatbrīvoties no Bitcoin visos tirgus kāpumos un kritumos, līdz šim ir tikuši pie būtiski lielākas peļņas nekā tie, kas izvēlējās drošākus, mazāk svārstīgus ieguldījumus. Citiem vārdiem, tie, kas izturējuši lielās cenu svārstības un nav pārdevuši uz panikas viļņa, ilgtermiņā ir nopelnījuši daudz vairāk nekā tradicionālo aktīvu īpašnieki. 
   Protams, šādas tendences nav garantētas arī nākotnē, taču līdz šim liela svārstība Bitcoin gadījumā ir nozīmējusi arī augstāku potenciālo atdevi – ja investors ir pacietīgs un gatavs izturēt "amerikāņu kalniņus".
               </p>
+
+              <table className="min-w-full border mt-8 mb-8 text-left">
+  <thead>
+    <tr>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Aktīvs</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Vidējā cenas svārstīguma (%) robeža 2015–2021</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Pēdējo gadu (2023–2024) svārstīgums (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="px-4 py-2 border-b">Bitcoin</td>
+      <td className="px-4 py-2 border-b">70–90</td>
+      <td className="px-4 py-2 border-b">45–55</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">S&amp;P 500</td>
+      <td className="px-4 py-2 border-b">15–20</td>
+      <td className="px-4 py-2 border-b">15–20</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Nasdaq 100</td>
+      <td className="px-4 py-2 border-b">18–23</td>
+      <td className="px-4 py
+
 <p className="text-foreground leading-relaxed mb-4">
                 Bitcoin svārstīgums (volatilitāte) vēsturiski ir bijis 3,6 līdz 5,1 reizes augstāks nekā zeltam vai globālajiem akciju tirgiem (piem., S&P 500). 2015.–2021. gadā Bitcoin svārstīgums bieži pārsniedza 70–90%, kamēr zelta vai akciju indeksu tipiskā gada svārstība bija 10–20%. Pēdējos gados, īpaši kopš 2023. gada, Bitcoin volatilitāte ir būtiski samazinājusies. Šī tendence liecina, ka ar aktīva “briedumu” cena 
   kļūst mazliet stabilāka, īpaši salīdzinot ar Bitcoin pirms 6–8 gadiem.un gatavs izturēt "amerikāņu kalniņus".
