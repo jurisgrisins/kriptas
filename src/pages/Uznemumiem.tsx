@@ -24,80 +24,49 @@ const Uznemumiem = () => {
           </div>
         </section>
 
-        {/* Services */}
+ {/* Services Preview */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
-            Mūsu Pakalpojumi
+            Pielāgotas apmācības uzņēmumiem
           </h2>
-          
-          <div className="space-y-8">
-            <div className="border border-border rounded-lg p-8">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Building className="w-5 h-5 text-white" />
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+              <div className="relative bg-background border border-border rounded-lg p-8 h-full">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
                 </div>
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Korporatīvo Portfeļu Pārvaldība
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Profesionāla kriptovalūtu portfeļu pārvaldība uzņēmumiem ar individuālu risku profilu un investīciju mērķiem.
-                  </p>
-                </div>
+                <h3 className="text-xl font-medium text-foreground mb-4">
+                  Kriptovalūtu ieguldījumi
+                </h3>
+                <p className="text-foreground leading-relaxed">
+                 Piedāvājam apmācības uzņēmumiem par efektīvas kriptovalūtu kases (“treasury”) izveidi un pārvaldību
+                </p>
               </div>
-              <ul className="space-y-2 text-sm text-muted-foreground ml-14">
-                <li>• Individuāls risku profils</li>
-                <li>• 24/7 portfeļa monitorings</li>
-                <li>• Regulāras atskaites</li>
-                <li>• Institucionālā aizgādība</li>
-              </ul>
             </div>
 
-            <div className="border border-border rounded-lg p-8">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <TrendingUp className="w-5 h-5 text-white" />
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+              <div className="relative bg-background border border-border rounded-lg p-8 h-full">
+                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
                 </div>
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Investīciju Konsultācijas
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Ekspertu konsultācijas digitālo aktīvu jomā, tirgus analīze un stratēģisko lēmumu atbalsts.
-                  </p>
-                </div>
+                <h3 className="text-xl font-medium text-foreground mb-4">
+                  Kriptovalūtu maksājumi
+                </h3>
+                <p className="text-foreground leading-relaxed">
+                  Mācam, kā izveidot un izmantot kriptovalūtu norēķinu sistēmas starptautiskiem maksājumiem
+                </p>
               </div>
-              <ul className="space-y-2 text-sm text-muted-foreground ml-14">
-                <li>• Tirgus analīzes un prognozes</li>
-                <li>• Stratēģijas izstrāde</li>
-                <li>• Regulējumu analīze</li>
-                <li>• Due diligence</li>
-              </ul>
-            </div>
-
-            <div className="border border-border rounded-lg p-8">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Users className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-medium text-foreground mb-2">
-                    Darbinieku Apmācības
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Korporatīvās apmācības programmas darbinieku izglītošanai kriptovalūtu un blokķēdes tehnoloģiju jomā.
-                  </p>
-                </div>
-              </div>
-              <ul className="space-y-2 text-sm text-muted-foreground ml-14">
-                <li>• Individualizētas programmas</li>
-                <li>• Sertifikācijas kursi</li>
-                <li>• Praktiskas darbnīcas</li>
-                <li>• Nepārtraukts atbalsts</li>
-              </ul>
             </div>
           </div>
         </section>
+        
+      
 
         {/* Case Studies */}
         <section className="mb-24">
