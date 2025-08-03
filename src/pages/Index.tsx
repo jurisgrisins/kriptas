@@ -19,13 +19,16 @@ const Index = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="default" size="lg">
-              Apskatīt kursu
-            </Button>
-            <Button variant="outline" size="lg">
-              Par Mums
-            </Button>
-          </div>
+            <Link to="/kursi">
+  <Button variant="default" size="lg">
+    Apskatīt kursu
+  </Button>
+</Link>
+            <Link to="/parmums">
+  <Button variant="default" size="lg">
+    Apskatīt kursu
+  </Button>
+</Link>
           
           <div className="rounded-lg overflow-hidden">
             <img 
