@@ -51,7 +51,7 @@ const Kursi = () => {
             </div>
 
 <img
-  src="/src/assets/kursi-background.png"
+  src="/src/assets/kursi-background.jpg"
   alt="Kursu ilustrācija"
   className="w-full max-h-96 object-cover rounded-lg mb-8"
 />
