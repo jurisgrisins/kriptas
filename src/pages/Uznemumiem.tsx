@@ -34,6 +34,10 @@ const Uznemumiem = () => {
           <h2 className="text-2xl font-medium text-foreground mb-8">
             Pielāgotas apmācības uzņēmumiem
           </h2>
+    <p className="text-foreground leading-relaxed mb-4">
+             Mūsu apmācību materiāli ir balstīti pašu pieredzē un ir specifiski pielāgoti uzņēmumu vajadzībām:
+            </p>
+          
           <div className="grid md:grid-cols-2 gap-8">
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
@@ -93,11 +97,10 @@ const Uznemumiem = () => {
         <section className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Gatavi Sadarbībai?
+              Gatavi sarunai?
             </h2>
             <p className="text-muted-foreground mb-6">
-              Pievienojieties institucionālajiem investoriem, kas uzticas mums 
-              savu digitālo aktīvu portfeļu pārvaldībā.
+              Pievienojieties citiem progresīviem uzņēmumiem, kas jau izmanto kriptovalūtas gan norēķinos, gan investīcijās
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
