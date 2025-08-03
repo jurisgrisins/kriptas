@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 
 const navItems = [
-  { title: "Ievads: Kapēc ieguldīt kriptovalūtās", section: "ievads" },
+  { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
   { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija" },
   { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
   { title: "Likviditāte 24/7", section: "likviditate" },
@@ -55,7 +55,7 @@ const Kursi = () => {
       
           </div>
 
-    <div id="diversifikacija" className="mb-12">
+    <div id="evolucija" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
               Kriptovalūtu evolūcija no eksperimenta uz nopietnu aktīvu klasi
             </h3>
