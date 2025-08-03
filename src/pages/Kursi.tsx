@@ -22,7 +22,7 @@ const Kursi = () => {
   </div>
 
         {/* Main Content */}
-        <div className="mx-auto max-w-3xl px-8 py-16">
+        <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
