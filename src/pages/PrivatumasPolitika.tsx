@@ -8,15 +8,33 @@ const PrivatumasPolitika = () => {
         <h1 className="text-4xl font-medium text-foreground mb-8">
           Privātuma politika
         </h1>
-        
         <div className="prose prose-lg max-w-none">
           <section className="mb-8">
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Datu apstrāde
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Kriptas respektē jūsu privātumu un ir apņēmušies aizsargāt jūsu personas datus. 
-              Šī privātuma politika paskaidro, kā mēs vācam, izmantojam un aizsargājam jūsu informāciju.
+              Kriptas respektē Jūsu privātumu un nodrošina personas datu apstrādi atbilstoši Eiropas Savienības Vispārīgajai datu aizsardzības regulai (VDAR). Mēs apstrādājam personas datus tikai tad, kad tam ir skaidrs mērķis un tiesisks pamats – piemēram, ar Jūsu piekrišanu, līguma izpildei, mūsu leģitīmo interešu dēļ vai lai izpildītu normatīvo aktu prasības.
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground leading-relaxed mb-4">
+              <li>
+                Kursu, konsultāciju un citu pakalpojumu pieteikumu apstrāde – lai noslēgtu līgumu un nodrošinātu pakalpojumu, apstrādājam Jūsu kontaktinformāciju un pieteikuma saturu.
+              </li>
+              <li>
+                Lietotāja konta reģistrācijas administrēšana – nodrošinām piekļuvi personalizētiem pakalpojumiem, saglabājam un pārvaldām pamatdatus.
+              </li>
+              <li>
+                Saziņa un jautājumu apstrāde – apstrādājam sniegtos kontaktus un saziņas saturu, lai sniegtu Jums atbildes vai palīdzību.
+              </li>
+              <li>
+                Normatīvo aktu prasību izpilde – nepieciešamības gadījumā apstrādājam papildu informāciju no publiskiem reģistriem vai kredītbirojiem saskaņā ar likumu.
+              </li>
+              <li>
+                Mārketinga paziņojumu izsūtīšana – tikai ar Jūsu nepārprotamu piekrišanu.
+              </li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Mēs neiegūstam un neapstrādājam īpašas kategorijas personas datus vai informāciju par sodāmību.
             </p>
           </section>
 
@@ -25,8 +43,22 @@ const PrivatumasPolitika = () => {
               Kādu informāciju mēs vācam
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Mēs vācam informāciju, ko jūs sniedzat brīvprātīgi, piemēram, reģistrējoties kursiem 
-              vai sazinājoties ar mums. Tas ietver jūsu vārdu, e-pasta adresi un citu kontaktinformāciju.
+              Mēs vācam tikai tos personas datus, kas nepieciešami konkrētā pakalpojuma sniegšanai vai saziņai ar Jums. Tas var ietvert:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground leading-relaxed mb-4">
+              <li>Vārds, uzvārds</li>
+              <li>E-pasta adrese, tālruņa numurs</li>
+              <li>Uzņēmuma/organizācijas nosaukums (ja piemērojams)</li>
+              <li>Adrese (ja nepieciešams līguma sagatavošanai)</li>
+              <li>
+                Citi dati, kas sniegti, aizpildot pieteikumus, konta reģistrāciju, kontaktformu vai sazinoties ar mums
+              </li>
+              <li>
+                Dati, kas saņemti no trešo pušu reģistriem, ja to paredz likums (parādu vēstures datu bāze, kredītbirojs, valsts/publiski reģistri)
+              </li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Jūs vienmēr dodat datus brīvprātīgi, taču noteiktu pakalpojumu sniegšanai konkrēta informācija ir obligāta – bez tās pakalpojumu nav iespējams nodrošināt.
             </p>
           </section>
 
@@ -34,9 +66,28 @@ const PrivatumasPolitika = () => {
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Kā mēs izmantojam jūsu datus
             </h2>
+            <ul className="list-disc pl-6 text-muted-foreground leading-relaxed mb-4">
+              <li>
+                Izskatām Jūsu pieteikumus, sagatavojam līgumus, organizējam konsultācijas vai sniedzam citus pieprasītos pakalpojumus.
+              </li>
+              <li>
+                Izveidojam, uzturam un administrējam klientu kontus.
+              </li>
+              <li>
+                Sazināmies ar Jums par piedāvājumiem, izmaiņām, jautājumiem vai pakalpojumu pilnveidošanu.
+              </li>
+              <li>
+                Izpildām juridiskus pienākumus un nodrošinām atbilstību Latvijas Republikas un Eiropas Savienības normatīvajiem aktiem.
+              </li>
+              <li>
+                Izsūtām mārketinga ziņojumus – tikai ar Jūsu atsevišķu piekrišanu.
+              </li>
+              <li>
+                Nodrošinām iespēju izmantot VDAR noteiktās tiesības – pieprasīt datu labošanu vai dzēšanu, atsaukt piekrišanu u.c.
+              </li>
+            </ul>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Jūsu personas dati tiek izmantoti, lai sniegtu pieprasītos pakalpojumus, uzlabotu mūsu 
-              piedāvājumu un sazinātos ar jums par mūsu kursiem un pakalpojumiem.
+              Jūsu dati netiek izpausti trešajām personām, izņemot tehnoloģiju risinājumu sniedzējiem vai normatīvajos aktos paredzētajos gadījumos. Mēs vienmēr piemērojam atbilstošus drošības pasākumus, lai Jūsu dati būtu aizsargāti.
             </p>
           </section>
 
@@ -44,12 +95,16 @@ const PrivatumasPolitika = () => {
             <h2 className="text-2xl font-medium text-foreground mb-4">
               Kontaktinformācija
             </h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Ja jums ir jautājumi par šo privātuma politiku, lūdzu, sazinieties ar mums.
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Jums ir tiesības detalizēti uzzināt, kādus un kāpēc Jūsu datus mēs apstrādājam, kā arī pieprasīt to labošanu vai dzēšanu, ierobežošanu vai apstrādes pārtraukšanu, jebkurā laikā atsaukt piekrišanu vai izmantot citas VDAR noteiktās tiesības.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Visi jautājumi un informācijas pieprasījumi par personas datu apstrādi ir adresējami uz mūsu e-pastu: <a href="mailto:investicijas@kriptas.com" className="text-primary underline">investicijas@kriptas.com</a>.
+              Ja uzskatāt, ka Jūsu dati tiek apstrādāti neatbilstoši, Jums ir tiesības vērsties Datu valsts inspekcijā.
             </p>
           </section>
         </div>
-        
+
         {/* Footer */}
         <footer className="border-t border-border pt-8 mt-16">
           <div className="mb-6">
@@ -71,16 +126,6 @@ const PrivatumasPolitika = () => {
               <div className="text-sm text-muted-foreground ml-auto">
                 © Kopš 2025. Visas tiesības aizsargātas.
               </div>
-            </div>
-            <div className="my-4"></div>
-            
-            <div className="text-xs text-muted-foreground leading-relaxed mb-4 p-4 bg-muted/30 rounded-lg">
-              <strong className="text-foreground">Saistību atruna:</strong> Pagātnes rezultāti nenozīmē, ka nākotnē rezultāti būs līdzīgi. 
-              Kriptas nodrošina ieguldīšanas apmācības tikai informatīviem nolūkiem un nepiedāvā ieguldījumu konsultācijas vai ieguldījumu pakalpojumus. 
-              Vienmēr ieguldiet, izmantojot tikai licencētu finanšu iestāžu vai uzticamu platformu pakalpojumus. 
-              Pat sekojot labākajai ieguldīšanas praksei, ieguldīšana kriptovalūtās un citos finanšu tirgos saistās ar zaudējumu risku. 
-              Pirms investēšanas rūpīgi izvērtējiet savus personīgos apstākļus un riska toleranci. 
-              Visi lēmumi par ieguldījumiem vienmēr paliek jūsu personīgajā atbildībā.
             </div>
           </div>
         </footer>
