@@ -48,14 +48,7 @@ const Kursi = () => {
             </Button>
             </div>
 
- <div className="rounded-lg overflow-hidden">
-            <img 
-  src={heroImage} 
-  alt="Kriptovalūtu investīcijas"
-  className="w-full h-64 object-cover object-bottom"
-/>
-            
-          </div>
+
         </section>
 
         {/* Main Content Sections */}
