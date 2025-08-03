@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Uznemumiem = () => {
   return (
     <BjorkLayout>
-      <div className="max-w-3xl mx-auto px-8 py-16">
+      <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
@@ -71,7 +71,7 @@ const Uznemumiem = () => {
         {/* Case Studies */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
-            Mūsu Klienti
+            Sadarbībā ar
           </h2>
           
           <div className="grid gap-6">
@@ -88,19 +88,7 @@ const Uznemumiem = () => {
               </p>
             </div>
             
-            <div className="border border-border rounded-lg p-6">
-              <div className="mb-4">
-                <h3 className="text-lg font-medium text-foreground mb-1">
-                  TechCorp
-                </h3>
-                <p className="text-sm text-primary">Tehnoloģiju uzņēmums</p>
-              </div>
-              <p className="text-muted-foreground text-sm">
-                "Mūsu darbinieki iegūst vērtīgas zināšanas par blokķēdes tehnoloģijām, 
-                kas palīdz mums būt inovāciju priekšgalā."
-              </p>
-            </div>
-          </div>
+      
         </section>
 
         {/* Contact */}
