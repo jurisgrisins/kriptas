@@ -21,7 +21,7 @@ const navItems = [
 const Kursi = () => {
   return (
     <BjorkLayout>
-      <div className="flex gap-16">
+      <div className="flex gap-8">
         {/* Sidebar Navigation */}
          <div className="mb-8">
     <SidebarNav items={navItems} />
@@ -263,7 +263,7 @@ const Kursi = () => {
                 Tālākajā kursa saturā tu uzzināsi:
               </p>
 
-  <div className="flex items-center space-x-2">
+  <div className="flex items-center space-x-4">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā vienkārši uzsākt ieguldīt kriptovalūtās</span>
             </div>
@@ -271,12 +271,19 @@ const Kursi = () => {
               <div className="w-2 h-2 bg-primary rounded-full"></div>
               <span className="text-foreground">Kā izvēlēties, kurās kriptovalūtās ieguldīt</span>
             </div>
-              
-               <ul className="list-disc pl-6">
-    <li>Kā glabāt kriptovalūtas</li>
-    <li>Kā un kur izveidot nepieciešamos kontus</li>
-    <li>Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</li>
-  </ul>
+              <div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <span className="text-foreground">Kā glabāt kriptovalūta</span>
+            </div>
+              <div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <span className="text-foreground">Kā un kur izveidot nepieciešamos kontus</span>
+            </div>
+                   <div className="flex items-center space-x-2">
+              <div className="w-2 h-2 bg-primary rounded-full"></div>
+              <span className="text-foreground">Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</span>
+            </div>
+
 <p className="text-foreground leading-relaxed mb-4">
                 Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
               </p>
