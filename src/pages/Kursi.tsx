@@ -147,6 +147,29 @@ const Kursi = () => {
                 Staking ir process, kurā investors iegulda (iesaldē) savas kriptovalūtas noteiktā blokķēdes tīklā, lai palīdzētu tīkla darbībai un uzturēšanai — par to saņemot procentu ienākumus jeb atlīdzību. Staking būtībā nozīmē, ka jūs uzticat savus līdzekļus blokķēdei un par to saņemat fiksētu vai mainīgu gada peļņu (APR). Šī iespēja ir īpaši raksturīga tādām valūtām, kurās tiek izmantots "proof-of-stake" (PoS) mehānisms. Tas ir veids, kā padarīt ieguldījumus kriptovalūtās vēl ienesīgākus un automātiski saņemt pasīvos ienākumus, 
                 līdzīgi kā procentus par depozītu tradicionālajā bankā. Staking tiek izmantots, lai nodrošinātu tīkla drošību un decentralizāciju, vienlaikus ļaujot investoriem nopelnīt papildus atdevi no saviem aktīviem.
               </p>
+              <table className="min-w-full border mt-8 mb-8 text-left">
+  <thead>
+    <tr>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Kriptovalūta</th>
+      <th className="px-4 py-2 border-b bg-gray-100 font-medium">Gada procentu likme</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="px-4 py-2 border-b">Ethereum</td>
+      <td className="px-4 py-2 border-b">3.06%</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Cardano</td>
+      <td className="px-4 py-2 border-b">4.69%</td>
+    </tr>
+    <tr>
+      <td className="px-4 py-2 border-b">Solana</td>
+      <td className="px-4 py-2 border-b">4.41%</td>
+    </tr>
+  </tbody>
+</table>
+
 <p className="text-foreground leading-relaxed mb-4">
                 Tādējādi kriptovalūtas ne tikai kalpo kā efektīvs portfeļa diversifikators un aizsardzība pret inflāciju, bet, pateicoties staking iespējām jeb digitālajām dividendēm, tās var investoriem nodrošināt arī regulārus, pasīvus ienākumus.
               </p>
