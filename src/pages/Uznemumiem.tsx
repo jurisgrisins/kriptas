@@ -30,7 +30,7 @@ const Uznemumiem = () => {
         </section>
 
  {/* Main Content Sections */}
-        <section id="ievads" className="mb-24">
+        <section id="rezerves" className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
             Kāpēc uzņēmumiem veidot Bitcoin rezerves
           </h2>
@@ -38,6 +38,19 @@ const Uznemumiem = () => {
             <p className="text-foreground leading-relaxed mb-4">
               Mūsdienās augstas inflācijas, ģeopolitisku risku un globālas ekonomiskās nenoteiktības apstākļos arvien vairāk uzņēmumu pārskata tradicionālos finanšu drošības risinājumus. Līdzšinējie uzkrājumu veidi – skaidra nauda un obligācijas – vairs nespēj pasargāt uzņēmuma kapitālu no pirktspējas samazināšanās. Bitcoin, kā digitāls aktīvs ar ierobežotu piedāvājumu un caurspīdīgu protokolu, 
               piedāvā reālu <span className="font-bold text-primary">aizsardzību pret inflāciju un valūtas vērtības kritumu</span>. Turklāt tas nodrošina 24/7 <span className="font-bold text-primary">likviditāti, neatkarību no banku sistēmas</span> riskiem un palīdz uzņēmumam diversificēt savu kapitālu, samazinot atkarību no viena aktīva klases. Uzņēmumi, kas jau sākuši daļu savu rezervju ieguldīt bitcoin, ilgtermiņā bauda ne vien finansiālu noturību, bet arī inovatīva un progresīva tirgus dalībnieka reputāciju. Bitcoin nav tikai instruments riska mazināšanai; tā ir stratēģiska priekšrocība, kas var sniegt uzņēmumam noturību, konkurētspēju un jaunas iespējas mainīgā pasaules ekonomikā.
+            </p>
+      
+          </div>
+          </section>
+
+         {/* Main Content Sections */}
+        <section id="maksajumi" className="mb-24">
+          <h2 className="text-2xl font-medium text-foreground mb-8">
+           Kā kriptovalūtas var vienkāršot starpvalstu maksājumus
+          </h2>
+          <div className="prose prose-lg max-w-none mb-12">
+            <p className="text-foreground leading-relaxed mb-4">
+           Kriptovalūtas, kuras ir sasaistītas ar tradicionālo valūtu (piemēram, EUR vai USD) jeb stablecoins sniedz uzņēmumiem iespēju veikt starptautiskos maksājumus daudz <span className="font-bold text-primary">ātrāk, lētāk un elastīgāk</span> nekā caur tradicionālo banku sistēmu, jo pārskaitījumi notiek dažu minūšu laikā un bez banku darba laika vai ģeogrāfiskiem ierobežojumiem. Šie digitālie aktīvi ir piesaistīti stabilām valūtām, tādējādi izvairoties no lielām svārstībām, kā arī ļauj samazināt komisijas un atvieglot automatizētus norēķinus — tas viss palielina uzņēmuma konkurētspēju globālajā tirgū.
             </p>
       
           </div>
