@@ -15,6 +15,7 @@ const navItems = [
   { title: "Cenas svārstības", section: "cenas" },
   { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba" },
   { title: "Ieguldījumu riski", section: "riski" },
+  { title: "Turpmākā kursa saturs", section: "saturs" },
 ];
 
 const Kursi = () => {
@@ -22,7 +23,7 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="mb-8">
+         <div className="mb-8 mt-12">
     <SidebarNav items={navItems} />
   </div>
 
@@ -249,6 +250,27 @@ const Kursi = () => {
                  <p className="text-foreground leading-relaxed mb-4">
             Viens no būtiskākajiem ilgtermiņa riskiem, ar ko jārēķinās, ieguldot kriptovalūtās, ir iespēja, ka to vērtība var ievērojami samazināties vai pat pilnībā izzust. Pirmkārt, kriptovalūtu vērtība lielā mērā balstās uz lietotāju uzticēšanos — ja sabiedrība vairs neuzskatīs, ka Bitcoin vai kāda cita valūta ir labs vērtības uzkrājējs vai drošs instruments vērtības pārnešanai, 
                    tās cena var strauji krist. Otrkārt, pastāv tehnoloģiski riski: ja nākotnē, piemēram, kvantu datori spēs uzlauzt kriptogrāfiskos algoritmus, uz kuriem balstās lielākā daļa kriptovalūtu, tas var padarīt esošās sistēmas nedrošas un sagraut uzticību visai nozarei. Treškārt, ilgtermiņā kriptovalūtas var zaudēt vērtību arī tad, ja tām neizdosies iegūt plašu praktisku pielietojumu — ja tās netiks izmantotas reālās norēķinu, uzkrājumu vai finanšu inovāciju situācijās, to eksistence var zaudēt nozīmi. Šo iemeslu dēļ ieguldītājiem vienmēr jārēķinās ar iespēju, ka pat vispopulārāko kriptovalūtu cena ilgtermiņā var būtiski samazināties.
+              </p>
+            </div>
+          </div>
+          
+<div id="saturs" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Turpmākā kursa saturs
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-foreground leading-relaxed mb-4">
+                Tālākajā kursa saturā tu uzzināsi:
+              </p>
+               <ul className="list-disc pl-6">
+    <li>Kā vienkārši uzsākt ieguldīt kriptovalūtās</li>
+    <li>Kā izvēlēties, kurās kriptovalūtās ieguldīt</li>
+    <li>Kā glabāt kriptovalūtas</li>
+    <li>Kā un kur izveidot nepieciešamos kontus</li>
+    <li>Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</li>
+  </ul>
+<p className="text-foreground leading-relaxed mb-4">
+                Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
               </p>
             </div>
           </div>
