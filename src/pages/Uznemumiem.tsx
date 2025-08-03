@@ -13,7 +13,7 @@ const Uznemumiem = () => {
             Korporatīvās apmācības
           </h1>
           <p className="text-xl text-foreground leading-relaxed mb-8">
-            Atklājiet, kā mūsu apmācību programmas palīdz izveidot efektīvu kriptovūtu portfeli un izmantot kriptovalūtas kā norēķinu līdzekli ikdienas maksājumos.
+            Atklājiet, kā mūsu apmācību programmas palīdz izveidot efektīvu kriptovalūtu portfeli un izmantot kriptovalūtas kā norēķinu līdzekli ikdienas maksājumos. Apmācību ietvaros mēs gan nodrošināsim materiālus, gan paraugus, kā arī sniegsim praktiskas konsultācijas par kriptovalūtu pielietojumu jūsu biznesā.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
