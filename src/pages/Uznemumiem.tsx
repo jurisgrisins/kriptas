@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Building, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import uznemumiem from "@/assets/uznemumiem-background.jpg";
 
 const Uznemumiem = () => {
   return (
@@ -23,7 +24,7 @@ const Uznemumiem = () => {
           
           </div>
           <img
-  src="/assets/uznemumiem-background.jpg"
+  src={uznemumiem}
   alt="Kursu ilustrācija"
   className="w-full max-h-64 object-cover rounded-lg mb-8"
 />

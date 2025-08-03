@@ -4,6 +4,10 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-crypto.jpg";
+import anna from "@/assets/anna-kalnina.png";
+import maris from "@/assets/maris-zarins.png";
+import laura from "@/assets/laura-berzina.png";
+
 
 const Index = () => {
   return (
@@ -128,7 +132,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
          <Avatar className="h-[72px] w-[72px]">
   <img
-    src="/src/assets/anna-kalnina.png"
+    src={anna}
     alt="Anna Kalniņa"
     className="h-[72px] w-[72px] rounded-full object-cover"
   />
@@ -155,7 +159,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                      <Avatar className="h-[72px] w-[72px]">
   <img
-    src="/src/assets/maris-zarins.png"
+    src={maris}
     alt="Māris Zariņš"
     className="h-[72px] w-[72px] rounded-full object-cover"
   />
@@ -181,7 +185,7 @@ const Index = () => {
                 <div className="flex items-start gap-4">
                     <Avatar className="h-[72px] w-[72px]">
   <img
-    src="/src/assets/laura-berzina.png"
+    src={laura}
     alt="Laura Bērziņa"
     className="h-[72px] w-[72px] rounded-full object-cover"
   />

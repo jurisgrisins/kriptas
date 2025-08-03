@@ -4,6 +4,8 @@ import { SidebarNav } from "@/components/ui/sidebar-nav";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import Kursu from "@/assets/kursi-background.jpg";
+import Bitcoin from "@/assets/bitcoin-chart.png";
+
 
 const navItems = [
   { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
@@ -296,7 +298,7 @@ const Kursi = () => {
        </p>  
 
               <img
-  src="/src/assets/bitcoin-chart.png"
+  src={Bitcoin}
   alt="Bitcoin pieguldījumu atdeve"
   className="my-8 mx-auto max-w-full h-auto rounded-lg shadow"
 />
