@@ -132,7 +132,7 @@ const Kursi = () => {
 
             </div>
           </div>
-        </section>
+      
 
  <div id="dividendes" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
@@ -148,7 +148,7 @@ const Kursi = () => {
               </p>
             </div>
           </div>
-        </section>
+       
 
          <div id="atdeves" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
