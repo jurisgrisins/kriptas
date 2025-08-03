@@ -157,7 +157,7 @@ const Kursi = () => {
 
           <div id="inflacija" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
-              Inflācijas aizsardzības aspekts
+              Inflācijas aizsardzība
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
@@ -234,7 +234,7 @@ const Kursi = () => {
 
          <div id="atdeves" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
-              Vēsturiskā atdeve - nepārspējama 
+              Nepārspēama vēsturiskā atdeve
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
