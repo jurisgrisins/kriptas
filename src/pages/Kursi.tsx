@@ -23,7 +23,7 @@ const Kursi = () => {
     <BjorkLayout>
       <div className="flex gap-8">
         {/* Sidebar Navigation */}
-         <div className="mb-8 ml-6">
+         <div className="mb-8">
     <SidebarNav items={navItems} />
   </div>
 
@@ -284,7 +284,7 @@ const Kursi = () => {
               <span className="text-foreground">Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</span>
               </div>
 
-<p className="text-foreground leading-relaxed mb-4">
+<p className="text-foreground leading-relaxed mb-4 mt-8">
                 Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
               </p>
             </div>
@@ -296,23 +296,23 @@ const Kursi = () => {
         <section className="mb-24">
           <div className="border border-border rounded-lg p-8 text-center">
             <h2 className="text-2xl font-medium text-foreground mb-4">
-              Saņemiet Paziņojumus par Vietnes Atvēršanu
+              Uzzini primais
             </h2>
             <p className="text-muted-foreground mb-6">
-              Būsiet pirmie, kas uzzinās, kad mūsu vietne būs pilnībā pieejama ar visiem kursiem un pakalpojumiem.
+              Atstāj savu e-pastu, lai saņemtu paziņojumu, kad kursa materiāli būs pieejami
             </p>
             <div className="max-w-md mx-auto flex gap-2">
               <Input 
                 type="email" 
-                placeholder="Jūsu e-pasta adrese"
+                placeholder="Tava e-pasta adrese"
                 className="flex-1"
               />
-              <Button variant="default">
+              <Button variant="default" size="lg">
                 Pieteikties
               </Button>
             </div>
             <p className="text-xs text-muted-foreground mt-3">
-              Mēs netālosim jūsu e-pastu trešajām pusēm. Varat atteikties jebkurā laikā.
+              Dati tiek apstrādāti saskaņā ar Privātuma politiku
             </p>
           </div>
         </section>
