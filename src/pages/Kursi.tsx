@@ -10,8 +10,11 @@ const navItems = [
   { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
   { title: "Likviditāte 24/7", section: "likviditate" },
   { title: "Pilna kontrole pār ieguldījumu", section: "kontrole" },
-    { title: "Digitālās dividendes", section: "dividendes" },
-    { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves" },
+  { title: "Digitālās dividendes", section: "dividendes" },
+  { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves" },
+  { title: "Cenas svārstības", section: "cenas" },
+  { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba" },
+  { title: "Ieguldījumu riski", section: "riski" },
 ];
 
 const Kursi = () => {
@@ -173,9 +176,83 @@ const Kursi = () => {
                Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl trūkst pierādījumu. Investoriem ir jābūt 
   piesardzīgiem: Bitcoin nākotnes atdeves un riska profili var būtiski atšķirties no līdz šim novērotajiem. Portfeļa diversifikācija un pārdomāta riska vadība ir būtiska, ieguldot jebkurā jaununā vai strauji augošā aktīvu klasē.
   </p>
-  
 </div>
           </div>
+
+<div id="cenas" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Cenas svārstības
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-foreground leading-relaxed mb-4">
+               Viens no svarīgākajiem jēdzieniem, kas jāzina par Bitcoin un līdzīgiem ieguldījumiem, ir svārstīgums jeb volatilitāte. Tas nozīmē, cik strauji un cik lielā apmērā aktīva cena var pieaugt vai samazināties īsā laikā. Lielam svārstīgumam piemīt 
+                augstāks risks – cena var gan ātri pieaugt, gan ļoti strauji nokrist. Šādu aktīvu cena ir daudz neparedzamāka nekā, piemēram, akcijām vai nekustamajam īpašumam. Vēsturiski Bitcoin ir bijis ārkārtīgi svārstīgs – tā vērtība var dienās vai nedēļās gan dubultoties, gan pēkšņi sevi samazināt uz pusi. Lai gan pēdējos gados šī svārstība samazinās, arī šobrīd Bitcoin joprojām ir daudz nepastāvīgāks par tradicionālajiem finanšu aktīviem.
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+                Tomēr par šo risku ir saņemta arī atlīdzība: investori, kuri spējuši saglabāt mieru un neatbrīvoties no Bitcoin visos tirgus kāpumos un kritumos, līdz šim ir tikuši pie būtiski lielākas peļņas nekā tie, kas izvēlējās drošākus, mazāk svārstīgus ieguldījumus. Citiem vārdiem, tie, kas izturējuši lielās cenu svārstības un nav pārdevuši uz panikas viļņa, ilgtermiņā ir nopelnījuši daudz vairāk nekā tradicionālo aktīvu īpašnieki. 
+  Protams, šādas tendences nav garantētas arī nākotnē, taču līdz šim liela svārstība Bitcoin gadījumā ir nozīmējusi arī augstāku potenciālo atdevi – ja investors ir pacietīgs un gatavs izturēt "amerikāņu kalniņus".
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+                Bitcoin svārstīgums (volatilitāte) vēsturiski ir bijis 3,6 līdz 5,1 reizes augstāks nekā zeltam vai globālajiem akciju tirgiem (piem., S&P 500). 2015.–2021. gadā Bitcoin svārstīgums bieži pārsniedza 70–90%, kamēr zelta vai akciju indeksu tipiskā gada svārstība bija 10–20%. Pēdējos gados, īpaši kopš 2023. gada, Bitcoin volatilitāte ir būtiski samazinājusies. Šī tendence liecina, ka ar aktīva “briedumu” cena 
+  kļūst mazliet stabilāka, īpaši salīdzinot ar Bitcoin pirms 6–8 gadiem.un gatavs izturēt "amerikāņu kalniņus".
+              </p>
+              
+            </div>
+          </div>
+
+          <div id="vertiba" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Kas nosaka kriptovalūtu vērtību
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-foreground leading-relaxed mb-4">
+              Kriptovalūtu vērtību nosaka uzticēšanās, praktiska pielietojamība un to īpašības. Atšķirībā no tradicionālām valūtām vai zelta, kriptovalūtai nav fiziska seguma vai valdības garantijas — tās vērtība rodas no tā, kā cilvēki to izmanto un cik ļoti tai uzticas. Bitcoin, piemēram,
+                ir kļuvis par digitālo ekvivalentu zeltam – to sauc par “vērtības uzkrājēju”, jo cilvēki uzskata, ka tas labi saglabā vērtību ilgtermiņā. Tā vērtība izriet no tā, ka piedāvājums ir stingri ierobežots un neviens to nevar piepeši "pieprintēt" klāt kā daudzas nacionālās valūtas. Jo vairāk cilvēku tic un izmanto Bitcoin šādiem mērķiem, jo vērtīgāks tas kļūst.
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+               Citas kriptovalūtas kļūst vērtīgas galvenokārt ar savu praktisko pielietojumu. Piemēram, Ethereum ir platforma, kurā var veidot “viedos līgumus” jeb automatizētus darījumus, kas notiek bez cilvēku starpniecības. Dažādas kriptovalūtas tiek izmantotas spēlēs, 
+  mākslas un digitālo kolekcionējamu priekšmetu tirgošanai (“NFT”), kā arī DeFi lietotnēs — finanšu pakalpojumos, kas darbojas bez bankām.
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+              Viens ļoti praktisks piemērs, kur kriptovalūtas iegūst vērtību tieši no pielietojuma: valstīs ar nestabilu vai ļoti vāju vietējo naudu (piemēram, Venecuēla, Argentīna vai dažas Āfrikas valstis) cilvēki arvien biežāk lieto Bitcoin vai citas kriptovalūtas kā 
+  alternatīvu norēķiniem un līdzekļu glabāšanai, jo tās ir uzticamākas un vieglāk pārsūtāmas nekā vietējā valūta.
+              </p>
+              <p className="text-foreground leading-relaxed mb-4">
+              Stabilās kriptovalūtas jeb “stablecoins” (piemēram, USDT, USDC) tiek piesaistītas dolāram vai citai stabilai valūtai. To vērtība rodas no tā, ka tās ļauj ātri, lēti un droši pārskaitīt naudu starptautiski — pat uz valstīm vai reģioniem, kur starptautiskie banku pārskaitījumi ir dārgi, lēni vai sarežģīti. 
+                Piemēram, daudzi cilvēki izmanto stablecoinu, lai pārsūtītu naudu ģimenei uz citu pasaules malu, apietot banku nodevas un pārskaitījumu kavēšanos.
+              </p>
+              
+            </div>
+          </div>
+
+             <div id="riski" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Ieguldījumu riski
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-foreground leading-relaxed mb-4">
+            Ieguldot kriptovalūtās, viens no svarīgiem riskiem ir ļoti lielā cenu svārstība. Tas nozīmē, ka kriptovalūtu cena var īsā laikā gan strauji pieaugt, gan aiziet strauji lejup – dažkārt pat dienās vai nedēļās. 
+                Šādas svārstības rada risku, ka investors var zaudēt būtisku daļu savas ieguldītās naudas, ja jāpārdod kriptovalūta tieši tirgus krituma brīdī.
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+               Kriptovalūtu pasaulē ir ļoti daudz projektu, taču tikai neliela daļa no tiem patiesi ir dzīvotspējīgi vai ilgtspējīgi. Savu kriptovalūtu izveidot ir vienkārši un daudzi to ir izdarījuši (piemēram, tajā skaitā Donalds Tramps). Tomēr liela daļu šo valūtu ir bez jebkādas praktiskas funkcijas, bet drīzāk kalpo kā joks un spekulāciju avots  
+  (“memecoins”). Investoram, kas iegulda iltermiņā ir ļoti rūpīgi jāizvēlas kriptovalūta, lai tā nebūtu spekulatīva, bet ar praktisku jēgu un pielietojumu. 
+              </p>
+<p className="text-foreground leading-relaxed mb-4">
+              Kriptovalūtu nozare kopumā ir vēl ļoti jauna. Savukārt darījumi ar kriptovalūtām var būt diezgan sarežģiti, neērti vai tehniski komplicēti (tas gan strauji uzlabojas)  un tieši šī iemesla dēļ tajā ir plaši izplatīta krāpniecība un nenoteiktība. Turklāt, investoriem jāuzmanās arī no tā, ka var bankrotēt kriptovalūtas apmaiņas platforma vai serviss, kurā notiek darījumi ar monētām. 
+  Pašu digitālo valūtu tāpat jāglabā īpaši uzmanīgi neatkarīgi no tā vai nolemj glabāt to pats vai kādā trešās puses pakalpojuma piedāvātājā (par to plašāk vēlāk).
+              </p>
+              <p className="text-foreground leading-relaxed mb-4">
+             Pastāv arī juridiski un politiski riski – vairākas valstis, piemēram, Ķīna vai Alžīrija, kriptovalūtas ir pilnībā aizliegušas. Tikmēr ASV un Eiropa pašlaik ir pasaules līderi kriptovalūtu regulēšanā, veidojot arvien drošāku un skaidrāku juridisko bāzi, lai tās varētu kļūt par atzītu un tiesiski drošu ieguldījuma veidu. 
+                Tāpat investoriem jāņem vērā, ka izmaiņas valstu likumdošanā var būtiski ietekmēt, cik ērti un droši iespējams izmantot kriptovalūtas nākotnē.
+              </p>
+                 <p className="text-foreground leading-relaxed mb-4">
+            Viens no būtiskākajiem ilgtermiņa riskiem, ar ko jārēķinās, ieguldot kriptovalūtās, ir iespēja, ka to vērtība var ievērojami samazināties vai pat pilnībā izzust. Pirmkārt, kriptovalūtu vērtība lielā mērā balstās uz lietotāju uzticēšanos — ja sabiedrība vairs neuzskatīs, ka Bitcoin vai kāda cita valūta ir labs vērtības uzkrājējs vai drošs instruments vērtības pārnešanai, 
+                   tās cena var strauji krist. Otrkārt, pastāv tehnoloģiski riski: ja nākotnē, piemēram, kvantu datori spēs uzlauzt kriptogrāfiskos algoritmus, uz kuriem balstās lielākā daļa kriptovalūtu, tas var padarīt esošās sistēmas nedrošas un sagraut uzticību visai nozarei. Treškārt, ilgtermiņā kriptovalūtas var zaudēt vērtību arī tad, ja tām neizdosies iegūt plašu praktisku pielietojumu — ja tās netiks izmantotas reālās norēķinu, uzkrājumu vai finanšu inovāciju situācijās, to eksistence var zaudēt nozīmi. Šo iemeslu dēļ ieguldītājiem vienmēr jārēķinās ar iespēju, ka pat vispopulārāko kriptovalūtu cena ilgtermiņā var būtiski samazināties.
+              </p>
+            </div>
+          </div>
+          
         </section>
           
         {/* Email Subscription */}
