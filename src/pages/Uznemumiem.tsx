@@ -18,7 +18,7 @@ const Uznemumiem = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button variant="default" size="lg">
-              Pieteikties konsultācijai
+              Sarunāt tikšanos
             </Button>
           
           </div>
@@ -133,7 +133,7 @@ const Uznemumiem = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Pieteikties konsultācijai
+               Sarunāt tikšanos
                  </Button>
             </div>
           </div>
