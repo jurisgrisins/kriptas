@@ -3,6 +3,7 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 import { SidebarNav } from "@/components/ui/sidebar-nav";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
+import Kursu from "@/assets/kursi-background.jpg";
 
 const navItems = [
   { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
@@ -55,7 +56,7 @@ const Kursi = () => {
             </div>
 
 <img
-  src="/src/assets/kursi-background.jpg"
+  src={Kursu} 
   alt="Kursu ilustrācija"
   className="w-full max-h-64 object-cover rounded-lg mb-8"
 />
