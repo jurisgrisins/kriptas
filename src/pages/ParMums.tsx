@@ -128,7 +128,18 @@ const ParMums = () => {
                <p className="text-sm text-muted-foreground mb-1">LV-1011</p>
               <p className="text-sm text-muted-foreground">+371 2880 0880</p>
             </div>
-          
+           <div className="border border-white rounded-lg p-6">
+              <h4 className="font-medium text-foreground mb-2">Viļņa</h4>
+              <p className="text-sm text-muted-foreground mb-1">Smolensko 10 B</p>
+               <p className="text-sm text-muted-foreground mb-1">LT-03201</p>
+              <p className="text-sm text-muted-foreground">+370 6168 0880</p>
+            </div>
+             <div className="border border-white rounded-lg p-6">
+              <h4 className="font-medium text-foreground mb-2">Tallina</h4>
+              <p className="text-sm text-muted-foreground mb-1">Pärnu mnt. 137</p>
+               <p className="text-sm text-muted-foreground mb-1">EE11314</p>
+              <p className="text-sm text-muted-foreground">+372 5864 0880</p>
+            </div>
           </div>
           
          
