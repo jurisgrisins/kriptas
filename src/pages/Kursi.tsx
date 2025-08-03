@@ -289,15 +289,6 @@ const Kursi = () => {
                 Lai gan pēdējā gada atdeves ir bijušas iespaidīgas, jāņem vērā, ka vēsturiskie rezultāti negarantē līdzīgus panākumus nākotnē. Īpaši augstās ienesīguma likmes, kas novērotas pēdējā desmitgadē, ir tapušas laikā, kad gan globālā ekonomika, gan 
   finanšu tirgi kopumā piedzīvojuši izteiktu izaugsmi un investīcijām labvēlīgus apstākļus. Šādi rezultāti būtiski pārsniedz ilgtermiņa vidējos rādītājus un, mainoties ekonomiskajam ciklam, var nepiepildīties arī turpmāk.
        </p>  
-
-              <div className="rounded-lg overflow-hidden">
-            <img 
-  src={heroImage} 
-  alt="Kriptovalūtu investīcijas"
-  className="w-full h-64 object-cover object-bottom"
-/>
-            
-          </div>
                
 <p className="text-foreground leading-relaxed mb-4">
                Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl trūkst pierādījumu. Investoriem ir jābūt 
