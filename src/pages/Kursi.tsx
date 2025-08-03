@@ -26,10 +26,11 @@ const Kursi = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-            Kriptovalūtu Izglītības Kursi
+            Kā ieguldīt kriptovalūtās
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-            Apgūstiet kriptovalūtu un blokķēdes tehnoloģiju pamatus ar mūsu ekspertu vadītajiem kursiem.
+            Praktiska un viegli saprotama pieeja, kā droši sākt ieguldīt kriptovalūtās – izvairoties no riskantām spekulācijām un liekām komisijām. 
+            Šim kursam nav nepieciešamas iepriekšējas zināšanas par kriptovalūtām vai ieguldīšanu — viss tiek izskaidrots vienkārši, saprotami un piemērots arī pilnīgiem iesācējiem.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -48,33 +49,44 @@ const Kursi = () => {
             Ievads: Kapēc ieguldīt kriptovalūtās
           </h2>
           <div className="prose prose-lg max-w-none mb-12">
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Kriptovalūtas pēdējos gados ir kļuvušas par vienu no nozīmīgākajiem finanšu instrumentiem, 
-              piedāvājot investoriem unikālas iespējas diversificēt portfeli un aizsargāties pret tradicionālo 
-              finanšu sistēmu riskiem.
+            <p className="text-foreground leading-relaxed mb-4">
+              Šajā ievadsadaļā mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Šajā kursā mēs aplūkosim galvenos iemeslus, kāpēc kriptovalūtas var būt vērtīga 
-              papildinājums jūsu investīciju portfelim, sākot no diversifikācijas līdz inflācijas aizsardzībai.
-            </p>
+      
           </div>
 
+    <div id="diversifikacija" className="mb-12">
+            <h3 className="text-2xl font-medium text-foreground mb-6">
+              Kriptovalūtu evolūcija no eksperimenta uz nopietnu aktīvu klasi
+            </h3>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-foreground leading-relaxed mb-4">
+                Pēdējo gadu laikā kriptovalūtas ir piedzīvojušas dramatisku transformāciju no tehnoloģiska eksperimenta uz nopietnu ieguldījumu instrumentu, kas ieguvusi plašu atzinību no vadošajiem finanšu institūtiem un regulatoriem. Šo pārmaiņu apliecina fakts, 
+                ka tādi finanšu nozares globāli līderi kā BlackRock tagad piedāvā kriptovalūtu ieguldījumu produktus – būtisks pavērsiens, ņemot vērā šo kompāniju iepriekšējo piesardzību.
+              </p>
+              <p className="text-foreground leading-relaxed mb-4">
+           Savukārt 2024. gadā ASV atļāva veidot Bitcoin indeksu fondus, padarot šo aktīvu vēl vieglāk pieejamu gan privātiem, gan institucionālajiem investoriem. Arī Eiropā arvien vairāk finanšu pakalpojumu sniedzēju, ievieš un paplašina digitālo aktīvu investīciju produktus, atbildot uz pieaugošo investoru interesi. 
+                Šie notikumi skaidri demonstrē, ka kriptovalūtas vairs netiek uzskatītas tikai par spekulatīvu instrumentu, bet kļūst par pilntiesīgu aktīvu klasi institucionālo un privāto investoru vi
+              </p>
+      
+            </div>
+          </div>
+          
           <div id="diversifikacija" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
               Bitcoin lieliskai diversifikācijai
             </h3>
             <div className="prose prose-lg max-w-none">
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Bitcoin kā digitālais zelts piedāvā unikālu iespēju diversificēt investīciju portfeli 
-                ar aktīvu, kas darbojas neatkarīgi no tradicionālajiem finanšu tirgiem.
+              <p className="text-foreground leading-relaxed mb-4">
+                Veiksmīgam ieguldījumu portfelim ir svarīgi iekļaut dažādus aktīvus, kuri uzvedas atšķirīgi dažādos tirgus apstākļos. Šo dažādību sauc par diversifikāciju, un tās mērķis ir samazināt kopējo risku. Šeit svarīga loma ir korelācijai — tā parāda, cik līdzīgi vai atšķirīgi divu aktīvu cenas mainās vienlaikus. Ja korelācija ir tuvu vienam, šo aktīvu vērtība visbiežāk mainās vienā virzienā. 
+                Ja korelācija ir nulle vai tuvu nullei, šo aktīvu cenas savstarpēji praktiski nav saistītas. Negatīva korelācija nozīmē, ka viena aktīva cena bieži aug tad, kad otra krīt, un otrādi.
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Pētījumi rāda, ka Bitcoin korelācija ar akciju tirgiem ir relatīvi zema, 
-                kas to padara par efektīvu diversifikācijas rīku, īpaši ekonomiskās nenoteiktības periodos.
+              <p className="text-foreground leading-relaxed mb-4">
+           Piemēram, Bitcoin ilgtermiņā salīdzinot  ar tradicionāliem aktīviem, piemēram, akcijām vai obligācijām, ir bijusi zema korelācija. Tas nozīmē, ka, pievienojot Bitcoin portfelim, ir iespējams labāk izkliedēt riskus — kad vienas aktīvu klases cena krīt, citas to var kompensēt. Tieši tāpēc daudzi investori izvēlas ieguldīt vairākās atšķirīgās aktīvu klasēs — akcijās, 
+                obligācijās, nekustamajā īpašumā, zeltā, kriptovalūtās, u.c. — lai ieguldījumu portfelis būtu drošāks un stabilāks ilgtermiņā.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Iekļaujot nelielu Bitcoin daļu (5-10%) portfelī, investori var potenciāli 
-                uzlabot kopējo risku-ienesīguma attiecību.
+              <p className="text-foreground leading-relaxed">
+             Finanšu investīciju kompānija Blackrock ir veikusi pētījumu, kura rezultātā ir identificējusi, ka pēdējo 10 gadu griezumā Bitcoin cenai ir bijusi ļoti zema korelācija ar tradicionāliem ieguldījumu aktīviem, tajā skaitā akcijām: 
               </p>
             </div>
           </div>
