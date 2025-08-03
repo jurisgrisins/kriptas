@@ -25,8 +25,8 @@ const Index = () => {
   </Button>
 </Link>
             <Link to="/par-mums">
-  <Button variant="default" size="lg">
-    Apskatīt kursu
+  <Button variant="outline" size="lg">
+    Par mums
   </Button>
 </Link>
             </div>
