@@ -46,8 +46,15 @@ const Kursi = () => {
             <Button variant="outline" size="lg">
               Lejupielādēt Programmu
             </Button>
+
+            
             </div>
 
+<img
+  src="/hero-kursi.png"
+  alt="Kursa ilustrācija"
+  className="w-full max-h-96 object-cover rounded-lg mb-8"
+/>
 
         </section>
 
