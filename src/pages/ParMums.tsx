@@ -76,7 +76,7 @@ const ParMums = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium text-foreground mb-3">
-                    Nozares veicināšanas
+                    Nozares atbalsts
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem vēlamies
@@ -97,58 +97,37 @@ const ParMums = () => {
             <div className="border border-border rounded-lg p-6">
               <div className="mb-4">
                 <h3 className="text-lg font-medium text-foreground mb-1">
-                  Jānis Bērziņš
+                  Juris Grišins
                 </h3>
                 <p className="text-sm text-primary">Izpilddirektors</p>
               </div>
               <p className="text-muted-foreground text-sm">
-                15 gadu pieredze investīciju pārvaldībā un fintech sektorā. 
-                Iepriekš vadījis digitālo aktīvu stratēģiju Skandināvijas bankā.
+                20 gadu pieredze korporatīvo darījumu konsultācijās, investīciju pārvaldībā un finansēs. Investīciju un finanšu uzņēmuma Capitalia vadītājs. 
               </p>
             </div>
             
-            <div className="border border-border rounded-lg p-6">
-              <div className="mb-4">
-                <h3 className="text-lg font-medium text-foreground mb-1">
-                  Anna Liepiņa
-                </h3>
-                <p className="text-sm text-primary">Tehnoloģiju direktore</p>
-              </div>
-              <p className="text-muted-foreground text-sm">
-                Blockchain tehnoloģiju eksperte ar doktora grādu datorzinātnēs. 
-                Iepriekšējā pieredze Goldman Sachs digitālo aktīvu nodaļā.
-              </p>
-            </div>
+            
           </div>
         </section>
 
         {/* Contact */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
-            Sazināties ar Mums
+            Sazināties
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="border border-border rounded-lg p-6">
               <h4 className="font-medium text-foreground mb-2">Rīga</h4>
-              <p className="text-sm text-muted-foreground mb-1">Finanšu Centrs</p>
-              <p className="text-sm text-muted-foreground">+371 2000 0000</p>
+              <p className="text-sm text-muted-foreground mb-1">Stabu 20-1</p>
+              <p className="text-sm text-muted-foreground">+371 2880 0880</p>
             </div>
-            <div className="border border-border rounded-lg p-6">
-              <h4 className="font-medium text-foreground mb-2">Londona</h4>
-              <p className="text-sm text-muted-foreground mb-1">Canary Wharf</p>
-              <p className="text-sm text-muted-foreground">+44 20 7946 0958</p>
-            </div>
-            <div className="border border-border rounded-lg p-6">
-              <h4 className="font-medium text-foreground mb-2">Singapūra</h4>
-              <p className="text-sm text-muted-foreground mb-1">Marina Bay</p>
-              <p className="text-sm text-muted-foreground">+65 6234 5678</p>
-            </div>
+          
           </div>
           
-          <div className="text-center">
+          <div>
             <Button variant="default" size="lg">
-              Pieteikt Tikšanos
+              Sarunāt tikšanos
             </Button>
           </div>
         </section>
