@@ -235,7 +235,7 @@ const Kursi = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
                 Kriptovalūtu ieguldījumu galvenais pievilcības faktors ir ļoti augstā vēsturiskā atdeve, kas pārspēj visus citus aktīvu veidus. 
-                Bitcoin ir bijis labākais ieguldījumu aktīvs pēdējā dekādē, sniedzot 10 reizes lielāku atdevi nekā ieguldījums ASV tehnoloģiju uzņēmumu indeksā Nasdaq 100. Piemēram, pēdējos 10 gados vidēji Bitcoin vērtība ir pieaugusi par 83% gadā. 
+                Bitcoin ir bijis labākais ieguldījumu aktīvs pēdējā dekādē, sniedzot <span className="font-bold text-primary">10 reizes lielāku atdevi</span> nekā ieguldījums ASV tehnoloģiju uzņēmumu indeksā Nasdaq 100. Piemēram, pēdējos 10 gados vidēji Bitcoin vērtība ir pieaugusi par 83% gadā. 
               </p>
 <table className="min-w-full border mt-8 mb-8 text-left">
   <thead>
@@ -286,7 +286,7 @@ const Kursi = () => {
        </p>      
         
 <p className="text-foreground leading-relaxed mb-4">
-                Lai gan pēdējā gada atdeves ir bijušas iespaidīgas, jāņem vērā, ka vēsturiskie rezultāti negarantē līdzīgus panākumus nākotnē. Īpaši augstās ienesīguma likmes, kas novērotas pēdējā desmitgadē, ir tapušas laikā, kad gan globālā ekonomika, gan 
+                Lai gan pēdējā gada atdeves ir bijušas iespaidīgas, jāņem vērā, ka vēsturiskie rezultāti <span className="font-bold text-primary">negarantē</span> līdzīgus panākumus nākotnē. Īpaši augstās ienesīguma likmes, kas novērotas pēdējā desmitgadē, ir tapušas laikā, kad gan globālā ekonomika, gan 
   finanšu tirgi kopumā piedzīvojuši izteiktu izaugsmi un investīcijām labvēlīgus apstākļus. Šādi rezultāti būtiski pārsniedz ilgtermiņa vidējos rādītājus un, mainoties ekonomiskajam ciklam, var nepiepildīties arī turpmāk.
        </p>  
 
@@ -298,7 +298,7 @@ const Kursi = () => {
 
                
 <p className="text-foreground leading-relaxed mb-4">
-               Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl trūkst pierādījumu. Investoriem ir jābūt 
+               Jāuzsver arī, ka Bitcoin ir ļoti jauna aktīvu klase – tās vēsture ilgst tikai nedaudz vairāk kā desmit gadus, un par tās uzvedību ilgtermiņā, īpaši recesiju vai lielu finanšu krīžu apstākļos, vēl <span className="font-bold text-primary">trūkst pierādījumu</span>. Investoriem ir jābūt 
   piesardzīgiem: Bitcoin nākotnes atdeves un riska profili var būtiski atšķirties no līdz šim novērotajiem. Portfeļa diversifikācija un pārdomāta riska vadība ir būtiska, ieguldot jebkurā jaununā vai strauji augošā aktīvu klasē.
   </p>
 </div>
@@ -311,7 +311,7 @@ const Kursi = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
                Viens no svarīgākajiem jēdzieniem, kas jāzina par Bitcoin un līdzīgiem ieguldījumiem, ir svārstīgums jeb volatilitāte. Tas nozīmē, cik strauji un cik lielā apmērā aktīva cena var pieaugt vai samazināties īsā laikā. Lielam svārstīgumam piemīt 
-                augstāks risks – cena var gan ātri pieaugt, gan ļoti strauji nokrist. Šādu aktīvu cena ir daudz neparedzamāka nekā, piemēram, akcijām vai nekustamajam īpašumam. Vēsturiski Bitcoin ir bijis ārkārtīgi svārstīgs – tā vērtība var dienās vai nedēļās gan dubultoties, gan pēkšņi sevi samazināt uz pusi. Lai gan pēdējos gados šī svārstība samazinās, arī šobrīd Bitcoin joprojām ir daudz nepastāvīgāks par tradicionālajiem finanšu aktīviem.
+                augstāks risks – cena var gan ātri pieaugt, gan ļoti strauji nokrist. Šādu aktīvu cena ir daudz neparedzamāka nekā, piemēram, akcijām vai nekustamajam īpašumam. Vēsturiski Bitcoin ir bijis ārkārtīgi svārstīgs – tā vērtība var dienās vai nedēļās gan dubultoties, gan pēkšņi sevi samazināt uz pusi. Lai gan pēdējos gados šī <span className="font-bold text-primary">svārstība samazinās</span>, arī šobrīd Bitcoin joprojām ir daudz nepastāvīgāks par tradicionālajiem finanšu aktīviem.
               </p>
 <p className="text-foreground leading-relaxed mb-4">
                 Tomēr par šo risku ir saņemta arī atlīdzība: investori, kuri spējuši saglabāt mieru un neatbrīvoties no Bitcoin visos tirgus kāpumos un kritumos, līdz šim ir tikuši pie būtiski lielākas peļņas nekā tie, kas izvēlējās drošākus, mazāk svārstīgus ieguldījumus. Citiem vārdiem, tie, kas izturējuši lielās cenu svārstības un nav pārdevuši uz panikas viļņa, ilgtermiņā ir nopelnījuši daudz vairāk nekā tradicionālo aktīvu īpašnieki. 
@@ -366,7 +366,7 @@ const Kursi = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
               Kriptovalūtu vērtību nosaka uzticēšanās, praktiska pielietojamība un to īpašības. Atšķirībā no tradicionālām valūtām vai zelta, kriptovalūtai nav fiziska seguma vai valdības garantijas — tās vērtība rodas no tā, kā cilvēki to izmanto un cik ļoti tai uzticas. Bitcoin, piemēram,
-                ir kļuvis par digitālo ekvivalentu zeltam – to sauc par “vērtības uzkrājēju”, jo cilvēki uzskata, ka tas labi saglabā vērtību ilgtermiņā. Tā vērtība izriet no tā, ka piedāvājums ir stingri ierobežots un neviens to nevar piepeši "pieprintēt" klāt kā daudzas nacionālās valūtas. Jo vairāk cilvēku tic un izmanto Bitcoin šādiem mērķiem, jo vērtīgāks tas kļūst.
+                ir kļuvis par digitālo ekvivalentu zeltam – to sauc par “vērtības uzkrājēju”, jo cilvēki uzskata, ka tas labi saglabā vērtību ilgtermiņā. Tā vērtība izriet no tā, ka piedāvājums ir stingri ierobežots un neviens to <span className="font-bold text-primary">nevar piepeši "pieprintēt"</span> klāt kā daudzas nacionālās valūtas. Jo vairāk cilvēku tic un izmanto Bitcoin šādiem mērķiem, jo vērtīgāks tas kļūst.
               </p>
 <p className="text-foreground leading-relaxed mb-4">
                Citas kriptovalūtas kļūst vērtīgas galvenokārt ar savu praktisko pielietojumu. Piemēram, Ethereum ir platforma, kurā var veidot “viedos līgumus” jeb automatizētus darījumus, kas notiek bez cilvēku starpniecības. Dažādas kriptovalūtas tiek izmantotas spēlēs, 
@@ -377,7 +377,7 @@ const Kursi = () => {
   alternatīvu norēķiniem un līdzekļu glabāšanai, jo tās ir uzticamākas un vieglāk pārsūtāmas nekā vietējā valūta.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-              Stabilās kriptovalūtas jeb “stablecoins” (piemēram, USDT, USDC) tiek piesaistītas dolāram vai citai stabilai valūtai. To vērtība rodas no tā, ka tās ļauj ātri, lēti un droši pārskaitīt naudu starptautiski — pat uz valstīm vai reģioniem, kur starptautiskie banku pārskaitījumi ir dārgi, lēni vai sarežģīti. 
+              Stabilās kriptovalūtas jeb “stablecoins” (piemēram, USDT, USDC) tiek piesaistītas dolāram vai citai stabilai valūtai. To vērtība rodas no tā, ka tās ļauj ātri, lēti un droši <span className="font-bold text-primary">pārskaitīt naudu starptautiski</span> — pat uz valstīm vai reģioniem, kur starptautiskie banku pārskaitījumi ir dārgi, lēni vai sarežģīti. 
                 Piemēram, daudzi cilvēki izmanto stablecoinu, lai pārsūtītu naudu ģimenei uz citu pasaules malu, apietot banku nodevas un pārskaitījumu kavēšanos.
               </p>
               
@@ -390,15 +390,15 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-            Ieguldot kriptovalūtās, viens no svarīgiem riskiem ir ļoti lielā cenu svārstība. Tas nozīmē, ka kriptovalūtu cena var īsā laikā gan strauji pieaugt, gan aiziet strauji lejup – dažkārt pat dienās vai nedēļās. 
+            Ieguldot kriptovalūtās, viens no svarīgiem riskiem ir ļoti lielā <span className="font-bold text-primary">cenu svārstība</span>. Tas nozīmē, ka kriptovalūtu cena var īsā laikā gan strauji pieaugt, gan aiziet strauji lejup – dažkārt pat dienās vai nedēļās. 
                 Šādas svārstības rada risku, ka investors var zaudēt būtisku daļu savas ieguldītās naudas, ja jāpārdod kriptovalūta tieši tirgus krituma brīdī.
               </p>
 <p className="text-foreground leading-relaxed mb-4">
                Kriptovalūtu pasaulē ir ļoti daudz projektu, taču tikai neliela daļa no tiem patiesi ir dzīvotspējīgi vai ilgtspējīgi. Savu kriptovalūtu izveidot ir vienkārši un daudzi to ir izdarījuši (piemēram, tajā skaitā Donalds Tramps). Tomēr liela daļu šo valūtu ir bez jebkādas praktiskas funkcijas, bet drīzāk kalpo kā joks un spekulāciju avots  
-  (“memecoins”). Investoram, kas iegulda iltermiņā ir ļoti rūpīgi jāizvēlas kriptovalūta, lai tā nebūtu spekulatīva, bet ar praktisku jēgu un pielietojumu. 
+  (“memecoins”). Investoram, kas iegulda iltermiņā ir ļoti rūpīgi jāizvēlas kriptovalūta, lai tā nebūtu spekulatīva, bet ar <span className="font-bold text-primary">praktisku pielietojumu</span>. 
               </p>
 <p className="text-foreground leading-relaxed mb-4">
-              Kriptovalūtu nozare kopumā ir vēl ļoti jauna. Savukārt darījumi ar kriptovalūtām var būt diezgan sarežģiti, neērti vai tehniski komplicēti (tas gan strauji uzlabojas)  un tieši šī iemesla dēļ tajā ir plaši izplatīta krāpniecība un nenoteiktība. Turklāt, investoriem jāuzmanās arī no tā, ka var bankrotēt kriptovalūtas apmaiņas platforma vai serviss, kurā notiek darījumi ar monētām. 
+              Kriptovalūtu nozare kopumā ir vēl ļoti jauna. Savukārt darījumi ar kriptovalūtām var būt diezgan sarežģiti, neērti vai tehniski komplicēti (tas gan strauji uzlabojas)  un tieši šī iemesla dēļ tajā ir plaši izplatīta <span className="font-bold text-primary">krāpniecība un nenoteiktība</span>. Turklāt, investoriem jāuzmanās arī no tā, ka var bankrotēt kriptovalūtas apmaiņas platforma vai serviss, kurā notiek darījumi ar monētām. 
   Pašu digitālo valūtu tāpat jāglabā īpaši uzmanīgi neatkarīgi no tā vai nolemj glabāt to pats vai kādā trešās puses pakalpojuma piedāvātājā (par to plašāk vēlāk).
               </p>
               <p className="text-foreground leading-relaxed mb-4">
@@ -431,7 +431,7 @@ const Kursi = () => {
               </div>
               <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Kā glabāt kriptovalūta</span>
+              <span className="text-foreground">Kā glabāt kriptovalūtu</span>
               </div>
               <div className="flex items-center space-x-2 ml-6">
               <div className="w-2 h-2 bg-primary rounded-full"></div>
