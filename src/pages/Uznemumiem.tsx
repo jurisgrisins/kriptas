@@ -22,6 +22,11 @@ const Uznemumiem = () => {
             </Button>
           
           </div>
+          <img
+  src="/src/assets/kursi-background.jpg"
+  alt="Kursu ilustrācija"
+  className="w-full max-h-64 object-cover rounded-lg mb-8"
+/>
         </section>
 
  {/* Services Preview */}
