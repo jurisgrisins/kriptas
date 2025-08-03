@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import Kursu from "@/assets/kursi-background.jpg";
 import Bitcoin from "@/assets/bitcoin-chart.png";
-
+import programma from "@/assets/kursa-programma.pdf";
 
 const navItems = [
   { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
@@ -48,7 +48,7 @@ const Kursi = () => {
     Pieteikties kursam
   </Button>
 </a>
-           <a href="/src/assets/kursa-programma.pdf" download>
+           <a href={programma} download>
   <Button variant="outline" size="lg">
     Lejupielādēt kursa saturu
   </Button>

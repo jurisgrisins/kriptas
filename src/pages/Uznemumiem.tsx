@@ -3,6 +3,10 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 import { Building, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import uznemumiem from "@/assets/uznemumiem-background.jpg";
+import capitalia from "@/assets/capitalia-logo.png";
+import kraken from "@/assets/kraken-logo.png";
+import bitgo from "@/assets/bitgo-logo.png";
+import safe from "@/assets/safe-logo.png";
 
 const Uznemumiem = () => {
   return (
@@ -113,10 +117,10 @@ const Uznemumiem = () => {
           
  <div className="max-w-4xl mx-auto px-8">
   <div className="flex flex-row items-center justify-between gap-8 my-8">
-  <img src="/src/assets/capitalia-logo.png" alt="Capitalia" className="h-12 max-w-[200px] object-contain" />
-  <img src="/src/assets/kraken-logo.png" alt="Kraken" className="h-12 max-w-[160px] object-contain" />
-  <img src="/src/assets/bitgo-logo.png" alt="Bitgo" className="h-12 max-w-[160px] object-contain" />
-  <img src="/src/assets/safe-logo.png" alt="Safe.global" className="h-12 max-w-[140px] object-contain" />
+  <img src={capitalia} alt="Capitalia" className="h-12 max-w-[200px] object-contain" />
+  <img src={kraken} alt="Kraken" className="h-12 max-w-[160px] object-contain" />
+  <img src={bitgo} alt="Bitgo" className="h-12 max-w-[160px] object-contain" />
+  <img src={safe} alt="Safe.global" className="h-12 max-w-[140px] object-contain" />
 </div>
    </div>
 

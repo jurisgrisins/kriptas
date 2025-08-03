@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Award, Shield, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import mes from "@/assets/mes-background.jpg";
 
 const ParMums = () => {
   return (
@@ -28,7 +29,7 @@ const ParMums = () => {
           </div>
 
             <img
-  src="/src/assets/mes-background.jpg"
+  src={mes}
   alt="Kursu ilustrācija"
   className="w-full max-h-64 object-cover rounded-lg mb-8"
 />
@@ -121,7 +122,7 @@ const ParMums = () => {
           </h2>
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="border border-border rounded-lg p-6">
+            <div className="border border-white rounded-lg p-6">
               <h4 className="font-medium text-foreground mb-2">Rīga</h4>
               <p className="text-sm text-muted-foreground mb-1">Stabu 20-1</p>
                <p className="text-sm text-muted-foreground mb-1">LV-1011</p>
