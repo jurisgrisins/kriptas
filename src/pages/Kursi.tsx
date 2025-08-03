@@ -285,7 +285,7 @@ const Kursi = () => {
 
               <img
   src="/src/assets/bitcoin-chart.png"
-  alt="Bitcoin price volatility chart"
+  alt="Bitcoin pieguldījumu atdeve"
   className="my-8 mx-auto max-w-full h-auto rounded-lg shadow"
 />
 
