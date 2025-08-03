@@ -29,6 +29,8 @@ const Index = () => {
     Apskatīt kursu
   </Button>
 </Link>
+            </div>
+          
           
           <div className="rounded-lg overflow-hidden">
             <img 
