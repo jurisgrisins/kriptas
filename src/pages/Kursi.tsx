@@ -51,8 +51,8 @@ const Kursi = () => {
             </div>
 
 <img
-  src="/hero-kursi.png"
-  alt="Kursa ilustrācija"
+  src="/src/assets/kursi-background.png"
+  alt="Kursu ilustrācija"
   className="w-full max-h-96 object-cover rounded-lg mb-8"
 />
 
