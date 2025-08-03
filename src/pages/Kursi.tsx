@@ -77,11 +77,11 @@ const Kursi = () => {
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
                 Pēdējo gadu laikā kriptovalūtas ir piedzīvojušas dramatisku transformāciju no tehnoloģiska eksperimenta uz nopietnu ieguldījumu instrumentu, kas ieguvusi plašu atzinību no vadošajiem finanšu institūtiem un regulatoriem. Šo pārmaiņu apliecina fakts, 
-                ka tādi finanšu nozares globāli līderi kā BlackRock tagad piedāvā kriptovalūtu ieguldījumu produktus – būtisks pavērsiens, ņemot vērā šo kompāniju iepriekšējo piesardzību.
+                ka tādi finanšu nozares globāli līderi kā BlackRock tagad piedāvā <span className="font-bold text-primary">kriptovalūtu ieguldījumu produktus </span> – būtisks pavērsiens, ņemot vērā šo kompāniju iepriekšējo piesardzību.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
            Savukārt 2024. gadā ASV atļāva veidot Bitcoin indeksu fondus, padarot šo aktīvu vēl vieglāk pieejamu gan privātiem, gan institucionālajiem investoriem. Arī Eiropā arvien vairāk finanšu pakalpojumu sniedzēju, ievieš un paplašina digitālo aktīvu investīciju produktus, atbildot uz pieaugošo investoru interesi. 
-                Šie notikumi skaidri demonstrē, ka kriptovalūtas vairs netiek uzskatītas tikai par spekulatīvu instrumentu, bet kļūst par pilntiesīgu aktīvu klasi institucionālo un privāto investoru vidē              
+                Šie notikumi skaidri demonstrē, ka kriptovalūtas vairs netiek uzskatītas tikai par spekulatīvu instrumentu, bet kļūst par pilntiesīgu aktīvu klasi institucionālo un privāto investoru vidē.             
               </p>
       
             </div>
@@ -93,7 +93,7 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-                Veiksmīgam ieguldījumu portfelim ir svarīgi iekļaut dažādus aktīvus, kuri uzvedas atšķirīgi dažādos tirgus apstākļos. Šo dažādību sauc par diversifikāciju, un tās mērķis ir samazināt kopējo risku. Šeit svarīga loma ir korelācijai — tā parāda, cik līdzīgi vai atšķirīgi divu aktīvu cenas mainās vienlaikus. Ja korelācija ir tuvu vienam, šo aktīvu vērtība visbiežāk mainās vienā virzienā. 
+                Veiksmīgam ieguldījumu portfelim ir svarīgi iekļaut dažādus aktīvus, kuri uzvedas <span className="font-bold text-primary">atšķirīgi dažādos tirgus apstākļos</span>. Šo dažādību sauc par diversifikāciju, un tās mērķis ir samazināt kopējo risku. Šeit svarīga loma ir korelācijai — tā parāda, cik līdzīgi vai atšķirīgi divu aktīvu cenas mainās vienlaikus. Ja korelācija ir tuvu vienam, šo aktīvu vērtība visbiežāk mainās vienā virzienā. 
                 Ja korelācija ir nulle vai tuvu nullei, šo aktīvu cenas savstarpēji praktiski nav saistītas. Negatīva korelācija nozīmē, ka viena aktīva cena bieži aug tad, kad otra krīt, un otrādi.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
@@ -146,7 +146,7 @@ const Kursi = () => {
 </table>
 
                   <p className="text-foreground leading-relaxed">
-             Savukārt 2025. gadā Bitcoin cenas korelācija ar S&P 500 ir sasniegusi nulli, t.i., Bitcoin ir bijis pilnīgi neatkarīgs no akciju tirgus kustībām. Tas vēl vairāk pastiprina digitālo aktīvu lomu kā efektīvu diversifikācijas instrumentu, jo palīdz samazināt kopējo portfeļa risku arī strauju tirgus svārstību laikā.
+             Savukārt 2025. gadā Bitcoin cenas korelācija ar S&P 500 ir sasniegusi nulli, t.i., Bitcoin ir bijis <span className="font-bold text-primary">pilnīgi neatkarīgs no akciju tirgus kustībām</span>. Tas vēl vairāk pastiprina digitālo aktīvu lomu kā efektīvu diversifikācijas instrumentu, jo palīdz samazināt kopējo portfeļa risku arī strauju tirgus svārstību laikā.
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-                Bitcoin tiek bieži dēvēts par “digitālo zeltu” un ir kļuvis par vienu no populārākajiem instrumentiem inflācijas riska mazināšanai. Tā galvenā priekšrocība ir stingri ierobežotais piedāvājums – kopā tiks izveidoti tikai 21 miljons Bitcoin. Atšķirībā no tradicionālām valūtām, ko centrālās bankas var emitēt neierobežotā daudzumā, Bitcoin nav pakļauts politiskai vai monetārai manipulācijai. Tas nozīmē, ka, laikā, kad ar inflāciju saistītas valūtas vērtība krītas, Bitcoin vērtība ilgtermiņā mēdz saglabāties vai pat pieaugt. 
+                Bitcoin tiek bieži dēvēts par <span className="font-bold text-primary">“digitālo zeltu”</span> un ir kļuvis par vienu no populārākajiem instrumentiem inflācijas riska mazināšanai. Tā galvenā priekšrocība ir stingri ierobežotais piedāvājums – kopā tiks izveidoti tikai 21 miljons Bitcoin. Atšķirībā no tradicionālām valūtām, ko centrālās bankas var emitēt neierobežotā daudzumā, Bitcoin nav pakļauts politiskai vai monetārai manipulācijai. Tas nozīmē, ka, laikā, kad ar inflāciju saistītas valūtas vērtība krītas, Bitcoin vērtība ilgtermiņā mēdz saglabāties vai pat pieaugt. 
                 Vēsturiskie dati rāda, ka Bitcoin atdeve krietni pārsniedz inflācijas līmeni, ļaujot investoriem gan saglabāt, gan palielināt savu pirktspēju pat ekonomiskās nenoteiktības apstākļos.
               </p>
             </div>
@@ -169,7 +169,7 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-                Ieguldījumi kriptovalūtās izceļas ar izcilu likviditāti (spēju pārvērst ieguldījumu naudā), kas nodrošina investoriem iespēju brīvi pirkt vai pārdot savus aktīvus jebkurā diennakts laikā, neatkarīgi no nedēļas dienas vai svētkiem. Šāda nepārtraukta piekļuve tirgum ir iespējama, pateicoties blokķēdes tehnoloģijai, kas ļauj veikt darījumus tieši starp lietotājiem, apejot tradicionālo finanšu starpniekus, piemēram, bankas vai brokerus. Tas nozīmē, ka investors var ātri un efektīvi reaģēt uz cenu izmaiņām vai neparedzētām finanšu vajadzībām, vienmēr saglabājot iespēju pārvērst savus digitālos aktīvus naudā vai citā kriptovalūtā. 
+                Ieguldījumi kriptovalūtās izceļas ar izcilu likviditāti (spēju pārvērst ieguldījumu naudā), kas nodrošina investoriem iespēju brīvi pirkt vai pārdot savus aktīvus <span className="font-bold text-primary">jebkurā diennakts laikā</span>, neatkarīgi no nedēļas dienas vai svētkiem. Šāda nepārtraukta piekļuve tirgum ir iespējama, pateicoties blokķēdes tehnoloģijai, kas ļauj veikt darījumus tieši starp lietotājiem, apejot tradicionālo finanšu starpniekus, piemēram, bankas vai brokerus. Tas nozīmē, ka investors var ātri un efektīvi reaģēt uz cenu izmaiņām vai neparedzētām finanšu vajadzībām, vienmēr saglabājot iespēju pārvērst savus digitālos aktīvus naudā vai citā kriptovalūtā. 
                 Tādējādi kriptovalūtas piedāvā būtisku priekšrocību salīdzinājumā ar tradicionālām investīciju iespējām, kuru tirgi ir atvērti tikai noteiktos laikos un kuru darījumi var aizņemt vairākas dienas.
               </p>
             </div>
@@ -181,7 +181,7 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-                Ieguldot kriptovalūtās, jūs varat pilnībā kontrolēt savus aktīvus bez jebkādiem starpniekiem. Tas nozīmē, ka kriptovalūtas iespējams glabāt savā personīgajā makā, un tikai jūs izlemjat, kad un kā ar tām rīkoties. Atšķirībā no tradicionālajiem ieguldījumiem, kur akcijas vai nauda bieži atrodas pie bankām vai brokeriem, kriptovalūtās kontrole pieder tieši jums – neviens nevar iesaldēt jūsu līdzekļus vai ierobežot piekļuvi. Tas ir iespējams, pateicoties blokķēdes tehnoloģijai, kas nodrošina, ka īpašumtiesības uz digitālajiem aktīviem tiek reģistrētas publiskā veidā (bet saglabājot anonimināti). Vienkārši sakot, ar kriptovalūtām jūs pats esat sava “bankas” īpašnieks, saglabājot maksimālu brīvību un drošību pār saviem līdzekļiem. 
+                Ieguldot kriptovalūtās, jūs varat pilnībā kontrolēt savus aktīvus bez jebkādiem starpniekiem. Tas nozīmē, ka kriptovalūtas iespējams glabāt savā personīgajā makā, un tikai jūs izlemjat, kad un kā ar tām rīkoties. Atšķirībā no tradicionālajiem ieguldījumiem, kur akcijas vai nauda bieži atrodas pie bankām vai brokeriem, kriptovalūtās <span className="font-bold text-primary">kontrole pieder tieši jums</span> – neviens nevar iesaldēt jūsu līdzekļus vai ierobežot piekļuvi. Tas ir iespējams, pateicoties blokķēdes tehnoloģijai, kas nodrošina, ka īpašumtiesības uz digitālajiem aktīviem tiek reģistrētas publiskā veidā (bet saglabājot anonimināti). Vienkārši sakot, ar kriptovalūtām jūs pats esat sava “bankas” īpašnieks, saglabājot maksimālu brīvību un drošību pār saviem līdzekļiem. 
                 Turklāt, iespēja kriptovalūtas pašam kontrolēt (“self custody”) padara tās par efektīvu aizsardzību pret ģeopolitiskiem riskiem un iespējamiem ierobežojumiem, ko var ieviest valdības vai finanšu institūcijas dažādās valstīs.
               </p>
 
@@ -195,7 +195,7 @@ const Kursi = () => {
             </h3>
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed mb-4">
-                Staking ir process, kurā investors iegulda (iesaldē) savas kriptovalūtas noteiktā blokķēdes tīklā, lai palīdzētu tīkla darbībai un uzturēšanai — par to saņemot procentu ienākumus jeb atlīdzību. Staking būtībā nozīmē, ka jūs uzticat savus līdzekļus blokķēdei un par to saņemat fiksētu vai mainīgu gada peļņu (APR). Šī iespēja ir īpaši raksturīga tādām valūtām, kurās tiek izmantots "proof-of-stake" (PoS) mehānisms. Tas ir veids, kā padarīt ieguldījumus kriptovalūtās vēl ienesīgākus un automātiski saņemt pasīvos ienākumus, 
+                Staking ir process, kurā investors iegulda (iesaldē) savas kriptovalūtas noteiktā blokķēdes tīklā, lai palīdzētu tīkla darbībai un uzturēšanai — par to saņemot procentu ienākumus jeb atlīdzību. Staking būtībā nozīmē, ka jūs uzticat savus līdzekļus blokķēdei un par to saņemat fiksētu vai mainīgu gada peļņu (APR). Šī iespēja ir īpaši raksturīga tādām valūtām, kurās tiek izmantots "proof-of-stake" (PoS) mehānisms. Tas ir veids, kā padarīt ieguldījumus kriptovalūtās vēl ienesīgākus un <span className="font-bold text-primary">automātiski saņemt pasīvos ienākumus</span>, 
                 līdzīgi kā procentus par depozītu tradicionālajā bankā. Staking tiek izmantots, lai nodrošinātu tīkla drošību un decentralizāciju, vienlaikus ļaujot investoriem nopelnīt papildus atdevi no saviem aktīviem.
               </p>
               <table className="min-w-full border mt-8 mb-8 text-left">
