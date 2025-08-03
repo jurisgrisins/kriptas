@@ -50,7 +50,7 @@ const ParMums = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-medium text-foreground mb-3">
-                    Ievads kriptovalūtās jebkuram
+                    Piejams jebkuram
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
                  Iedot rīkus, lai padarītu kriptovalūtu investēšanu pieejamu un drošu ikvienam investoram, neatkarīgi no viņa pieredzes līmeņa digitālo aktīvu jomā.
