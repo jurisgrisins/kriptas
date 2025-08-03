@@ -97,12 +97,14 @@ const Uznemumiem = () => {
             Sadarbībā ar
           </h2>
           
-          <div className="flex flex-row items-center justify-between gap-8 my-8">
+ <div className="max-w-4xl mx-auto px-8">
+  <div className="flex flex-row items-center justify-between gap-8 my-8">
   <img src="/src/assets/capitalia-logo.png" alt="Capitalia" className="h-12 object-contain" />
   <img src="/src/assets/kraken-logo.png" alt="Kraken" className="h-12 object-contain" />
   <img src="/src/assets/bitgo-logo.png" alt="Safe.global" className="h-12 object-contain" />
   <img src="/src/assets/safe-logo.png" alt="Bitgo" className="h-12 object-contain" />
 </div>
+   </div>
 
       
         </section>
