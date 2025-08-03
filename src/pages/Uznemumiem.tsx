@@ -29,6 +29,20 @@ const Uznemumiem = () => {
 />
         </section>
 
+ {/* Main Content Sections */}
+        <section id="ievads" className="mb-24">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
+            Kāpēc uzņēmumiem veidot bitcoin rezerves
+          </h2>
+          <div className="prose prose-lg max-w-none mb-12">
+            <p className="text-foreground leading-relaxed mb-4">
+              Mūsdienās augstas inflācijas, ģeopolitisku risku un globālas ekonomiskās nenoteiktības apstākļos arvien vairāk uzņēmumu pārskata tradicionālos finanšu drošības risinājumus. Līdzšinējie uzkrājumu veidi – skaidra nauda un obligācijas – vairs nespēj pasargāt uzņēmuma kapitālu no pirktspējas samazināšanās. Bitcoin, kā digitāls aktīvs ar ierobežotu piedāvājumu un caurspīdīgu protokolu, 
+              piedāvā reālu aizsardzību pret inflāciju un valūtas vērtības kritumu. Turklāt tas nodrošina 24/7 likviditāti, neatkarību no banku sistēmas riskiem un palīdz uzņēmumam diversificēt savu kapitālu, samazinot atkarību no viena aktīva klases. Uzņēmumi, kas jau sākuši daļu savu rezervju ieguldīt bitcoin, ilgtermiņā bauda ne vien finansiālu noturību, bet arī inovatīva un progresīva tirgus dalībnieka reputāciju. Bitcoin nav tikai instruments riska mazināšanai; tā ir stratēģiska priekšrocība, kas var sniegt uzņēmumam noturību, konkurētspēju un jaunas iespējas mainīgā pasaules ekonomikā.
+            </p>
+      
+          </div>
+          </section>
+        
  {/* Services Preview */}
         <section className="mb-24">
           <h2 className="text-2xl font-medium text-foreground mb-8">
