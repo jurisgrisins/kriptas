@@ -75,97 +75,94 @@ const Uznemumiem = () => {
     setIsModalOpen(false);
   };
 
-  const ContactModal = () => (
-    <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Sarunāt tikšanos</DialogTitle>
-        </DialogHeader>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-2">
-              <Label htmlFor="vards">Vārds *</Label>
-              <Input
-                id="vards"
-                name="vards"
-                value={formData.vards}
-                onChange={handleInputChange}
-                placeholder="Jūsu vārds"
-                required
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="uzvards">Uzvārds *</Label>
-              <Input
-                id="uzvards"
-                name="uzvards"
-                value={formData.uzvards}
-                onChange={handleInputChange}
-                placeholder="Jūsu uzvārds"
-                required
-              />
-            </div>
-          </div>
-          
-          <div className="space-y-2">
-            <Label htmlFor="uznemums">Uzņēmuma nosaukums *</Label>
-            <Input
-              id="uznemums"
-              name="uznemums"
-              value={formData.uznemums}
-              onChange={handleInputChange}
-              placeholder="Jūsu uzņēmuma nosaukums"
-              required
-            />
-          </div>
-
-          <div className="space-y-2">
-            <Label htmlFor="talrunis">Tālruņa numurs *</Label>
-            <Input
-              id="talrunis"
-              name="talrunis"
-              type="tel"
-              value={formData.talrunis}
-              onChange={handleInputChange}
-              placeholder="+371 12345678"
-              required
-            />
-          </div>
-
-          <div className="space-y-2">
-            <Label htmlFor="epasts">E-pasts *</Label>
-            <Input
-              id="epasts"
-              name="epasts"
-              type="email"
-              value={formData.epasts}
-              onChange={handleInputChange}
-              placeholder="jūsu.epasts@uzņēmums.lv"
-              required
-            />
-          </div>
-
-          <div className="flex gap-3 pt-4">
-            <Button
-              type="button"
-              variant="outline"
-              className="flex-1"
-              onClick={() => setIsModalOpen(false)}
-            >
-              Atcelt
-            </Button>
-            <Button type="submit" className="flex-1">
-              Nosūtīt pieteikumu
-            </Button>
-          </div>
-        </form>
-      </DialogContent>
-    </Dialog>
-  );
 
   return (
     <BjorkLayout>
-      <ContactModal />
+      <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle>Sarunāt tikšanos</DialogTitle>
+          </DialogHeader>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <Label htmlFor="vards">Vārds *</Label>
+                <Input
+                  id="vards"
+                  name="vards"
+                  value={formData.vards}
+                  onChange={handleInputChange}
+                  placeholder="Jūsu vārds"
+                  required
+                />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="uzvards">Uzvārds *</Label>
+                <Input
+                  id="uzvards"
+                  name="uzvards"
+                  value={formData.uzvards}
+                  onChange={handleInputChange}
+                  placeholder="Jūsu uzvārds"
+                  required
+                />
+              </div>
+            </div>
+            
+            <div className="space-y-2">
+              <Label htmlFor="uznemums">Uzņēmuma nosaukums *</Label>
+              <Input
+                id="uznemums"
+                name="uznemums"
+                value={formData.uznemums}
+                onChange={handleInputChange}
+                placeholder="Jūsu uzņēmuma nosaukums"
+                required
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="talrunis">Tālruņa numurs *</Label>
+              <Input
+                id="talrunis"
+                name="talrunis"
+                type="tel"
+                value={formData.talrunis}
+                onChange={handleInputChange}
+                placeholder="+371 12345678"
+                required
+              />
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="epasts">E-pasts *</Label>
+              <Input
+                id="epasts"
+                name="epasts"
+                type="email"
+                value={formData.epasts}
+                onChange={handleInputChange}
+                placeholder="jūsu.epasts@uzņēmums.lv"
+                required
+              />
+            </div>
+
+            <div className="flex gap-3 pt-4">
+              <Button
+                type="button"
+                variant="outline"
+                className="flex-1"
+                onClick={() => setIsModalOpen(false)}
+              >
+                Atcelt
+              </Button>
+              <Button type="submit" className="flex-1">
+                Nosūtīt pieteikumu
+              </Button>
+            </div>
+          </form>
+        </DialogContent>
+      </Dialog>
       <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
