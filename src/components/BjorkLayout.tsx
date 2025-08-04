@@ -13,7 +13,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
   return (
     <div className="min-h-screen flex">
       {/* Sticky Sidebar */}
-      <aside className="w-64 bg-background border-r border-border sticky top-0 h-screen">
+      <aside className="w-64 bg-background sticky top-0 h-screen">
         <div className="p-8 h-full flex flex-col">
           {/* Logo */}
           <Link to="/" className="block mb-12">
