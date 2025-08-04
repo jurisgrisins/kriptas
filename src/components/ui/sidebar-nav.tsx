@@ -24,7 +24,7 @@ export const SidebarNav = ({ items, className }: SidebarNavProps) => {
   };
 
   return (
-    <div className={cn("fixed left-6 top-1/2 -translate-y-1/2 z-40 hidden lg:block", className)}>
+    <div className={cn("fixed left-6 top-[60%] -translate-y-1/2 z-40 hidden lg:block", className)}>
       <div className="bg-background/80 backdrop-blur-sm border border-border rounded-lg p-2 shadow-lg">
         <nav className="space-y-1">
           {items.map((item, index) => {
