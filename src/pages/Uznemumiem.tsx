@@ -1,7 +1,12 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Building, TrendingUp, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { useToast } from "@/hooks/use-toast";
 import uznemumiem from "@/assets/uznemumiem-background.jpg";
 import capitalia from "@/assets/capitalia-logo.png";
 import kraken from "@/assets/kraken-logo.png";
@@ -9,8 +14,158 @@ import bitgo from "@/assets/bitgo-logo.png";
 import safe from "@/assets/safe-logo.png";
 
 const Uznemumiem = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    vards: "",
+    uzvards: "",
+    uznemums: "",
+    talrunis: "",
+    epasts: ""
+  });
+  const { toast } = useToast();
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    // Basic validation
+    if (!formData.vards || !formData.uzvards || !formData.uznemums || !formData.talrunis || !formData.epasts) {
+      toast({
+        title: "Kļūda",
+        description: "Lūdzu aizpildiet visus laukus",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.epasts)) {
+      toast({
+        title: "Kļūda", 
+        description: "Lūdzu ievadiet derīgu e-pasta adresi",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    // Here you would typically send the data to your backend
+    console.log("Form submitted:", formData);
+    
+    toast({
+      title: "Paldies!",
+      description: "Jūsu pieteikums ir nosūtīts. Mēs sazināsimies ar jums tuvākajā laikā."
+    });
+
+    // Reset form and close modal
+    setFormData({
+      vards: "",
+      uzvards: "",
+      uznemums: "",
+      talrunis: "",
+      epasts: ""
+    });
+    setIsModalOpen(false);
+  };
+
+  const ContactModal = () => (
+    <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>Sarunāt tikšanos</DialogTitle>
+        </DialogHeader>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="grid grid-cols-2 gap-4">
+            <div className="space-y-2">
+              <Label htmlFor="vards">Vārds *</Label>
+              <Input
+                id="vards"
+                name="vards"
+                value={formData.vards}
+                onChange={handleInputChange}
+                placeholder="Jūsu vārds"
+                required
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="uzvards">Uzvārds *</Label>
+              <Input
+                id="uzvards"
+                name="uzvards"
+                value={formData.uzvards}
+                onChange={handleInputChange}
+                placeholder="Jūsu uzvārds"
+                required
+              />
+            </div>
+          </div>
+          
+          <div className="space-y-2">
+            <Label htmlFor="uznemums">Uzņēmuma nosaukums *</Label>
+            <Input
+              id="uznemums"
+              name="uznemums"
+              value={formData.uznemums}
+              onChange={handleInputChange}
+              placeholder="Jūsu uzņēmuma nosaukums"
+              required
+            />
+          </div>
+
+          <div className="space-y-2">
+            <Label htmlFor="talrunis">Tālruņa numurs *</Label>
+            <Input
+              id="talrunis"
+              name="talrunis"
+              type="tel"
+              value={formData.talrunis}
+              onChange={handleInputChange}
+              placeholder="+371 12345678"
+              required
+            />
+          </div>
+
+          <div className="space-y-2">
+            <Label htmlFor="epasts">E-pasts *</Label>
+            <Input
+              id="epasts"
+              name="epasts"
+              type="email"
+              value={formData.epasts}
+              onChange={handleInputChange}
+              placeholder="jūsu.epasts@uzņēmums.lv"
+              required
+            />
+          </div>
+
+          <div className="flex gap-3 pt-4">
+            <Button
+              type="button"
+              variant="outline"
+              className="flex-1"
+              onClick={() => setIsModalOpen(false)}
+            >
+              Atcelt
+            </Button>
+            <Button type="submit" className="flex-1">
+              Nosūtīt pieteikumu
+            </Button>
+          </div>
+        </form>
+      </DialogContent>
+    </Dialog>
+  );
+
   return (
     <BjorkLayout>
+      <ContactModal />
       <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
@@ -22,7 +177,11 @@ const Uznemumiem = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="default" size="lg">
+            <Button 
+              variant="default" 
+              size="lg"
+              onClick={() => setIsModalOpen(true)}
+            >
               Sarunāt tikšanos
             </Button>
           
@@ -137,9 +296,13 @@ const Uznemumiem = () => {
               Pievienojieties citiem progresīviem uzņēmumiem, kas jau izmanto kriptovalūtas gan norēķinos, gan investīcijās
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="default" size="lg">
+              <Button 
+                variant="default" 
+                size="lg"
+                onClick={() => setIsModalOpen(true)}
+              >
                Sarunāt tikšanos
-                 </Button>
+              </Button>
             </div>
           </div>
         </section>
