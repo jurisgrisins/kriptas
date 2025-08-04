@@ -72,7 +72,7 @@ const Kursi = () => {
           </h2>
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-foreground leading-relaxed mb-4">
-              Šajā ieskatā pilnā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
+              Šajā ieskatā pilnajā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
             </p>
       
           </div>
