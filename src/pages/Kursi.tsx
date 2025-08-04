@@ -38,8 +38,8 @@ const Kursi = () => {
             Kā ieguldīt kriptovalūtās
           </h1>
           <p className="text-xl text-foreground leading-relaxed mb-8">
-            Praktiska un viegli saprotama pieeja, kā droši sākt ieguldīt kriptovalūtās – izvairoties no riskantām spekulācijām un liekām komisijām. 
-            Šim kursam nav nepieciešamas iepriekšējas zināšanas par kriptovalūtām vai ieguldīšanu — viss tiek izskaidrots vienkārši, saprotami un piemērots arī pilnīgiem iesācējiem.
+            Praktiska un viegli saprotama pieeja, kā droši sākt ieguldīt kriptovalūtās – izvairoties no riskantām spekulācijām un liekām komisijām. Kurss pieejams gan teksta, gan video versijā.
+            Nav nepieciešamas iepriekšējas zināšanas par kriptovalūtām vai ieguldīšanu — viss tiek izskaidrots vienkārši, saprotami un piemērots arī pilnīgiem iesācējiem.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -72,7 +72,7 @@ const Kursi = () => {
           </h2>
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-foreground leading-relaxed mb-4">
-              Šajā ievadsadaļā mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
+              Šajā ieskatā pilnā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
             </p>
       
           </div>
@@ -450,7 +450,7 @@ const Kursi = () => {
               </div>
 
 <p className="text-foreground leading-relaxed mb-4 mt-8">
-                Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
+                Materiāls ir pieejams gan video, gan teksta formātā. Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
               </p>
             </div>
           </div>
