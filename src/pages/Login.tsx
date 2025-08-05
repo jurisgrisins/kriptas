@@ -174,7 +174,9 @@ const Login = () => {
               >
                 {isSignUp 
                   ? "Jau ir konts? Pieslēdzieties" 
-                  : "Nav konta? Izveidojiet jaunu"
+                  : <div className="hide-selection">
+  "Nav konta? Izveidojiet jaunu"
+</div>
                 }
               </Button>
             </div>
