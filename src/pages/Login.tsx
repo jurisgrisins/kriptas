@@ -166,6 +166,7 @@ const Login = () => {
               </Button>
             </form>
 
+            {/* Hidden for now - uncomment to reactivate account creation
             <div className="mt-6 text-center">
               <Button
                 variant="link"
@@ -175,10 +176,10 @@ const Login = () => {
                 {isSignUp 
                   ? "Jau ir konts? Pieslēdzieties" 
                   : "Nav konta? Izveidojiet jaunu"
-
                 }
               </Button>
             </div>
+            */}
           </CardContent>
         </Card>
       </div>
