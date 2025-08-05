@@ -95,7 +95,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
     size="sm"
     className="w-full"
   >
-    <Link to="/login">Log-in</Link>
+    <Link to="/login">Pieslēgties</Link>
   </Button>
 </div>
 
