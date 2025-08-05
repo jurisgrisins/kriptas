@@ -9,6 +9,7 @@ import Uznemumiem from "./pages/Uznemumiem";
 import ParMums from "./pages/ParMums";
 import PrivatumasPolitika from "./pages/PrivatumasPolitika";
 import LietosanasNoteikumi from "./pages/LietosanasNoteikumi";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/par-mums" element={<ParMums />} />
           <Route path="/privatumas-politika" element={<PrivatumasPolitika />} />
           <Route path="/lietosanas-noteikumi" element={<LietosanasNoteikumi />} />
+          <Route path="/login" element={<Login />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
