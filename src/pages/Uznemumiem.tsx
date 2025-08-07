@@ -7,6 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 import uznemumiem from "@/assets/uznemumiem-background.jpg";
 import capitalia from "@/assets/capitalia-logo.png";
 import kraken from "@/assets/kraken-logo.png";
@@ -15,6 +16,7 @@ import safe from "@/assets/safe-logo.png";
 
 const Uznemumiem = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     vards: "",
     uzvards: "",
@@ -32,7 +34,7 @@ const Uznemumiem = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -56,23 +58,49 @@ const Uznemumiem = () => {
       return;
     }
 
-    // Here you would typically send the data to your backend
-    console.log("Form submitted:", formData);
-    
-    toast({
-      title: "Paldies!",
-      description: "Jūsu pieteikums ir nosūtīts. Mēs sazināsimies ar jums tuvākajā laikā."
-    });
+    setIsLoading(true);
 
-    // Reset form and close modal
-    setFormData({
-      vards: "",
-      uzvards: "",
-      uznemums: "",
-      talrunis: "",
-      epasts: ""
-    });
-    setIsModalOpen(false);
+    try {
+      // Call the edge function to send email and save to database
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: `${formData.vards} ${formData.uzvards}`,
+          email: formData.epasts,
+          phone: formData.talrunis,
+          company: formData.uznemums,
+          message: `Tikšanās pieprasījums no ${formData.vards} ${formData.uzvards}, uzņēmums: ${formData.uznemums}`
+        }
+      });
+
+      if (error) {
+        throw error;
+      }
+
+      toast({
+        title: "Paldies!",
+        description: "Jūsu pieteikums ir nosūtīts. Mēs sazināsimies ar jums tuvākajā laikā."
+      });
+
+      // Reset form and close modal
+      setFormData({
+        vards: "",
+        uzvards: "",
+        uznemums: "",
+        talrunis: "",
+        epasts: ""
+      });
+      setIsModalOpen(false);
+
+    } catch (error: any) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: "Kļūda",
+        description: "Radās kļūda nosūtot pieteikumu. Lūdzu mēģiniet vēlreiz.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
 
@@ -153,11 +181,12 @@ const Uznemumiem = () => {
                 variant="outline"
                 className="flex-1"
                 onClick={() => setIsModalOpen(false)}
+                disabled={isLoading}
               >
                 Atcelt
               </Button>
-              <Button type="submit" className="flex-1">
-                Nosūtīt pieteikumu
+              <Button type="submit" className="flex-1" disabled={isLoading}>
+                {isLoading ? "Nosūta..." : "Nosūtīt pieteikumu"}
               </Button>
             </div>
           </form>
