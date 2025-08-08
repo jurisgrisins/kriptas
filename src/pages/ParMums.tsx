@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
+import { ContactFormButton } from "@/components/ContactFormButton";
 import { Award, Shield, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import mes from "@/assets/mes-background.jpg";
@@ -18,11 +19,7 @@ const ParMums = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-          <Button variant="default" size="lg" asChild>
-  <a href="mailto:investicijas@kriptas.com" className="inline-block">
-    Sazināties
-  </a>
-</Button>
+          <ContactFormButton size="lg" />
 
 
           
@@ -146,11 +143,7 @@ const ParMums = () => {
             
 
 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="default" size="lg">
-               <a href="mailto:investicijas@kriptas.com" className="inline-block">
-    Sazināties
-  </a>
-                 </Button>
+              <ContactFormButton size="lg" />
           </div>
         </section>
 

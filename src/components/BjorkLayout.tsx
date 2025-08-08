@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { ContactFormButton } from "@/components/ContactFormButton";
 
 interface BjorkLayoutProps {
   children: React.ReactNode;
@@ -80,14 +81,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
           
           {/* Contact Button */}
        <div className="mt-auto space-y-3">
-  <Button
-    asChild
-    variant="default"
-    size="sm"
-    className="w-full"
-  >
-    <a href="mailto:investicijas@kriptas.com">Sazināties</a>
-  </Button>
+  <ContactFormButton size="sm" className="w-full" />
   
   <Button
     asChild
