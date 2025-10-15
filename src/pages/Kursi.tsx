@@ -1,37 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
-import { SidebarNav } from "@/components/ui/sidebar-nav";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import Kursu from "@/assets/kursi-background.jpg";
 import Bitcoin from "@/assets/bitcoin-chart.png";
 import programma from "@/assets/kursa-programma.pdf";
 
-const navItems = [
-  { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
-  { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija" },
-  { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
-  { title: "Likviditāte 24/7", section: "likviditate" },
-  { title: "Pilna kontrole pār ieguldījumu", section: "kontrole" },
-  { title: "Digitālās dividendes", section: "dividendes" },
-  { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves" },
-  { title: "Cenas svārstības", section: "cenas" },
-  { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba" },
-  { title: "Ieguldījumu riski", section: "riski" },
-  { title: "Turpmākā kursa saturs", section: "saturs" },
-];
-
 const Kursi = () => {
   return (
     <BjorkLayout>
-      <div className="flex gap-8">
-        {/* Sidebar Navigation */}
-         <div className="mb-8">
-    <SidebarNav items={navItems} />
-  </div>
-
-        {/* Main Content */}
-        <div className="max-w-4xl mx-auto px-8 py-16 pl-16">
+      <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
@@ -516,7 +494,6 @@ const Kursi = () => {
             </div>
           </div>
         </footer>
-        </div>
       </div>
     </BjorkLayout>
   );

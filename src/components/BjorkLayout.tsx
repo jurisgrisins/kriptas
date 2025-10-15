@@ -1,15 +1,47 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ContactFormButton } from "@/components/ContactFormButton";
+import { ChevronDown } from "lucide-react";
+import { useState } from "react";
 
 interface BjorkLayoutProps {
   children: React.ReactNode;
 }
 
+const kursiSubItems = [
+  { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
+  { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija" },
+  { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
+  { title: "Likviditāte 24/7", section: "likviditate" },
+  { title: "Pilna kontrole pār ieguldījumu", section: "kontrole" },
+  { title: "Digitālās dividendes", section: "dividendes" },
+  { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves" },
+  { title: "Cenas svārstības", section: "cenas" },
+  { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba" },
+  { title: "Ieguldījumu riski", section: "riski" },
+  { title: "Turpmākā kursa saturs", section: "saturs" },
+];
+
 export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
   const location = useLocation();
+  const [kursiExpanded, setKursiExpanded] = useState(location.pathname === '/kursi');
   
   const isActive = (path: string) => location.pathname === path;
+  
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  
+  const handleKursiClick = () => {
+    if (location.pathname === '/kursi') {
+      setKursiExpanded(!kursiExpanded);
+    } else {
+      setKursiExpanded(true);
+    }
+  };
   
   return (
     <div className="min-h-screen flex">
@@ -41,16 +73,39 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/kursi" 
-                  className={`block py-2 text-lg font-medium transition-colors ${
-                    isActive('/kursi') 
-                      ? 'text-foreground' 
-                      : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
-                  Kapēc ieguldīt kriptovalūtās
-                </Link>
+                <div>
+                  <Link 
+                    to="/kursi"
+                    onClick={handleKursiClick}
+                    className={`flex items-center justify-between py-2 text-lg font-medium transition-colors ${
+                      isActive('/kursi') 
+                        ? 'text-foreground' 
+                        : 'text-muted-foreground hover:text-foreground'
+                    }`}
+                  >
+                    <span>Kapēc ieguldīt kriptovalūtās</span>
+                    <ChevronDown 
+                      className={`w-4 h-4 transition-transform ${
+                        kursiExpanded && isActive('/kursi') ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </Link>
+                  
+                  {kursiExpanded && isActive('/kursi') && (
+                    <ul className="ml-4 mt-2 space-y-1 border-l border-border pl-4">
+                      {kursiSubItems.map((item, index) => (
+                        <li key={index}>
+                          <button
+                            onClick={() => scrollToSection(item.section)}
+                            className="block w-full text-left py-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                          >
+                            {item.title}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </li>
             </ul>
           </nav>
