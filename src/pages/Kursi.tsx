@@ -13,23 +13,15 @@ const Kursi = () => {
         {/* Hero Section */}
         <section className="mb-24">
           <h1 className="text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-            Kā ieguldīt kriptovalūtās
+            Kāpēc ieguldīt kriptovalūtās
           </h1>
           <p className="text-xl text-foreground leading-relaxed mb-8">
-            Praktiska un viegli saprotama pieeja, kā droši sākt ieguldīt kriptovalūtās – izvairoties no riskantām spekulācijām un liekām komisijām. Kurss pieejams gan teksta, gan video versijā.
-            Nav nepieciešamas iepriekšējas zināšanas par kriptovalūtām vai ieguldīšanu — viss tiek izskaidrots vienkārši, saprotami un piemērots arī pilnīgiem iesācējiem.
+            Šajā ieskatā pilnajā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <a href="#email-subscription">
-  <Button variant="default" size="lg">
-    Pieteikties kursam
-  </Button>
-</a>
-           <a href={programma} download>
-  <Button variant="outline" size="lg">
-    Lejupielādēt kursa saturu
-  </Button>
+           
+  
 </a>
 
             
@@ -45,16 +37,7 @@ const Kursi = () => {
 
         {/* Main Content Sections */}
         <section id="ievads" className="mb-24">
-          <h2 className="text-3xl font-medium text-foreground mb-8">
-            Ievads: Kapēc ieguldīt kriptovalūtās
-          </h2>
-          <div className="prose prose-lg max-w-none mb-12">
-            <p className="text-foreground leading-relaxed mb-4">
-              Šajā ieskatā pilnajā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
-            </p>
-      
-          </div>
-
+       
     <div id="evolucija" className="mb-12">
             <h3 className="text-2xl font-medium text-foreground mb-6">
               Kriptovalūtu evolūcija no eksperimenta uz nopietnu aktīvu klasi
