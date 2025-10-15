@@ -5,9 +5,7 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 import { Link } from "react-router-dom";
 import { Shield, Award, Users } from "lucide-react";
 import heroImage from "@/assets/hero-crypto.jpg";
-import anna from "@/assets/anna-kalnina.png";
-import maris from "@/assets/maris-zarins.png";
-import laura from "@/assets/laura-berzina.png";
+import programma from "@/assets/kursa-programma.pdf";
 
 
 const Index = () => {
