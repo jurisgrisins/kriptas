@@ -46,7 +46,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
   return (
     <div className="min-h-screen flex">
       {/* Sticky Sidebar */}
-      <aside className="w-64 bg-background sticky top-0 h-screen">
+      <aside className="w-[448px] bg-background sticky top-0 h-screen">
         <div className="p-8 h-full flex flex-col">
           {/* Logo */}
           <Link to="/" className="block mb-12">
@@ -92,7 +92,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                   </Link>
                   
                   {kursiExpanded && isActive('/kursi') && (
-                    <ul className="ml-4 mt-2 space-y-1 border-l border-border pl-4">
+                    <ul className="ml-4 mt-2 space-y-0.5 border-l border-border pl-4">
                       {kursiSubItems.map((item, index) => (
                         <li key={index}>
                           <button
@@ -106,6 +106,18 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                     </ul>
                   )}
                 </div>
+              </li>
+              <li>
+                <Link 
+                  to="/kadas-kriptovalutas"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/kadas-kriptovalutas') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Kādas kriptovalūtas izvēlēties ieguldījumam
+                </Link>
               </li>
             </ul>
           </nav>
