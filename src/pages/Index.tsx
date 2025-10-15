@@ -30,9 +30,7 @@ const Index = () => {
   </Button>
 </Link>
             <Link to="/par-mums">
-  <Button variant="outline" size="lg">
-    Par mums
-  </Button>
+  
 </Link>
             </div>
           
@@ -141,7 +139,7 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
-                Apskatīt kursu
+                Sākt kursu
               </Button>
                           </div>
           </div>
