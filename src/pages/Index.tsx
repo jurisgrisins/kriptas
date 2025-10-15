@@ -26,7 +26,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Link to="/kursi">
   <Button variant="default" size="lg">
-    Apskatīt kursu
+    Sākt kursu
   </Button>
 </Link>
             <Link to="/par-mums">
