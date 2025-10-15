@@ -18,7 +18,7 @@ const Index = () => {
           <div className="mb-8">
             <p className="text-primary text-lg font-medium mb-4">Sveiks!</p>
             <h1 className="text-3xl md:text-5xl font-medium text-foreground leading-loose mb-8">
-              Mēs piedāvājam profesionālas apmācības kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
+              Mēs piedāvājam kursu par to kā veiksmīgi uzsākt ieguldījumus kriptovalūtās
             </h1>
           </div>
           
@@ -118,96 +118,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Client Testimonials */}
-        <section className="mb-24">
-          <h2 className="text-3xl font-medium text-foreground mb-6">
-            Ko saka mūsu klienti
-          </h2>
-            <p className="text-foreground leading-relaxed mb-4">
-              Lai gan mūsu kurss vēl nav publiski pieejams, esam piedāvājuši mūsu materiālus jau pirmajiem testa lietotājiem. Lūk ko viņi par to saka: 
-            </p>
-          <div className="grid gap-6">
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-         <Avatar className="h-[72px] w-[72px]">
-  <img
-    src={anna}
-    alt="Anna Kalniņa"
-    className="h-[72px] w-[72px] rounded-full object-cover"
-  />
-  <AvatarFallback className="bg-primary/10 text-primary font-medium">
-    AK
-  </AvatarFallback>
-</Avatar>
-
-                  <div className="flex-1">
-                    <p className="text-foreground mb-4">
-                      "Ļoti profesionāla pieeja – sapratu gan riskus, gan iespējas. Beidzot jūtos droši par saviem pirmajiem kripto ieguldījumiem."
-                    </p>
-                    <div>
-                      <p className="font-medium text-foreground">Anna Kalniņa</p>
-                      <p className="text-sm text-muted-foreground">IT konsultante</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                     <Avatar className="h-[72px] w-[72px]">
-  <img
-    src={maris}
-    alt="Māris Zariņš"
-    className="h-[72px] w-[72px] rounded-full object-cover"
-  />
-  <AvatarFallback className="bg-primary/10 text-primary font-medium">
-    AK
-  </AvatarFallback>
-</Avatar>
-                  <div className="flex-1">
-                    <p className="text-foreground mb-4">
-                      "Capitalia pieredze finanšu jomā ir ļoti jūtama. Kurss ir profesionāls un sniedz praktiskas zināšanas par investīcijām."
-                    </p>
-                    <div>
-                      <p className="font-medium text-foreground">Māris Zariņš</p>
-                      <p className="text-sm text-muted-foreground">Uzņēmējs</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                    <Avatar className="h-[72px] w-[72px]">
-  <img
-    src={laura}
-    alt="Laura Bērziņa"
-    className="h-[72px] w-[72px] rounded-full object-cover"
-  />
-  <AvatarFallback className="bg-primary/10 text-primary font-medium">
-    AK
-  </AvatarFallback>
-</Avatar>
-                  <div className="flex-1">
-                    <p className="text-foreground mb-4">
-                      "Beidzot atradu kursu, kas skaidro kriptovalūtas vienkāršā valodā un Latvijas kontekstā. Iesaku!"
-                    </p>
-                    <div>
-                      <p className="font-medium text-foreground">Laura Bērziņa</p>
-                      <p className="text-sm text-muted-foreground">Grāmatvede</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
+      
         {/* Call to Action */}
         <section className="mb-24">
           <div className="border border-white rounded-lg p-8 text-center">
@@ -215,7 +126,7 @@ const Index = () => {
               Rīkojies jau tagad!
             </h2>
             <p className="text-foreground mb-6">
-              Iepazīsties ar bezmaksas ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kurss kļūs publiski pieejams
+              Iepazīsties ar  ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kursa nākošās nodaļas kļūs publiski pieejamas
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
