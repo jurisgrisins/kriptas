@@ -132,10 +132,7 @@ const Index = () => {
               <Button variant="default" size="lg">
                 Apskatīt kursu
               </Button>
-              <Button variant="outline" size="lg">
-                Pieteikties konsultācijai
-              </Button>
-            </div>
+                          </div>
           </div>
         </section>
         
