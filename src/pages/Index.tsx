@@ -72,6 +72,62 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Values */}
+        <section className="mb-24">
+          <h2 className="text-3xl font-medium text-foreground mb-8">
+            Mūsu mērķis ar šo projektu
+          </h2>
+          
+          <div className="space-y-8">
+            <div className="border border-border rounded-lg p-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Shield className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-3">
+                    Piejams jebkuram
+                  </h3>
+                  <p className="text-foreground leading-relaxed">
+                 Iedot rīkus, lai padarītu kriptovalūtu investēšanu pieejamu un drošu ikvienam investoram, neatkarīgi no viņa pieredzes līmeņa digitālo aktīvu jomā.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="border border-border rounded-lg p-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-3">
+                    Turības veicināšana
+                  </h3>
+                  <p className="text-foreground leading-relaxed">
+                    Palīdzēt Latvijas investoriem un uzņēmumiem veicināt savu turību, izmantojot kriptovalūtas kā ienesīgu ieguldījumu diversifikācijas avotu.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="border border-border rounded-lg p-8">
+              <div className="flex items-start space-x-4">
+                <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Users className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-medium text-foreground mb-3">
+                    Nozares atbalsts
+                  </h3>
+                  <p className="text-foreground leading-relaxed">
+                    Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem vēlamies
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
             
         {/* Call to Action */}
         <section className="mb-24">
