@@ -72,53 +72,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Preview */}
-        <section className="mb-24">
-          <h2 className="text-3xl font-medium text-foreground mb-8">
-            Ko mēs piedāvājam
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-         <Link to="/kursi" className="block group">
-  <div className="relative group cursor-pointer hover:shadow-lg transition">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-background border border-border rounded-lg p-8 h-full">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-medium text-foreground mb-4">
-                  Kurss kā ieguldīt kriptovalūtās
-                </h3>
-                <p className="text-foreground leading-relaxed">
-                  Vienkāršs, praktisks un Latvijas apstākļiem īpaši pielāgots apmācību kurss par ieguldījumiem kriptovalūtās
-                </p>
-              </div>
-            </div>
-           </Link>
-
-              <Link to="/uznemumiem" className="block group">
-  <div className="relative group cursor-pointer hover:shadow-lg transition">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-background border border-border rounded-lg p-8 h-full">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center mb-6">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-medium text-foreground mb-4">
-                  Konsultācijas uzņēmumiem
-                </h3>
-                <p className="text-foreground leading-relaxed">
-                  Apmācības uzņēmumiem par to, kā sākt izmantot kriptovalūtas norēķiniem vai uzkrājumiem
-                </p>
-              </div>
-            </div>
-                </Link>
-          </div>
-        </section>
-
-      
+            
         {/* Call to Action */}
         <section className="mb-24">
           <div className="border border-white rounded-lg p-8 text-center">
@@ -126,7 +80,7 @@ const Index = () => {
               Rīkojies jau tagad!
             </h2>
             <p className="text-foreground mb-6">
-              Iepazīsties ar  ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kursa nākošās nodaļas kļūs publiski pieejamas
+              Iepazīsties ar  ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kursa nākošās nodaļas kļūs publiski pieejamas. Kurss ir pieejams bez maksas visiem Capitalia klientiem.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="default" size="lg">
