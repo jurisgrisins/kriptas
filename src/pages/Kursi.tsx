@@ -380,39 +380,7 @@ const Kursi = () => {
             </div>
           </div>
           
-<div id="saturs" className="mb-12">
-            <h3 className="text-2xl font-medium text-foreground mb-6">
-              Turpmākā kursa saturs
-            </h3>
-            <div className="prose prose-lg max-w-none">
-              <p className="text-foreground leading-relaxed mb-4">
-                Tālākajā kursa saturā tu uzzināsi:
-              </p>
 
-              <div className="flex items-center space-x-2 ml-6">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Kā vienkārši uzsākt ieguldīt kriptovalūtās</span>
-              </div>
-              <div className="flex items-center space-x-2 ml-6">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Kā izvēlēties, kurās kriptovalūtās ieguldīt</span>
-              </div>
-              <div className="flex items-center space-x-2 ml-6">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Kā glabāt kriptovalūtu</span>
-              </div>
-              <div className="flex items-center space-x-2 ml-6">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Kā un kur izveidot nepieciešamos kontus</span>
-              </div>
-              <div className="flex items-center space-x-2 ml-6">
-              <div className="w-2 h-2 bg-primary rounded-full"></div>
-              <span className="text-foreground">Ko īpaši ņemt vērā ieguldot kriptovalūtās Latvijā</span>
-              </div>
-
-<p className="text-foreground leading-relaxed mb-4 mt-8">
-                Materiāls ir pieejams gan video, gan teksta formātā. Apmācības ir piemērotas ikvienam Latvijas iedzīvotājam, kurš vēlas sākt uzkrāt vai ieguldīt līdzekļus kriptovalūtās. Lai piedalītos, nav nepieciešamas nekādas priekšzināšanas par finansēm vai digitālajiem aktīviem — viss tiks izskaidrots vienkārši un saprotami arī pilnīgiem iesācējiem.
-              </p>
             </div>
           </div>
           
@@ -425,7 +393,7 @@ const Kursi = () => {
               Uzzini pirmais!
             </h2>
             <p className="text-muted-foreground mb-6">
-              Atstāj savu e-pastu, lai saņemtu paziņojumu, kad kursa materiāli būs pieejami
+              Atstāj savu e-pastu, lai saņemtu paziņojumu, kad tiks publicēts nākošā apmācību kursa sadaļa
             </p>
             <div className="max-w-md mx-auto flex gap-2">
               <Input 
