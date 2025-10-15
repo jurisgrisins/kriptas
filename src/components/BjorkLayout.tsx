@@ -109,14 +109,74 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
               </li>
               <li>
                 <Link 
-                  to="/kadas-kriptovalutas"
+                  to="/kuras-kriptovalutas"
                   className={`block py-2 text-lg font-medium transition-colors ${
-                    isActive('/kadas-kriptovalutas') 
+                    isActive('/kuras-kriptovalutas') 
                       ? 'text-foreground' 
                       : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  Kādas kriptovalūtas izvēlēties ieguldījumam
+                  Kurās kriptovalūtās ieguldīt
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/infrastruktura"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/infrastruktura') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Kriptovalūtu infrastruktūra
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/principi"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/principi') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Ieguldījumu principi
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/latvija"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/latvija') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Ko ņemt vērā Latvijā
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/uznemumiem"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/uznemumiem') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Kripotvalūta uzņēmumiem
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/resursi"
+                  className={`block py-2 text-lg font-medium transition-colors ${
+                    isActive('/resursi') 
+                      ? 'text-foreground' 
+                      : 'text-muted-foreground hover:text-foreground'
+                  }`}
+                >
+                  Papildus resursi
                 </Link>
               </li>
             </ul>

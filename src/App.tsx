@@ -6,6 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Kursi from "./pages/Kursi";
 import KadasKriptovalutas from "./pages/KadasKriptovalutas";
+import Infrastruktura from "./pages/Infrastruktura";
+import Principi from "./pages/Principi";
+import Latvija from "./pages/Latvija";
+import Uznemumiem from "./pages/Uznemumiem";
+import Resursi from "./pages/Resursi";
 import PrivatumasPolitika from "./pages/PrivatumasPolitika";
 import LietosanasNoteikumi from "./pages/LietosanasNoteikumi";
 import Login from "./pages/Login";
@@ -22,7 +27,12 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/kursi" element={<Kursi />} />
-          <Route path="/kadas-kriptovalutas" element={<KadasKriptovalutas />} />
+          <Route path="/kuras-kriptovalutas" element={<KadasKriptovalutas />} />
+          <Route path="/infrastruktura" element={<Infrastruktura />} />
+          <Route path="/principi" element={<Principi />} />
+          <Route path="/latvija" element={<Latvija />} />
+          <Route path="/uznemumiem" element={<Uznemumiem />} />
+          <Route path="/resursi" element={<Resursi />} />
           <Route path="/privatumas-politika" element={<PrivatumasPolitika />} />
           <Route path="/lietosanas-noteikumi" element={<LietosanasNoteikumi />} />
           <Route path="/login" element={<Login />} />

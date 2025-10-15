@@ -1,11 +1,11 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
 
-const KadasKriptovalutas = () => {
+const Infrastruktura = () => {
   return (
     <BjorkLayout>
       <div className="min-h-screen bg-background">
         <div className="max-w-4xl mx-auto px-8 py-16">
-          <h1 className="text-4xl font-bold mb-8">Kurās kriptovalūtās ieguldīt</h1>
+          <h1 className="text-4xl font-bold mb-8">Kriptovalūtu infrastruktūra</h1>
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg text-muted-foreground mb-6">
@@ -18,4 +18,4 @@ const KadasKriptovalutas = () => {
   );
 };
 
-export default KadasKriptovalutas;
+export default Infrastruktura;
