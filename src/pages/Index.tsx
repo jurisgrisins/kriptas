@@ -28,10 +28,11 @@ const Index = () => {
   <Button variant="default" size="lg">
     Sākt kursu
   </Button>
-</Link>
-            <Link to="/par-mums">
-  
-</Link>
+</a>
+           <a href={programma} download>
+  <Button variant="outline" size="lg">
+    Lejupielādēt kursa saturu
+  </Button>
             </div>
           
           
