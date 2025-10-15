@@ -123,14 +123,14 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
           </nav>
           
           {/* Contact Button */}
-       <div className="mt-auto space-y-3">
-  <ContactFormButton size="sm" className="w-full" />
+       <div className="mt-auto flex gap-2">
+  <ContactFormButton size="sm" className="flex-1" />
   
   <Button
     asChild
     variant="outline"
     size="sm"
-    className="w-full"
+    className="flex-1"
   >
     <Link to="/login">Pieslēgties</Link>
   </Button>
