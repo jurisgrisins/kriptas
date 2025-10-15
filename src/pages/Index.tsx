@@ -120,7 +120,7 @@ const Index = () => {
                     Nozares atbalsts
                   </h3>
                   <p className="text-foreground leading-relaxed">
-                    Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem vēlamies
+                    Mēs vēlamies veicināt kriptovalūtu risinājumu ieviešanu Latvijā un ar saviem materiāliem veicināt to apguvi gan privātpersonu, gan uzņēmumu lokā.
                   </p>
                 </div>
               </div>
