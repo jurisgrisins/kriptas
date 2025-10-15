@@ -113,8 +113,8 @@ const Login = () => {
             </CardTitle>
             <CardDescription>
               {isSignUp 
-                ? "Izveidojiet jaunu kontu, lai piekļūtu kriptogrāfijas apmācībām un resursiem"
-                : "Pieslēdzieties savam kontam, lai piekļūtu kriptogrāfijas apmācībām un resursiem"
+                ? "Izveidojiet jaunu kontu, lai piekļūtu apmācību materiāliem"
+                : "Pieslēdzieties savam kontam, lai piekļūtu apmācību materiāliem"
               }
             </CardDescription>
           </CardHeader>
