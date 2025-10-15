@@ -49,31 +49,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                       : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  Kursi
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/uznemumiem" 
-                  className={`block py-2 text-lg font-medium transition-colors ${
-                    isActive('/uznemumiem') 
-                      ? 'text-foreground' 
-                      : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
-                  Uzņēmumiem
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/par-mums" 
-                  className={`block py-2 text-lg font-medium transition-colors ${
-                    isActive('/par-mums') 
-                      ? 'text-foreground' 
-                      : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
-                  Par mums
+                  Kapēc ieguldīt kriptovalūtās
                 </Link>
               </li>
             </ul>

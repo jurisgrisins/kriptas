@@ -23,14 +23,15 @@ const Index = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Link to="/kursi">
-  <Button variant="default" size="lg">
-    Sākt kursu
-  </Button>
-</a>
-           <a href={programma} download>
-  <Button variant="outline" size="lg">
-    Lejupielādēt kursa saturu
-  </Button>
+              <Button variant="default" size="lg">
+                Sākt kursu
+              </Button>
+            </Link>
+            <a href={programma} download>
+              <Button variant="outline" size="lg">
+                Lejupielādēt kursa saturu
+              </Button>
+            </a>
             </div>
           
           
