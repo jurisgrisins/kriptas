@@ -19,20 +19,12 @@ const Kursi = () => {
             Šajā ieskatā pilnajā kursa programmā, mēs apkopojam galvenos argumentus, kapēc ir vērts ieguldīt kriptovalūtās. Tāpat identificēsim arī galvenos šādu ieguldījumu riskus.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-12">
-           
-  
-</a>
-
-            
-            </div>
-
-<img
-  src={Kursu} 
-  alt="Kursu ilustrācija"
-  className="w-full max-h-64 object-cover rounded-lg mb-8"
-/>
-
+          
+          <img
+            src={Kursu} 
+            alt="Kursu ilustrācija"
+            className="w-full max-h-64 object-cover rounded-lg mb-8"
+          />
         </section>
 
         {/* Main Content Sections */}
@@ -383,8 +375,6 @@ const Kursi = () => {
 
             </div>
           </div>
-          
-        </section>
           
         {/* Email Subscription */}
         <section id="email-subscription" className="mb-24">
