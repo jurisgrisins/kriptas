@@ -371,10 +371,7 @@ const Kursi = () => {
               </p>
             </div>
           </div>
-          
-
-            </div>
-          </div>
+        </section>
           
         {/* Email Subscription */}
         <section id="email-subscription" className="mb-24">
