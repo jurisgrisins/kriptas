@@ -1,4 +1,6 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
+import { Footer } from "@/components/Footer";
+import { SubscriptionBox } from "@/components/SubscriptionBox";
 
 const KadasKriptovalutas = () => {
   return (
@@ -12,6 +14,9 @@ const KadasKriptovalutas = () => {
               Saturs tiek veidots...
             </p>
           </div>
+
+          <SubscriptionBox />
+          <Footer />
         </div>
       </div>
     </BjorkLayout>

@@ -11,6 +11,7 @@ import Principi from "./pages/Principi";
 import Latvija from "./pages/Latvija";
 import Uznemumiem from "./pages/Uznemumiem";
 import Resursi from "./pages/Resursi";
+import Sitemap from "./pages/Sitemap";
 import PrivatumasPolitika from "./pages/PrivatumasPolitika";
 import LietosanasNoteikumi from "./pages/LietosanasNoteikumi";
 import Login from "./pages/Login";
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/latvija" element={<Latvija />} />
           <Route path="/uznemumiem" element={<Uznemumiem />} />
           <Route path="/resursi" element={<Resursi />} />
+          <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/privatumas-politika" element={<PrivatumasPolitika />} />
           <Route path="/lietosanas-noteikumi" element={<LietosanasNoteikumi />} />
           <Route path="/login" element={<Login />} />

@@ -1,4 +1,6 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
+import { Footer } from "@/components/Footer";
+import { SubscriptionBox } from "@/components/SubscriptionBox";
 
 const Infrastruktura = () => {
   return (
@@ -12,6 +14,9 @@ const Infrastruktura = () => {
               Saturs tiek veidots...
             </p>
           </div>
+
+          <SubscriptionBox />
+          <Footer />
         </div>
       </div>
     </BjorkLayout>
