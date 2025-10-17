@@ -21,89 +21,64 @@ const Sitemap = () => {
                   </li>
                   <li>
                     <Link to="/kursi" className="text-primary hover:underline">
-                      Kāpēc ieguldīt kriptovalūtās
+                      Kapēc ieguldīt kriptovalūtās
                     </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-medium mb-3">Kursa sadaļas</h2>
-                <ul className="space-y-2">
-                  <li>
-                    <Link to="/kursi#evolucija" className="text-primary hover:underline">
-                      Kriptovalūtu evolūcija
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#diversifikacija" className="text-primary hover:underline">
-                      Bitcoin lieliskai diversifikācijai
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#inflacija" className="text-primary hover:underline">
-                      Inflācijas aizsardzība
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#likviditate" className="text-primary hover:underline">
-                      Likviditāte 24/7
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#kontrole" className="text-primary hover:underline">
-                      Pilna kontrole pār ieguldījumu
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#dividendes" className="text-primary hover:underline">
-                      Digitālās dividendes
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#atdeves" className="text-primary hover:underline">
-                      Nepārspējama vēsturiskā atdeve
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#cenas" className="text-primary hover:underline">
-                      Cenas svārstības
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#vertiba" className="text-primary hover:underline">
-                      Kas nosaka kriptovalūtu vērtību
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/kursi#riski" className="text-primary hover:underline">
-                      Ieguldījumu riski
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h2 className="text-2xl font-medium mb-3">Papildus informācija</h2>
-                <ul className="space-y-2">
-                  <li>
-                    <Link to="/resursi" className="text-primary hover:underline">
-                      Papildus resursi
-                    </Link>
+                    <ul className="ml-6 mt-2 space-y-1">
+                      <li>
+                        <Link to="/kursi#evolucija" className="text-muted-foreground hover:text-primary text-sm">
+                          Kriptovalūtu evolūcija
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#diversifikacija" className="text-muted-foreground hover:text-primary text-sm">
+                          Bitcoin lieliskai diversifikācijai
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#inflacija" className="text-muted-foreground hover:text-primary text-sm">
+                          Inflācijas aizsardzība
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#likviditate" className="text-muted-foreground hover:text-primary text-sm">
+                          Likviditāte 24/7
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#kontrole" className="text-muted-foreground hover:text-primary text-sm">
+                          Pilna kontrole pār ieguldījumu
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#dividendes" className="text-muted-foreground hover:text-primary text-sm">
+                          Digitālās dividendes
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#atdeves" className="text-muted-foreground hover:text-primary text-sm">
+                          Nepārspējama vēsturiskā atdeve
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#cenas" className="text-muted-foreground hover:text-primary text-sm">
+                          Cenas svārstības
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#vertiba" className="text-muted-foreground hover:text-primary text-sm">
+                          Kas nosaka kriptovalūtu vērtību
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/kursi#riski" className="text-muted-foreground hover:text-primary text-sm">
+                          Ieguldījumu riski
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <Link to="/principi" className="text-primary hover:underline">
                       Ieguldījumu principi
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/uznemumiem" className="text-primary hover:underline">
-                      Kriptovalūta uzņēmumiem
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/infrastruktura" className="text-primary hover:underline">
-                      Kriptovalūtu infrastruktūra
                     </Link>
                   </li>
                   <li>
@@ -112,8 +87,23 @@ const Sitemap = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link to="/infrastruktura" className="text-primary hover:underline">
+                      Kriptovalūtu infrastruktūra
+                    </Link>
+                  </li>
+                  <li>
                     <Link to="/latvija" className="text-primary hover:underline">
                       Ko ņemt vērā Latvijā
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/uznemumiem" className="text-primary hover:underline">
+                      Kriptovalūta uzņēmumiem
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/resursi" className="text-primary hover:underline">
+                      Papildus resursi
                     </Link>
                   </li>
                 </ul>
