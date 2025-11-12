@@ -4,16 +4,41 @@ import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Link } from "react-router-dom";
+import { supabase } from "@/integrations/supabase/client";
+import { toast } from "sonner";
 
 export const SubscriptionBox = () => {
   const [email, setEmail] = useState("");
   const [agreedToPrivacy, setAgreedToPrivacy] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (agreedToPrivacy && email) {
-      // Handle subscription logic here
-      console.log("Subscribed:", email);
+    if (!agreedToPrivacy || !email) {
+      return;
+    }
+
+    setIsSubmitting(true);
+    try {
+      const { data, error } = await supabase.functions.invoke('send-subscription-email', {
+        body: { email }
+      });
+
+      if (error) throw error;
+
+      toast.success("Paldies par reģistrāciju!", {
+        description: "Tu saņemsi paziņojumu, kad būs pieejama jauna kursa sadaļa."
+      });
+      
+      setEmail("");
+      setAgreedToPrivacy(false);
+    } catch (error) {
+      console.error("Subscription error:", error);
+      toast.error("Kļūda", {
+        description: "Neizdevās nosūtīt pieteikumu. Lūdzu, mēģini vēlreiz."
+      });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -40,9 +65,9 @@ export const SubscriptionBox = () => {
               variant="default" 
               size="lg"
               type="submit"
-              disabled={!agreedToPrivacy}
+              disabled={!agreedToPrivacy || isSubmitting}
             >
-              Pieteikties
+              {isSubmitting ? "Nosūta..." : "Pieteikties"}
             </Button>
           </div>
           <div className="flex items-start gap-2 justify-center">
