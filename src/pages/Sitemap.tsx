@@ -1,10 +1,17 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Link } from "react-router-dom";
 import { Footer } from "@/components/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Sitemap = () => {
   return (
     <BjorkLayout>
+      <Helmet>
+        <title>Lapas karte - Kriptas kursu struktūra | Kriptas</title>
+        <meta name="description" content="Pilnīga Kriptas mājaslapas struktūra: visi kursi, sadaļas un resursi par kriptovalūtu investīcijām vienuviet. Ērti pārskatāms saturs." />
+        <meta name="keywords" content="lapas karte, kursu struktūra, saturs, navigācija, kriptas resursi" />
+        <link rel="canonical" href="https://kriptas.com/sitemap" />
+      </Helmet>
       <div className="min-h-screen bg-background">
         <div className="max-w-4xl mx-auto px-8 py-16">
           <h1 className="text-4xl font-bold mb-8">Lapas karte</h1>
