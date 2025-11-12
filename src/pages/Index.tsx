@@ -68,7 +68,7 @@ const Index = () => {
 >
   Capitalia
 </a>
-, kas ir finanšu un investīciju nozares celmlauzis Baltijas valstīs. 
+- finanšu un investīciju nozares celmlauzis Baltijas valstīs. 
               Capitalia bija pirmā kompānija Baltijas valstīs, kas 2007. gadā sāka finansēt uzņēmumus ārpus banku sektora. 
               Tagad Capitalia pārvalda pirmo licensēto uzņēmumu kopfinansēšanas platformu Latvijā, apkalpojot vairāk kā 5,000 kompānijas un investorus visā Eiropā.
             </p>
