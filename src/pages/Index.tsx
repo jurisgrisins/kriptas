@@ -60,7 +60,7 @@ const Index = () => {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-foreground leading-relaxed mb-4">
-              Kriptas ir projekts, ko ir izveidojuši vadošie darbinieki no uzņēmuma <a
+              Kriptas ir projekts, ko saviem klientiem ir izveidojis uzņēmums <a
   href="http://www.capitalia.com"
   target="_blank"
   rel="noopener noreferrer"
