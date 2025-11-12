@@ -183,8 +183,8 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
           </nav>
           
           {/* Contact Button */}
-          <div className="mt-auto">
-            <ContactFormButton size="sm" className="w-full" />
+          <div className="mt-auto flex gap-2">
+            <ContactFormButton size="sm" className="flex-1" />
           </div>
 
         </div>
