@@ -146,9 +146,11 @@ const Index = () => {
               Iepazīsties ar  ievadlekcijas materiālu un piesakies paziņojuma saņemšanai, tiklīdz kursa nākošās nodaļas kļūs publiski pieejamas. Kurss ir pieejams bez maksas visiem Capitalia klientiem.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/kursi">
               <Button variant="default" size="lg">
                 Sākt kursu
               </Button>
+            </Link>
                           </div>
           </div>
         </section>
