@@ -1,9 +1,16 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const PrivatumasPolitika = () => {
   return (
     <BjorkLayout>
+      <Helmet>
+        <title>Privātuma politika - datu aizsardzība | Kriptas</title>
+        <meta name="description" content="Kriptas privātuma politika: kā mēs vācam, apstrādājam un aizsargājam jūsu personas datus saskaņā ar VDAR. Pārredzama informācija par datu drošību." />
+        <meta name="keywords" content="privātuma politika, datu aizsardzība, VDAR, personas dati, konfidencialitāte" />
+        <link rel="canonical" href="https://kriptas.com/privatumas-politika" />
+      </Helmet>
       <div className="max-w-3xl mx-auto px-8 py-16">
         <h1 className="text-4xl font-medium text-foreground mb-8">
           Privātuma politika
