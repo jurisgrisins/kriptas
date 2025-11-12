@@ -5,6 +5,7 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 import { Footer } from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { Shield, Award, Users } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 import heroImage from "@/assets/hero-crypto.jpg";
 import programma from "@/assets/kursa-programma.pdf";
 
@@ -12,6 +13,12 @@ import programma from "@/assets/kursa-programma.pdf";
 const Index = () => {
   return (
     <BjorkLayout>
+      <Helmet>
+        <title>Kriptas - Bezmaksas kurss par ieguldījumiem kriptovalūtās</title>
+        <meta name="description" content="Bezmaksas apmācību kurss par veiksmīgu ieguldījumu uzsākšanu kriptovalūtās. Uzzini par Bitcoin, Ethereum un citām digitālajām valūtām no Capitalia ekspertiem." />
+        <meta name="keywords" content="kriptovalūtas, bitcoin, ethereum, ieguldījumi, kurss, apmācība, Latvija, Capitalia, blokķēde" />
+        <link rel="canonical" href="https://kriptas.com/" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">

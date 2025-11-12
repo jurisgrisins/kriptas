@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Footer } from "@/components/Footer";
 import { SubscriptionBox } from "@/components/SubscriptionBox";
+import { Helmet } from "react-helmet-async";
 import Kursu from "@/assets/kursi-background.jpg";
 import Bitcoin from "@/assets/bitcoin-chart.png";
 import programma from "@/assets/kursa-programma.pdf";
@@ -9,6 +10,12 @@ import programma from "@/assets/kursa-programma.pdf";
 const Kursi = () => {
   return (
     <BjorkLayout>
+      <Helmet>
+        <title>Kāpēc ieguldīt kriptovalūtās | Kriptas kurss</title>
+        <meta name="description" content="Uzzini, kāpēc ieguldīt kriptovalūtās: diversifikācija, inflācijas aizsardzība, augsta atdeve, 24/7 likviditāte. Izpēti Bitcoin investīciju priekšrocības un riskus." />
+        <meta name="keywords" content="kriptovalūtu ieguldījumi, bitcoin diversifikācija, inflācijas aizsardzība, digitālais zelts, staking, kriptovalūtu atdeve" />
+        <link rel="canonical" href="https://kriptas.com/kursi" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-8 py-16">
         {/* Hero Section */}
         <section className="mb-24">

@@ -1,9 +1,16 @@
 import { BjorkLayout } from "@/components/BjorkLayout";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const LietosanasNoteikumi = () => {
   return (
     <BjorkLayout>
+      <Helmet>
+        <title>Lietošanas noteikumi | Kriptas</title>
+        <meta name="description" content="Kriptas lietošanas noteikumi: pakalpojumu izmantošanas nosacījumi, atbildības ierobežojumi un lietotāju tiesības. Juridiski saistoši noteikumi." />
+        <meta name="keywords" content="lietošanas noteikumi, servisa noteikumi, pakalpojumu izmantošana, juridiskie noteikumi" />
+        <link rel="canonical" href="https://kriptas.com/lietosanas-noteikumi" />
+      </Helmet>
       <div className="max-w-3xl mx-auto px-8 py-16">
         <h1 className="text-4xl font-medium text-foreground mb-8">
           Lietošanas noteikumi
