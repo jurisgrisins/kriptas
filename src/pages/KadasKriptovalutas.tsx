@@ -96,7 +96,7 @@ const KadasKriptovalutas = () => {
               </p>
 
               <div className="overflow-x-auto">
-                <table className="min-w-full border mt-8 mb-8 text-left">
+                <table className="min-w-full border mt-2 mb-8 text-left">
                   <thead>
                     <tr>
                       <th className="px-4 py-2 border-b bg-gray-100 font-medium">Nosaukums (Simbols)</th>
@@ -219,8 +219,8 @@ const KadasKriptovalutas = () => {
               
                   <img
                 src={TopCryptoChart}
-                alt="Top 10 kriptovalūtas pēc tirgus vērtības"
-                className="w-full max-h-96 object-contain rounded-lg my-8"
+                alt="Trump un Melania memecoinu cenas dinamika 2025. gadā"
+                className="w-full object-contain rounded-lg my-8"
               />
 
               <p className="text-foreground leading-relaxed mb-4">
