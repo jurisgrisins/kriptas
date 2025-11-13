@@ -22,9 +22,19 @@ const kursiSubItems = [
   { title: "Turpmākā kursa saturs", section: "saturs", path: "/kursi#saturs" },
 ];
 
+const kadasKriptovalutasSubItems = [
+  { title: "Tirgus koncentrācija", section: "tirgus", path: "/kuras-kriptovalutas#tirgus" },
+  { title: "Galvenās 10 kriptovalūtas", section: "top10", path: "/kuras-kriptovalutas#top10" },
+  { title: "Kriptovalūtu ekosistēma", section: "ekosistema", path: "/kuras-kriptovalutas#ekosistema" },
+  { title: "Memecoins", section: "memecoins", path: "/kuras-kriptovalutas#memecoins" },
+  { title: "Stablecoins - stabilās kriptovalūtas", section: "stablecoins", path: "/kuras-kriptovalutas#stablecoins" },
+  { title: "Kādās kriptovalūtās ieguldīt", section: "kadas-izveleties", path: "/kuras-kriptovalutas#kadas-izveleties" },
+];
+
 export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
   const location = useLocation();
   const [kursiExpanded, setKursiExpanded] = useState(location.pathname === '/kursi');
+  const [kadasExpanded, setKadasExpanded] = useState(location.pathname === '/kuras-kriptovalutas');
   
   const isActive = (path: string) => location.pathname === path;
   const isSubItemActive = (section: string) => location.hash === `#${section}`;
@@ -34,6 +44,14 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
       setKursiExpanded(!kursiExpanded);
     } else {
       setKursiExpanded(true);
+    }
+  };
+  
+  const handleKadasClick = () => {
+    if (location.pathname === '/kuras-kriptovalutas') {
+      setKadasExpanded(!kadasExpanded);
+    } else {
+      setKadasExpanded(true);
     }
   };
   
@@ -106,16 +124,43 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                 </div>
               </li>
               <li>
-                <Link 
-                  to="/kuras-kriptovalutas"
-                  className={`block py-2 text-lg font-medium transition-colors ${
-                    isActive('/kuras-kriptovalutas') 
-                      ? 'text-foreground' 
-                      : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
-                  Kurās kriptovalūtās ieguldīt
-                </Link>
+                <div>
+                  <Link 
+                    to="/kuras-kriptovalutas"
+                    onClick={handleKadasClick}
+                    className={`flex items-center justify-between py-2 text-lg font-medium transition-colors ${
+                      isActive('/kuras-kriptovalutas') 
+                        ? 'text-foreground' 
+                        : 'text-muted-foreground hover:text-foreground'
+                    }`}
+                  >
+                    <span>Kurās kriptovalūtās ieguldīt</span>
+                    <ChevronDown 
+                      className={`w-4 h-4 transition-transform ${
+                        kadasExpanded && isActive('/kuras-kriptovalutas') ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </Link>
+                  
+                  {kadasExpanded && isActive('/kuras-kriptovalutas') && (
+                    <ul className="ml-4 mt-2 space-y-0.5 border-l border-border pl-4">
+                      {kadasKriptovalutasSubItems.map((item, index) => (
+                        <li key={index}>
+                          <Link
+                            to={item.path}
+                            className={`block w-full text-left py-1.5 text-sm transition-colors ${
+                              isSubItemActive(item.section)
+                                ? 'text-foreground font-medium'
+                                : 'text-muted-foreground hover:text-foreground'
+                            }`}
+                          >
+                            {item.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
               </li>
               <li>
                 <Link 
