@@ -4,7 +4,7 @@ import { SubscriptionBox } from "@/components/SubscriptionBox";
 import { Helmet } from "react-helmet-async";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import TopCryptoChart from "@/assets/top-10-crypto-chart.jpg";
+import TopCryptoChart from "@/assets/memecoins.png";
 
 const KadasKriptovalutas = () => {
   const location = useLocation();
