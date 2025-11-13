@@ -9,17 +9,17 @@ interface BjorkLayoutProps {
 }
 
 const kursiSubItems = [
-  { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija" },
-  { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija" },
-  { title: "Inflācijas aizsardzības aspekts", section: "inflacija" },
-  { title: "Likviditāte 24/7", section: "likviditate" },
-  { title: "Pilna kontrole pār ieguldījumu", section: "kontrole" },
-  { title: "Digitālās dividendes", section: "dividendes" },
-  { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves" },
-  { title: "Cenas svārstības", section: "cenas" },
-  { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba" },
-  { title: "Ieguldījumu riski", section: "riski" },
-  { title: "Turpmākā kursa saturs", section: "saturs" },
+  { title: "Kriptovalūtu kā investīciju evolūcija", section: "evolucija", path: "/kursi#evolucija" },
+  { title: "Bitcoin lieliskai diversifikācijai", section: "diversifikacija", path: "/kursi#diversifikacija" },
+  { title: "Inflācijas aizsardzības aspekts", section: "inflacija", path: "/kursi#inflacija" },
+  { title: "Likviditāte 24/7", section: "likviditate", path: "/kursi#likviditate" },
+  { title: "Pilna kontrole pār ieguldījumu", section: "kontrole", path: "/kursi#kontrole" },
+  { title: "Digitālās dividendes", section: "dividendes", path: "/kursi#dividendes" },
+  { title: "Nepārspējama vēsturiskā atdeve", section: "atdeves", path: "/kursi#atdeves" },
+  { title: "Cenas svārstības", section: "cenas", path: "/kursi#cenas" },
+  { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba", path: "/kursi#vertiba" },
+  { title: "Ieguldījumu riski", section: "riski", path: "/kursi#riski" },
+  { title: "Turpmākā kursa saturs", section: "saturs", path: "/kursi#saturs" },
 ];
 
 export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
@@ -27,13 +27,7 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
   const [kursiExpanded, setKursiExpanded] = useState(location.pathname === '/kursi');
   
   const isActive = (path: string) => location.pathname === path;
-  
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const isSubItemActive = (section: string) => location.hash === `#${section}`;
   
   const handleKursiClick = () => {
     if (location.pathname === '/kursi') {
@@ -95,12 +89,16 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
                     <ul className="ml-4 mt-2 space-y-0.5 border-l border-border pl-4">
                       {kursiSubItems.map((item, index) => (
                         <li key={index}>
-                          <button
-                            onClick={() => scrollToSection(item.section)}
-                            className="block w-full text-left py-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                          <Link
+                            to={item.path}
+                            className={`block w-full text-left py-1.5 text-sm transition-colors ${
+                              isSubItemActive(item.section)
+                                ? 'text-foreground font-medium'
+                                : 'text-muted-foreground hover:text-foreground'
+                            }`}
                           >
                             {item.title}
-                          </button>
+                          </Link>
                         </li>
                       ))}
                     </ul>

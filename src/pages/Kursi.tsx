@@ -3,11 +3,26 @@ import { BjorkLayout } from "@/components/BjorkLayout";
 import { Footer } from "@/components/Footer";
 import { SubscriptionBox } from "@/components/SubscriptionBox";
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Kursu from "@/assets/kursi-background.jpg";
 import Bitcoin from "@/assets/bitcoin-chart.png";
 import programma from "@/assets/kursa-programma.pdf";
 
 const Kursi = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const sectionId = location.hash.substring(1);
+      const element = document.getElementById(sectionId);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
+    }
+  }, [location.hash]);
   return (
     <BjorkLayout>
       <Helmet>
