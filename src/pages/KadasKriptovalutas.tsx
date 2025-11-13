@@ -226,7 +226,7 @@ const KadasKriptovalutas = () => {
               <p className="text-foreground leading-relaxed mb-4">
                 Ir virkne platformu (piemēram, Pump.fun), kas piedāvā jebkuram bez jebkādām tehniskām zināšanām izveidot savu memecoin un diemžēl pietiekoši daudzi to ir izdarījuši. 
                 Pašlaik populārākie un ilgāku laiku popularitātes vilnī pagrozījušies memecoin ir Dogecoin, Shiba Inu un Pepe Coin. Tomēr svarīgi atcerēties – 
-                <span className="font-bold text-primary">galvenie (un parasti vienīgie), kas nopelna no memecoin ir agrīnie investori vai projekta izveidotāji</span>, 
+                <span className="font-bold text-primary"> galvenie (un parasti vienīgie), kas nopelna no memecoin ir agrīnie investori vai projekta izveidotāji</span>, 
                 bet lielākā daļa sekotāju, īpaši vēlākā stadijā, riskē pat pilnībā zaudēt savus līdzekļus, jo memecoin vērtība balstās tikai uz īslaicīgu sabiedrības uzmanību nevis kādu praktisku šīs kriptovalūtas pielietojumu.
               </p>
             </div>
