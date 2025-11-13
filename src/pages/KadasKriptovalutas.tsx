@@ -83,12 +83,7 @@ const KadasKriptovalutas = () => {
                 ka kriptovalūtu cenu svārstības var būt diezgan straujas un <span className="font-bold text-primary">Top 10 vērtīgāko kriptovalūtu saraksts var diezgan strauji mainīties</span>.
               </p>
 
-              <img
-                src={TopCryptoChart}
-                alt="Top 10 kriptovalūtas pēc tirgus vērtības"
-                className="w-full max-h-96 object-contain rounded-lg my-8"
-              />
-            </div>
+                      </div>
           </div>
 
           <div id="top10" className="mb-12">
@@ -221,6 +216,12 @@ const KadasKriptovalutas = () => {
                 savukārt Melania Trampa piedāvāja savu $MELANIA versiju. Abas šīs virtuālās valūtas sākotnēji piedzīvoja strauju vērtības pieaugumu, tomēr, pēc tam arī strauju kritumu. 
                 <span className="font-bold text-primary"> $MELANIA cena dažu mēnešu laikā no augstākā punkta ir nokritusi par vairāk kā 98%</span>.
               </p>
+              
+                  <img
+                src={TopCryptoChart}
+                alt="Top 10 kriptovalūtas pēc tirgus vērtības"
+                className="w-full max-h-96 object-contain rounded-lg my-8"
+              />
 
               <p className="text-foreground leading-relaxed mb-4">
                 Ir virkne platformu (piemēram, Pump.fun), kas piedāvā jebkuram bez jebkādām tehniskām zināšanām izveidot savu memecoin un diemžēl pietiekoši daudzi to ir izdarījuši. 
