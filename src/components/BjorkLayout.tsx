@@ -182,9 +182,9 @@ export const BjorkLayout = ({ children }: BjorkLayoutProps) => {
             </ul>
           </nav>
           
-          {/* Contact Button */}
-          <div className="mt-auto">
-            <ContactFormButton size="sm" className="w-1/2" />
+          {/* Contact Button - Fixed Position */}
+          <div className="fixed bottom-8 left-8 z-50">
+            <ContactFormButton size="sm" className="w-[175px]" />
           </div>
 
         </div>
