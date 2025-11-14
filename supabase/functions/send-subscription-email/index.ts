@@ -31,7 +31,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send email notification
     const emailResponse = await resend.emails.send({
-      from: "Kriptas <onboarding@resend.dev>",
+      from: "Kriptas <noreply@kriptas.com>",
       to: ["juris@capitalia.com"],
       subject: "Jauns fans kursiem",
       html: `

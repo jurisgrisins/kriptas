@@ -103,7 +103,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send email notification with HTML-escaped content to prevent XSS
     const emailResponse = await resend.emails.send({
-      from: "Kriptas <onboarding@resend.dev>",
+      from: "Kriptas <noreply@kriptas.com>",
       to: ["investicijas@kriptas.com"],
       subject: "Jauna tikšanās pieprasījums",
       html: `
