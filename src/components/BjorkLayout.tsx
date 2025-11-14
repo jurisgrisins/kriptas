@@ -19,7 +19,6 @@ const kursiSubItems = [
   { title: "Cenas svārstības", section: "cenas", path: "/kursi#cenas" },
   { title: "Kas nosaka kriptovalūtu vērtību", section: "vertiba", path: "/kursi#vertiba" },
   { title: "Ieguldījumu riski", section: "riski", path: "/kursi#riski" },
-  { title: "Turpmākā kursa saturs", section: "saturs", path: "/kursi#saturs" },
 ];
 
 const kadasKriptovalutasSubItems = [
